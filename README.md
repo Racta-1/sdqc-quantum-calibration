@@ -38,8 +38,8 @@ tests/               unit tests (no download needed)
 ## Installation (local GPU machine)
 
 ```bash
-git clone https://github.com/<your-user>/<this-repo>.git
-cd <this-repo>
+git clone https://github.com/Racta-1/sdqc-quantum-calibration.git
+cd sdqc-quantum-calibration
 conda create -n sdqc python=3.11 -y
 conda activate sdqc
 
