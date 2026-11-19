@@ -1,0 +1,102 @@
+{
+  "CFG": {
+    "DATASETS": [
+      "pneumoniamnist",
+      "breastmnist",
+      "octmnist"
+    ],
+    "IMG_SIZE": 64,
+    "OCT_MAX_POOL": 15000,
+    "TEST_FRAC": 0.15,
+    "CAL_FRAC": 0.15,
+    "VAL_FRAC": 0.1,
+    "N_QUBITS": 4,
+    "N_LAYERS": 3,
+    "EPOCHS": 40,
+    "BATCH": 64,
+    "LR": 0.02,
+    "PATIENCE": 8,
+    "SEEDS": [
+      0,
+      1,
+      2
+    ],
+    "QSVM_N_TRAIN": 600,
+    "QSVM_C": 1.0,
+    "AUROC_GATE": 0.75,
+    "FIT_P": [
+      0.0,
+      0.002,
+      0.01,
+      0.03
+    ],
+    "HELDOUT_P": [
+      0.001,
+      0.005,
+      0.015,
+      0.02,
+      0.05
+    ],
+    "UNSEEN_AMP": [
+      0.01,
+      0.03
+    ],
+    "UNSEEN_BASE_P": 0.002,
+    "N_READOUT_TRAIN": 6,
+    "N_READOUT_TEST": 4,
+    "READOUT_MAX": 0.08,
+    "DRIFT_SHOTS": 1000,
+    "REF": {
+      "p": 0.002,
+      "g": 0.0,
+      "e0": 0.02,
+      "e1": 0.02
+    },
+    "REPORT_ERROR": 0.2,
+    "COND_SEED": 123,
+    "PRIORS": [
+      "source",
+      0.3,
+      0.5,
+      0.9
+    ],
+    "PROBE_N": 96,
+    "REF_PROBE_SHOTS": 10000,
+    "SDQC_MIN_SLOPE": 0.1,
+    "SDQC_MAX_SLOPE": 5.0,
+    "SDQC_EM_SHRINK": 0.85,
+    "N_BINS": 15,
+    "N_BOOT": 2000,
+    "A_DEPOL": [
+      0.02
+    ],
+    "A_AMP": [
+      0.02
+    ],
+    "A_SHOTS": [
+      1000
+    ],
+    "A_READOUT": [
+      [
+        0.01,
+        0.08
+      ]
+    ],
+    "JOINT": {
+      "p": 0.015,
+      "g": 0.0,
+      "e0": 0.02,
+      "e1": 0.05
+    },
+    "BATCH_SIZES": [
+      64
+    ]
+  },
+  "QUICK_TEST": false,
+  "limitations": [
+    "OCTMNIST is CNV-vs-NORMAL only, pool subsampled to OCT_MAX_POOL",
+    "noise is simulated and input-independent",
+    "QSVM noisy kernel is a density-matrix proxy",
+    "EM assumes label shift"
+  ]
+}

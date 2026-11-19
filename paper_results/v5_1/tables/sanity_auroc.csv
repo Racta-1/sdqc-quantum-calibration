@@ -1,0 +1,16 @@
+dataset,model,val_AUROC,test_AUROC,passed_gate
+breastmnist,MLP,0.783,0.835,1.0
+breastmnist,QSVM,0.742,0.839,0.0
+breastmnist,RBF-SVM,0.712,0.847,0.0
+breastmnist,Re-uploading VQC,0.774,0.842,1.0
+breastmnist,VQC,0.782,0.825,1.0
+octmnist,MLP,0.977,0.974,1.0
+octmnist,QSVM,0.971,0.968,1.0
+octmnist,RBF-SVM,0.977,0.973,1.0
+octmnist,Re-uploading VQC,0.975,0.973,1.0
+octmnist,VQC,0.975,0.974,1.0
+pneumoniamnist,MLP,0.978,0.981,1.0
+pneumoniamnist,QSVM,0.971,0.978,1.0
+pneumoniamnist,RBF-SVM,0.97,0.982,1.0
+pneumoniamnist,Re-uploading VQC,0.977,0.981,1.0
+pneumoniamnist,VQC,0.978,0.983,1.0

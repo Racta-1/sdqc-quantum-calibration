@@ -1,0 +1,1393 @@
+dataset,seed,model,hardware_id,hardware_family,reference,slope,intercept,probe_rmse,status
+pneumoniamnist,0,VQC,0,clean,hardware (calibration day),1.1202584113655918,-0.06548064838343771,0.09719992868498196,ok
+pneumoniamnist,0,VQC,0,clean,simulator,1.0000000000000002,-6.450280124840427e-16,8.613037445951681e-16,ok
+pneumoniamnist,0,VQC,1,held-out depolarizing,hardware (calibration day),0.9927192063506773,-0.0672577165956763,0.2637078542074259,ok
+pneumoniamnist,0,VQC,1,held-out depolarizing,simulator,0.8859367826430659,-0.008650990542386256,0.26093383116901075,ok
+pneumoniamnist,0,VQC,2,held-out depolarizing,hardware (calibration day),1.045220836029115,0.09273911588560357,0.2786575639161629,ok
+pneumoniamnist,0,VQC,2,held-out depolarizing,simulator,0.9328468387082433,0.15429473844990618,0.27277974471777083,ok
+pneumoniamnist,0,VQC,3,held-out depolarizing,hardware (calibration day),1.0505512659084268,0.2349950212697306,0.25386867909532435,ok
+pneumoniamnist,0,VQC,3,held-out depolarizing,simulator,0.9377652992237363,0.2964296293824529,0.2375913645905247,ok
+pneumoniamnist,0,VQC,4,held-out depolarizing,hardware (calibration day),0.9983175236117768,-0.13600553951646618,0.27691758762633334,ok
+pneumoniamnist,0,VQC,4,held-out depolarizing,simulator,0.8910989569511608,-0.0775165435470591,0.26567677668683476,ok
+pneumoniamnist,0,VQC,5,held-out depolarizing,hardware (calibration day),0.8360881046051085,-0.03895578582219959,0.2888486368350955,ok
+pneumoniamnist,0,VQC,5,held-out depolarizing,simulator,0.7465134751587668,0.009433025096979611,0.27203888708127905,ok
+pneumoniamnist,0,VQC,6,held-out depolarizing,hardware (calibration day),0.8447465688743401,0.5060099144008349,0.26639581400654677,ok
+pneumoniamnist,0,VQC,6,held-out depolarizing,simulator,0.754138976229373,0.5551841894858708,0.25263968568057954,ok
+pneumoniamnist,0,VQC,7,held-out depolarizing,hardware (calibration day),0.8360255704390711,0.2997753988706247,0.3119574195171178,ok
+pneumoniamnist,0,VQC,7,held-out depolarizing,simulator,0.7460853962032864,0.3491654677859743,0.3107718092881184,ok
+pneumoniamnist,0,VQC,8,held-out depolarizing,hardware (calibration day),0.8534597563114329,-0.04584983661922295,0.2736532708734243,ok
+pneumoniamnist,0,VQC,8,held-out depolarizing,simulator,0.7618099219394652,0.004122290570525026,0.2648842657690687,ok
+pneumoniamnist,0,VQC,9,held-out depolarizing,hardware (calibration day),0.6113976726254711,-0.013204248166934269,0.2904152601196891,ok
+pneumoniamnist,0,VQC,9,held-out depolarizing,simulator,0.5457452722662627,0.02258566002989605,0.28611399831373785,ok
+pneumoniamnist,0,VQC,10,held-out depolarizing,hardware (calibration day),0.5801334216267781,0.3349758685917337,0.2839988235267343,ok
+pneumoniamnist,0,VQC,10,held-out depolarizing,simulator,0.5180494565762015,0.36836535376519164,0.2738619877169615,ok
+pneumoniamnist,0,VQC,11,held-out depolarizing,hardware (calibration day),0.57895300964006,-0.13772596149844094,0.30387372272108815,ok
+pneumoniamnist,0,VQC,11,held-out depolarizing,simulator,0.5164967786647688,-0.10305846725623828,0.3078403309838216,ok
+pneumoniamnist,0,VQC,12,held-out depolarizing,hardware (calibration day),0.5925396025264806,0.2337307239270524,0.27933201432849736,ok
+pneumoniamnist,0,VQC,12,held-out depolarizing,simulator,0.5287993125533551,0.2687214556891819,0.27850391925528173,ok
+pneumoniamnist,0,VQC,13,held-out depolarizing,hardware (calibration day),0.5010961368757288,0.33904173895995937,0.2526186185715443,ok
+pneumoniamnist,0,VQC,13,held-out depolarizing,simulator,0.44713590107985135,0.36878544838607413,0.2535311051136144,ok
+pneumoniamnist,0,VQC,14,held-out depolarizing,hardware (calibration day),0.522038422780304,0.5288924253085752,0.26259600999127947,ok
+pneumoniamnist,0,VQC,14,held-out depolarizing,simulator,0.4660897920949653,0.5591590841469222,0.2560667622249952,ok
+pneumoniamnist,0,VQC,15,held-out depolarizing,hardware (calibration day),0.4850132148607032,0.3492623964269202,0.30389766936388474,ok
+pneumoniamnist,0,VQC,15,held-out depolarizing,simulator,0.4330230990344564,0.37740833558817405,0.2992669410491048,ok
+pneumoniamnist,0,VQC,16,held-out depolarizing,hardware (calibration day),0.49847210358922917,0.14359712370685904,0.26477612123414807,ok
+pneumoniamnist,0,VQC,16,held-out depolarizing,simulator,0.4446572121133225,0.17355551269774527,0.2692065495153233,ok
+pneumoniamnist,0,VQC,17,held-out depolarizing,hardware (calibration day),0.16587523292255,0.9712020069730313,0.275883886486089,ok
+pneumoniamnist,0,VQC,17,held-out depolarizing,simulator,0.1481389859514362,0.9807079687712316,0.27491690858055845,ok
+pneumoniamnist,0,VQC,18,held-out depolarizing,hardware (calibration day),0.1615987200987045,0.7162930262047228,0.2753478583437741,ok
+pneumoniamnist,0,VQC,18,held-out depolarizing,simulator,0.14426299395999556,0.7257070971000724,0.27489459317709813,ok
+pneumoniamnist,0,VQC,19,held-out depolarizing,hardware (calibration day),0.15600588980276991,0.8665613559270201,0.2799661068875988,ok
+pneumoniamnist,0,VQC,19,held-out depolarizing,simulator,0.13922245326928526,0.8757783486198946,0.2799219117032042,ok
+pneumoniamnist,0,VQC,20,held-out depolarizing,hardware (calibration day),0.14433450984150742,-0.018923121322263346,0.3471482920658159,ok
+pneumoniamnist,0,VQC,20,held-out depolarizing,simulator,0.12919643700322053,-0.011447772459175215,0.34484527254148856,ok
+pneumoniamnist,0,VQC,21,unseen: amplitude damping,hardware (calibration day),0.7540074837729746,-0.19542279613736893,0.2906657959534319,ok
+pneumoniamnist,0,VQC,21,unseen: amplitude damping,simulator,0.673246273649196,-0.1518375471468699,0.276413052340718,ok
+pneumoniamnist,0,VQC,22,unseen: amplitude damping,hardware (calibration day),0.7202882226641559,0.23575728829658357,0.31819145944964616,ok
+pneumoniamnist,0,VQC,22,unseen: amplitude damping,simulator,0.642945547087373,0.2779147091760337,0.3126564765095687,ok
+pneumoniamnist,0,VQC,23,unseen: amplitude damping,hardware (calibration day),0.7835345440693219,-0.12666872412148505,0.28010874443920064,ok
+pneumoniamnist,0,VQC,23,unseen: amplitude damping,simulator,0.6994128864321272,-0.08084263931598558,0.2721419256467483,ok
+pneumoniamnist,0,VQC,24,unseen: amplitude damping,hardware (calibration day),0.7860365957725645,0.5154088959210978,0.27847034794188547,ok
+pneumoniamnist,0,VQC,24,unseen: amplitude damping,simulator,0.7017369148611213,0.5611367372376103,0.2667011186848478,ok
+pneumoniamnist,0,VQC,25,unseen: amplitude damping,hardware (calibration day),0.48867790783122245,1.150772939784981,0.27002969670982835,ok
+pneumoniamnist,0,VQC,25,unseen: amplitude damping,simulator,0.43600564281770576,1.1799125651654243,0.2720796525182826,ok
+pneumoniamnist,0,VQC,26,unseen: amplitude damping,hardware (calibration day),0.5275064056464281,0.47826597688931516,0.2626423341546373,ok
+pneumoniamnist,0,VQC,26,unseen: amplitude damping,simulator,0.47074923164079574,0.5094503550851236,0.26229813701745397,ok
+pneumoniamnist,0,VQC,27,unseen: amplitude damping,hardware (calibration day),0.48446183486699307,0.5602002551520223,0.3172386048591033,ok
+pneumoniamnist,0,VQC,27,unseen: amplitude damping,simulator,0.4324906136477255,0.5884227431406751,0.31368380814244246,ok
+pneumoniamnist,0,VQC,28,unseen: amplitude damping,hardware (calibration day),0.4860595279954828,0.1338492516857546,0.2775754091432615,ok
+pneumoniamnist,0,VQC,28,unseen: amplitude damping,simulator,0.4338179306867065,0.16243201570156082,0.2759233316879479,ok
+pneumoniamnist,0,Re-uploading VQC,0,clean,hardware (calibration day),1.1363249996292186,-0.035986986792849236,0.09941749045931782,ok
+pneumoniamnist,0,Re-uploading VQC,0,clean,simulator,1.0000000000000002,-5.273378666607412e-16,7.86534050676472e-16,ok
+pneumoniamnist,0,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),1.0036504930443235,-0.016859845981148387,0.25265648606077,ok
+pneumoniamnist,0,Re-uploading VQC,1,held-out depolarizing,simulator,0.8833890920733227,0.01457618915612713,0.22876748657900653,ok
+pneumoniamnist,0,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.0576574257571607,0.07845489061869447,0.2444169225459883,ok
+pneumoniamnist,0,Re-uploading VQC,2,held-out depolarizing,simulator,0.9304792483378843,0.11264337322005964,0.24310501505528906,ok
+pneumoniamnist,0,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0529485130502447,0.2591176480105608,0.24297556974766557,ok
+pneumoniamnist,0,Re-uploading VQC,3,held-out depolarizing,simulator,0.9263196631674468,0.29319415574807384,0.24261337374550815,ok
+pneumoniamnist,0,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),0.9889633538903456,-0.09157623753804216,0.2736182358612185,ok
+pneumoniamnist,0,Re-uploading VQC,4,held-out depolarizing,simulator,0.8702584689170915,-0.06011592899347679,0.2624495846627809,ok
+pneumoniamnist,0,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.7928443833977494,-0.08506018143696636,0.25067944806284354,ok
+pneumoniamnist,0,Re-uploading VQC,5,held-out depolarizing,simulator,0.6975412432520038,-0.05950923288618896,0.24862885611437893,ok
+pneumoniamnist,0,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.8169650413626226,0.42045332820783116,0.27371292298525485,ok
+pneumoniamnist,0,Re-uploading VQC,6,held-out depolarizing,simulator,0.7190975398205083,0.44598369931841414,0.25842385071207896,ok
+pneumoniamnist,0,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.8032060229550014,0.2982951943963946,0.27189760976998667,ok
+pneumoniamnist,0,Re-uploading VQC,7,held-out depolarizing,simulator,0.7068994636338659,0.32360351416175165,0.2605193286477888,ok
+pneumoniamnist,0,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.8287866692502562,-0.09703619189888261,0.3098337804356739,ok
+pneumoniamnist,0,Re-uploading VQC,8,held-out depolarizing,simulator,0.7295592915148839,-0.07127043393012668,0.2939767802026234,ok
+pneumoniamnist,0,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.5520515093597627,-0.11628749815014645,0.3047777900749076,ok
+pneumoniamnist,0,Re-uploading VQC,9,held-out depolarizing,simulator,0.4860431353230319,-0.0993312425352178,0.2956516957421884,ok
+pneumoniamnist,0,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.5197807075567751,0.31420348444488416,0.2826920563952268,ok
+pneumoniamnist,0,Re-uploading VQC,10,held-out depolarizing,simulator,0.4571590690582427,0.3312922951720383,0.2852595106486796,ok
+pneumoniamnist,0,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.5011052198884881,-0.16313461526526649,0.36421887401692166,ok
+pneumoniamnist,0,Re-uploading VQC,11,held-out depolarizing,simulator,0.441094856518899,-0.14752026699408355,0.3596509546746854,ok
+pneumoniamnist,0,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5235131077079134,0.16624676528288707,0.3004710793833588,ok
+pneumoniamnist,0,Re-uploading VQC,12,held-out depolarizing,simulator,0.46081518104525904,0.18256906546613813,0.29449793184226314,ok
+pneumoniamnist,0,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.39408482856895344,0.3889087587596176,0.27063980468533083,ok
+pneumoniamnist,0,Re-uploading VQC,13,held-out depolarizing,simulator,0.34663802658111825,0.4017903625951811,0.27159881803326613,ok
+pneumoniamnist,0,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.4378458790643965,0.46093488719011083,0.29026771871691337,ok
+pneumoniamnist,0,Re-uploading VQC,14,held-out depolarizing,simulator,0.38506705111241946,0.47539769556940126,0.29259307063524925,ok
+pneumoniamnist,0,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.397302267716074,0.3297478877760149,0.2737994996605044,ok
+pneumoniamnist,0,Re-uploading VQC,15,held-out depolarizing,simulator,0.3491308934325894,0.34353771895626867,0.28096529778240287,ok
+pneumoniamnist,0,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.43320802896386457,0.053226858858886957,0.2896098668294907,ok
+pneumoniamnist,0,Re-uploading VQC,16,held-out depolarizing,simulator,0.38100030425178655,0.06750777961770134,0.2916613627219705,ok
+pneumoniamnist,0,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.1,0.8699915036794833,0.23413857264051713,ok
+pneumoniamnist,0,Re-uploading VQC,17,held-out depolarizing,simulator,0.1,0.8445871021401204,0.24683505505079667,ok
+pneumoniamnist,0,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.102225706962034,0.6177551225978078,0.29302838303155726,ok
+pneumoniamnist,0,Re-uploading VQC,18,held-out depolarizing,simulator,0.1,0.5970859055259149,0.293544647317567,ok
+pneumoniamnist,0,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.12534546087422757,0.5944404507716172,0.2569827034485065,ok
+pneumoniamnist,0,Re-uploading VQC,19,held-out depolarizing,simulator,0.11049620101458314,0.5979613052007343,0.2555602159570752,ok
+pneumoniamnist,0,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.10025262661969296,-0.24211359263546803,0.26227049566145716,ok
+pneumoniamnist,0,Re-uploading VQC,20,held-out depolarizing,simulator,0.1,-0.26698053184666076,0.26755306966799525,ok
+pneumoniamnist,0,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.7227237413410411,-0.1957454834500931,0.28382728008833585,ok
+pneumoniamnist,0,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.6357730664038868,-0.17227254233776054,0.2848284104064214,ok
+pneumoniamnist,0,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.7200916035194291,0.1539970905801975,0.2909144716377957,ok
+pneumoniamnist,0,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.6338309427240858,0.1764954137031979,0.2797741868154783,ok
+pneumoniamnist,0,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7493984881725801,-0.09174379999011324,0.2751719441204481,ok
+pneumoniamnist,0,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.6595165376468106,-0.06806646618013651,0.26639882040634716,ok
+pneumoniamnist,0,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.767179922652211,0.4049984012463284,0.25454310370090166,ok
+pneumoniamnist,0,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.6749303145737978,0.4297971411699281,0.25387897471962084,ok
+pneumoniamnist,0,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.4560464650550248,0.9295811396071348,0.30349447932328627,ok
+pneumoniamnist,0,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.4015652742182649,0.9434744447529907,0.29632113209222216,ok
+pneumoniamnist,0,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.49581806379392496,0.28185916394194294,0.27475580880286005,ok
+pneumoniamnist,0,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.4363450672027401,0.29753692165503387,0.27106644385123463,ok
+pneumoniamnist,0,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.4472285362350529,0.33139553591080995,0.34990861006839935,ok
+pneumoniamnist,0,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.39327588550760517,0.3462702432519967,0.3526229030639544,ok
+pneumoniamnist,0,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.4469223871542801,-0.04881200731660811,0.31183713610722774,ok
+pneumoniamnist,0,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.39293889086023526,-0.03378606465741956,0.31611091223175936,ok
+pneumoniamnist,0,QSVM,0,clean,hardware (calibration day),1.1004951832986178,-0.023699161863445575,0.04596244695099092,ok
+pneumoniamnist,0,QSVM,0,clean,simulator,1.0000000000000004,-3.3682547491883003e-16,6.253928750509871e-16,ok
+pneumoniamnist,0,QSVM,1,held-out depolarizing,hardware (calibration day),1.0625772418087656,-0.020521644394474656,0.13429186363862486,ok
+pneumoniamnist,0,QSVM,1,held-out depolarizing,simulator,0.9653292841881436,0.0025302071246164188,0.13030211369169792,ok
+pneumoniamnist,0,QSVM,2,held-out depolarizing,hardware (calibration day),1.0540255416087934,-0.012463729392876393,0.13040983401196743,ok
+pneumoniamnist,0,QSVM,2,held-out depolarizing,simulator,0.957742158834403,0.010259637397192128,0.12329778002778345,ok
+pneumoniamnist,0,QSVM,3,held-out depolarizing,hardware (calibration day),1.055788653773353,-0.02447662780986726,0.12309596028950519,ok
+pneumoniamnist,0,QSVM,3,held-out depolarizing,simulator,0.9595195303530936,-0.0018530260722325494,0.11226287605607795,ok
+pneumoniamnist,0,QSVM,4,held-out depolarizing,hardware (calibration day),1.049670345698563,-0.019777989734655676,0.13744894234730068,ok
+pneumoniamnist,0,QSVM,4,held-out depolarizing,simulator,0.9540907249678968,0.002611070703986506,0.1257781635399912,ok
+pneumoniamnist,0,QSVM,5,held-out depolarizing,hardware (calibration day),0.8778687373999582,0.015490451846243536,0.12989034133652536,ok
+pneumoniamnist,0,QSVM,5,held-out depolarizing,simulator,0.7979329900908787,0.0342149179028851,0.12133494323361128,ok
+pneumoniamnist,0,QSVM,6,held-out depolarizing,hardware (calibration day),0.8562550938916741,0.010759958613607132,0.14230725096072305,ok
+pneumoniamnist,0,QSVM,6,held-out depolarizing,simulator,0.778380592735234,0.028950189409623805,0.13374531984422136,ok
+pneumoniamnist,0,QSVM,7,held-out depolarizing,hardware (calibration day),0.8639264803230641,0.02211563122480353,0.13703102907288026,ok
+pneumoniamnist,0,QSVM,7,held-out depolarizing,simulator,0.7847030687491494,0.040980600268867795,0.13644845788141916,ok
+pneumoniamnist,0,QSVM,8,held-out depolarizing,hardware (calibration day),0.8524302268975188,0.038192890231746095,0.13532494475483742,ok
+pneumoniamnist,0,QSVM,8,held-out depolarizing,simulator,0.77483542347856,0.05635543470040572,0.12728904471916228,ok
+pneumoniamnist,0,QSVM,9,held-out depolarizing,hardware (calibration day),0.5265664792162436,0.1406486138244298,0.123598698227478,ok
+pneumoniamnist,0,QSVM,9,held-out depolarizing,simulator,0.478844262717131,0.15170306276553672,0.11844680692135298,ok
+pneumoniamnist,0,QSVM,10,held-out depolarizing,hardware (calibration day),0.5276966021398001,0.1384021588133962,0.12213112299211243,ok
+pneumoniamnist,0,QSVM,10,held-out depolarizing,simulator,0.479409942143216,0.14984342008458343,0.12098589367163792,ok
+pneumoniamnist,0,QSVM,11,held-out depolarizing,hardware (calibration day),0.5164313378142604,0.16343792789593087,0.11953979224695753,ok
+pneumoniamnist,0,QSVM,11,held-out depolarizing,simulator,0.4693768108096593,0.1744767387348828,0.11665296448671514,ok
+pneumoniamnist,0,QSVM,12,held-out depolarizing,hardware (calibration day),0.5114879423539423,0.1472166980623053,0.11096905783005305,ok
+pneumoniamnist,0,QSVM,12,held-out depolarizing,simulator,0.4648074561389852,0.15820986395561232,0.10863381634752681,ok
+pneumoniamnist,0,QSVM,13,held-out depolarizing,hardware (calibration day),0.39815542856818253,0.1890053248115532,0.11350886794087964,ok
+pneumoniamnist,0,QSVM,13,held-out depolarizing,simulator,0.3618009423301816,0.1975761980207352,0.11225351510324659,ok
+pneumoniamnist,0,QSVM,14,held-out depolarizing,hardware (calibration day),0.40525242043867765,0.18400826244636792,0.12446155826801505,ok
+pneumoniamnist,0,QSVM,14,held-out depolarizing,simulator,0.36785428376854645,0.19304283155614962,0.1258453261587875,ok
+pneumoniamnist,0,QSVM,15,held-out depolarizing,hardware (calibration day),0.41493335567508643,0.18884112339507494,0.11502157975338499,ok
+pneumoniamnist,0,QSVM,15,held-out depolarizing,simulator,0.3773627726639153,0.1975249499683994,0.11134880600784555,ok
+pneumoniamnist,0,QSVM,16,held-out depolarizing,hardware (calibration day),0.4152317082316506,0.15428877845680308,0.11902848356583416,ok
+pneumoniamnist,0,QSVM,16,held-out depolarizing,simulator,0.37735143355054884,0.16320099536311286,0.1174910558640472,ok
+pneumoniamnist,0,QSVM,17,held-out depolarizing,hardware (calibration day),0.1,0.29462581064326004,0.09307018578363013,ok
+pneumoniamnist,0,QSVM,17,held-out depolarizing,simulator,0.1,0.2896029250532456,0.09433752775696475,ok
+pneumoniamnist,0,QSVM,18,held-out depolarizing,hardware (calibration day),0.1,0.2972882439675187,0.10138914938444289,ok
+pneumoniamnist,0,QSVM,18,held-out depolarizing,simulator,0.1,0.29226535837750417,0.10291901743504522,ok
+pneumoniamnist,0,QSVM,19,held-out depolarizing,hardware (calibration day),0.10694233515531404,0.30790446517580944,0.08990457115431111,ok
+pneumoniamnist,0,QSVM,19,held-out depolarizing,simulator,0.1,0.3079886211358143,0.0904901032771978,ok
+pneumoniamnist,0,QSVM,20,held-out depolarizing,hardware (calibration day),0.1,0.2974090648147693,0.10005279292498663,ok
+pneumoniamnist,0,QSVM,20,held-out depolarizing,simulator,0.1,0.2923861792247548,0.10173336570376038,ok
+pneumoniamnist,0,QSVM,21,unseen: amplitude damping,hardware (calibration day),0.7621351350767255,0.1243538015736327,0.1336635956272899,ok
+pneumoniamnist,0,QSVM,21,unseen: amplitude damping,simulator,0.6922932243228296,0.1409590282808928,0.13266025934215273,ok
+pneumoniamnist,0,QSVM,22,unseen: amplitude damping,hardware (calibration day),0.7507522789352201,0.12431374129674082,0.12494812274846331,ok
+pneumoniamnist,0,QSVM,22,unseen: amplitude damping,simulator,0.6823551019085395,0.14035534832524924,0.11894838294364422,ok
+pneumoniamnist,0,QSVM,23,unseen: amplitude damping,hardware (calibration day),0.785609472109644,0.07130550435679543,0.13374896244200102,ok
+pneumoniamnist,0,QSVM,23,unseen: amplitude damping,simulator,0.713951823760794,0.08815856892085185,0.1286567726125521,ok
+pneumoniamnist,0,QSVM,24,unseen: amplitude damping,hardware (calibration day),0.7777645847775984,0.0709752859954663,0.12773350213972445,ok
+pneumoniamnist,0,QSVM,24,unseen: amplitude damping,simulator,0.7064079430061285,0.08798583935569348,0.1276462103948583,ok
+pneumoniamnist,0,QSVM,25,unseen: amplitude damping,hardware (calibration day),0.4703961365351146,0.20700405730876745,0.12976315460795437,ok
+pneumoniamnist,0,QSVM,25,unseen: amplitude damping,simulator,0.42707638347319243,0.21742013073459976,0.13090490907448438,ok
+pneumoniamnist,0,QSVM,26,unseen: amplitude damping,hardware (calibration day),0.4911184310820042,0.19869997534987902,0.13086115215087246,ok
+pneumoniamnist,0,QSVM,26,unseen: amplitude damping,simulator,0.44621763366919237,0.209317681071345,0.12964338256655356,ok
+pneumoniamnist,0,QSVM,27,unseen: amplitude damping,hardware (calibration day),0.46308068534619073,0.2465567365631783,0.11866480318867671,ok
+pneumoniamnist,0,QSVM,27,unseen: amplitude damping,simulator,0.42077905198333027,0.25654015079225545,0.11718828542215068,ok
+pneumoniamnist,0,QSVM,28,unseen: amplitude damping,hardware (calibration day),0.4892409566933359,0.19905482102089636,0.13571297425273782,ok
+pneumoniamnist,0,QSVM,28,unseen: amplitude damping,simulator,0.4447110211776345,0.20947538227345772,0.13309370043278299,ok
+pneumoniamnist,1,VQC,0,clean,hardware (calibration day),1.1211798629149372,-0.09449877371683994,0.0921633036719679,ok
+pneumoniamnist,1,VQC,0,clean,simulator,1.0,0.0,0.0,ok
+pneumoniamnist,1,VQC,1,held-out depolarizing,hardware (calibration day),0.9985803054364972,-0.04993264835178554,0.24092220474118795,ok
+pneumoniamnist,1,VQC,1,held-out depolarizing,simulator,0.8905508105932027,0.03449202721794981,0.2314620739611751,ok
+pneumoniamnist,1,VQC,2,held-out depolarizing,hardware (calibration day),1.0447697352109286,0.028927366554490876,0.27182659245247826,ok
+pneumoniamnist,1,VQC,2,held-out depolarizing,simulator,0.9317779330950557,0.11716784337286183,0.26111362385741177,ok
+pneumoniamnist,1,VQC,3,held-out depolarizing,hardware (calibration day),1.0437675117991085,0.24761502952975478,0.25440902743057714,ok
+pneumoniamnist,1,VQC,3,held-out depolarizing,simulator,0.9306933213997183,0.33626297360459584,0.25204732755071674,ok
+pneumoniamnist,1,VQC,4,held-out depolarizing,hardware (calibration day),0.9964112060514614,-0.12432900441960554,0.25807679287447777,ok
+pneumoniamnist,1,VQC,4,held-out depolarizing,simulator,0.888627694616329,-0.040116923853984694,0.2487952582328718,ok
+pneumoniamnist,1,VQC,5,held-out depolarizing,hardware (calibration day),0.8165597514360583,-0.021134238283518434,0.24119212072943802,ok
+pneumoniamnist,1,VQC,5,held-out depolarizing,simulator,0.7279880455093437,0.04850453682211475,0.24392785053798796,ok
+pneumoniamnist,1,VQC,6,held-out depolarizing,hardware (calibration day),0.841215839087965,0.462107676287514,0.24855747715238902,ok
+pneumoniamnist,1,VQC,6,held-out depolarizing,simulator,0.7502505952955533,0.5331246381088609,0.24051430931151802,ok
+pneumoniamnist,1,VQC,7,held-out depolarizing,hardware (calibration day),0.8309886481998623,0.2962619719203418,0.27084200044563933,ok
+pneumoniamnist,1,VQC,7,held-out depolarizing,simulator,0.7410749178425571,0.36655588228947344,0.26559201690779166,ok
+pneumoniamnist,1,VQC,8,held-out depolarizing,hardware (calibration day),0.8522757077900971,0.020856013307247744,0.24941185351933423,ok
+pneumoniamnist,1,VQC,8,held-out depolarizing,simulator,0.7600580051618006,0.09295239849069815,0.24342806578829096,ok
+pneumoniamnist,1,VQC,9,held-out depolarizing,hardware (calibration day),0.6228042101054742,0.009592068357844595,0.25455651202450497,ok
+pneumoniamnist,1,VQC,9,held-out depolarizing,simulator,0.5556386393957031,0.061701795561430385,0.24512111875487075,ok
+pneumoniamnist,1,VQC,10,held-out depolarizing,hardware (calibration day),0.5736535912551968,0.42042425399599165,0.2657278766549697,ok
+pneumoniamnist,1,VQC,10,held-out depolarizing,simulator,0.5113176541496494,0.46963640461377326,0.2696661278163117,ok
+pneumoniamnist,1,VQC,11,held-out depolarizing,hardware (calibration day),0.5765153985031823,-0.03758528009017626,0.2673347126505945,ok
+pneumoniamnist,1,VQC,11,held-out depolarizing,simulator,0.5143791064928761,0.010555223993555733,0.25873015894547957,ok
+pneumoniamnist,1,VQC,12,held-out depolarizing,hardware (calibration day),0.5768835082976272,0.3538255073294844,0.24626900867840498,ok
+pneumoniamnist,1,VQC,12,held-out depolarizing,simulator,0.5145228631211524,0.40247312867828966,0.24192094875242123,ok
+pneumoniamnist,1,VQC,13,held-out depolarizing,hardware (calibration day),0.4883018094086409,0.4638056843127751,0.2690129967112293,ok
+pneumoniamnist,1,VQC,13,held-out depolarizing,simulator,0.43573184735479065,0.5044285791178379,0.261670901425243,ok
+pneumoniamnist,1,VQC,14,held-out depolarizing,hardware (calibration day),0.49579075075309004,0.6730134444154362,0.24445458174590667,ok
+pneumoniamnist,1,VQC,14,held-out depolarizing,simulator,0.44228738305912585,0.714587358868756,0.2390970677422836,ok
+pneumoniamnist,1,VQC,15,held-out depolarizing,hardware (calibration day),0.45688249785236895,0.5168500739946928,0.24361077629942696,ok
+pneumoniamnist,1,VQC,15,held-out depolarizing,simulator,0.40740853805075294,0.5555983140299189,0.2426855634663197,ok
+pneumoniamnist,1,VQC,16,held-out depolarizing,hardware (calibration day),0.5002967898357751,0.26685067253567496,0.26082462445340315,ok
+pneumoniamnist,1,VQC,16,held-out depolarizing,simulator,0.44642363910281047,0.30850195625742033,0.2531268745208862,ok
+pneumoniamnist,1,VQC,17,held-out depolarizing,hardware (calibration day),0.14007625827047387,1.1066884893181212,0.24341145818868795,ok
+pneumoniamnist,1,VQC,17,held-out depolarizing,simulator,0.12492706672221601,1.1185190977634054,0.24320022582178613,ok
+pneumoniamnist,1,VQC,18,held-out depolarizing,hardware (calibration day),0.15938956796718365,0.8478037356378065,0.24531126790561925,ok
+pneumoniamnist,1,VQC,18,held-out depolarizing,simulator,0.14168590291868705,0.8624669094835213,0.2484359514753933,ok
+pneumoniamnist,1,VQC,19,held-out depolarizing,hardware (calibration day),0.14444628962949213,0.9930687109427572,0.2712445670784802,ok
+pneumoniamnist,1,VQC,19,held-out depolarizing,simulator,0.12876973130394823,1.0054096318325387,0.27137262847940313,ok
+pneumoniamnist,1,VQC,20,held-out depolarizing,hardware (calibration day),0.15112999315706158,0.17813087317511997,0.23711046691259438,ok
+pneumoniamnist,1,VQC,20,held-out depolarizing,simulator,0.13472213529475055,0.19105811030573439,0.2373134740139084,ok
+pneumoniamnist,1,VQC,21,unseen: amplitude damping,hardware (calibration day),0.7408230996656407,-0.08042815958200376,0.2828571527431143,ok
+pneumoniamnist,1,VQC,21,unseen: amplitude damping,simulator,0.6609674418862604,-0.018540626951280552,0.2696454530313231,ok
+pneumoniamnist,1,VQC,22,unseen: amplitude damping,hardware (calibration day),0.7199799029859792,0.2759210854473398,0.2581493278271616,ok
+pneumoniamnist,1,VQC,22,unseen: amplitude damping,simulator,0.642359781935068,0.3360963354608648,0.2448044870335086,ok
+pneumoniamnist,1,VQC,23,unseen: amplitude damping,hardware (calibration day),0.7752216225924715,0.04479499046894946,0.25079294368733973,ok
+pneumoniamnist,1,VQC,23,unseen: amplitude damping,simulator,0.6914285072075732,0.11014821669395729,0.24275205120569418,ok
+pneumoniamnist,1,VQC,24,unseen: amplitude damping,hardware (calibration day),0.7911623597859798,0.4687320901123238,0.22439255471429065,ok
+pneumoniamnist,1,VQC,24,unseen: amplitude damping,simulator,0.7055169205440054,0.5357626966745551,0.22029924764715064,ok
+pneumoniamnist,1,VQC,25,unseen: amplitude damping,hardware (calibration day),0.4960809843603463,1.1071745085529767,0.24505987886675618,ok
+pneumoniamnist,1,VQC,25,unseen: amplitude damping,simulator,0.4425960097792025,1.1486445234339042,0.23854313687217857,ok
+pneumoniamnist,1,VQC,26,unseen: amplitude damping,hardware (calibration day),0.5328728085467005,0.5385339290986924,0.25095282120520357,ok
+pneumoniamnist,1,VQC,26,unseen: amplitude damping,simulator,0.47555920305408195,0.5827233883456745,0.24015897890173968,ok
+pneumoniamnist,1,VQC,27,unseen: amplitude damping,hardware (calibration day),0.5002222182001568,0.48228349886150257,0.2843348418371047,ok
+pneumoniamnist,1,VQC,27,unseen: amplitude damping,simulator,0.4459037926293873,0.525097875740005,0.28638914214330224,ok
+pneumoniamnist,1,VQC,28,unseen: amplitude damping,hardware (calibration day),0.47621723951568107,0.19988744078331375,0.24970099103351134,ok
+pneumoniamnist,1,VQC,28,unseen: amplitude damping,simulator,0.42485767745344477,0.23973872179998781,0.24417387093839202,ok
+pneumoniamnist,1,Re-uploading VQC,0,clean,hardware (calibration day),1.1401423401393427,-0.1747310309734397,0.07087834580708384,ok
+pneumoniamnist,1,Re-uploading VQC,0,clean,simulator,1.0000000000000004,-1.0142349922877731e-15,1.4542108712531762e-15,ok
+pneumoniamnist,1,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),1.0079412487878532,-0.03023180589024981,0.19262152499497337,ok
+pneumoniamnist,1,Re-uploading VQC,1,held-out depolarizing,simulator,0.8837883600342364,0.12482617689908354,0.1945523679236647,ok
+pneumoniamnist,1,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.0506052225366194,0.0029027092739581112,0.1934652725000599,ok
+pneumoniamnist,1,Re-uploading VQC,2,held-out depolarizing,simulator,0.9214922931502746,0.16385809754452296,0.18087892918824203,ok
+pneumoniamnist,1,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0558111794142868,0.145225662889774,0.17797414719099106,ok
+pneumoniamnist,1,Re-uploading VQC,3,held-out depolarizing,simulator,0.9257495396368188,0.3076757280968316,0.18090887868396385,ok
+pneumoniamnist,1,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),1.0001450640983347,-0.05392918095176721,0.18060482976885733,ok
+pneumoniamnist,1,Re-uploading VQC,4,held-out depolarizing,simulator,0.8769370155831557,0.09996433488265166,0.1833834354807267,ok
+pneumoniamnist,1,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.8243659591199607,0.12029614678702703,0.20765431926220793,ok
+pneumoniamnist,1,Re-uploading VQC,5,held-out depolarizing,simulator,0.7231586681092029,0.2463604372129842,0.19676785046075668,ok
+pneumoniamnist,1,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.8263054332919146,0.5352530663118651,0.20504880274838608,ok
+pneumoniamnist,1,Re-uploading VQC,6,held-out depolarizing,simulator,0.7246987662890414,0.661977850669211,0.19999082760624243,ok
+pneumoniamnist,1,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.8202918110679409,0.34732394684967066,0.20209542140303646,ok
+pneumoniamnist,1,Re-uploading VQC,7,held-out depolarizing,simulator,0.7195331827633905,0.472881463692336,0.19296748010897652,ok
+pneumoniamnist,1,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.8379667430689419,0.11445732332304588,0.19516789176361882,ok
+pneumoniamnist,1,Re-uploading VQC,8,held-out depolarizing,simulator,0.734994230620822,0.24281688031503346,0.1869942793803212,ok
+pneumoniamnist,1,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.5778414286694289,0.3102584923484769,0.18809458682794505,ok
+pneumoniamnist,1,Re-uploading VQC,9,held-out depolarizing,simulator,0.5066013724768609,0.39929725929047494,0.19049985019115506,ok
+pneumoniamnist,1,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.5340620930793951,0.6282458584941439,0.21173450320736362,ok
+pneumoniamnist,1,Re-uploading VQC,10,held-out depolarizing,simulator,0.46845088335794965,0.710016467117723,0.2083436003006318,ok
+pneumoniamnist,1,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.5134657226827031,0.2999727836783431,0.23191375103504253,ok
+pneumoniamnist,1,Re-uploading VQC,11,held-out depolarizing,simulator,0.45040225510622584,0.3785505746600957,0.22870930661755262,ok
+pneumoniamnist,1,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5388057597659676,0.5769503249734972,0.22540182632336705,ok
+pneumoniamnist,1,Re-uploading VQC,12,held-out depolarizing,simulator,0.47257799834834385,0.6595234592004163,0.22289112336461778,ok
+pneumoniamnist,1,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.41279083116417065,0.8285088406905908,0.2471949427909591,ok
+pneumoniamnist,1,Re-uploading VQC,13,held-out depolarizing,simulator,0.36222751807994696,0.8913745331652635,0.24321902481986934,ok
+pneumoniamnist,1,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.44717394563318635,0.8805885093651858,0.22869095149367696,ok
+pneumoniamnist,1,Re-uploading VQC,14,held-out depolarizing,simulator,0.3922526573618455,0.9490207764127577,0.22622523496226352,ok
+pneumoniamnist,1,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.4116595981766672,0.7957464883740996,0.21634513954827725,ok
+pneumoniamnist,1,Re-uploading VQC,15,held-out depolarizing,simulator,0.36104275115117224,0.8588733808514464,0.21511759724473045,ok
+pneumoniamnist,1,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.44342607689653407,0.6214822304791824,0.2128413903941003,ok
+pneumoniamnist,1,Re-uploading VQC,16,held-out depolarizing,simulator,0.38910308549336975,0.689029574632975,0.2076241481316171,ok
+pneumoniamnist,1,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.10216574589693714,1.499328448542742,0.2405900985751639,ok
+pneumoniamnist,1,Re-uploading VQC,17,held-out depolarizing,simulator,0.1,1.4915355881254886,0.2423069372082986,ok
+pneumoniamnist,1,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.11342884579854608,1.342190581603434,0.22483700597437772,ok
+pneumoniamnist,1,Re-uploading VQC,18,held-out depolarizing,simulator,0.1,1.358415390644538,0.22650145267694252,ok
+pneumoniamnist,1,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.10343859632973625,1.3826541555329428,0.21498529307074626,ok
+pneumoniamnist,1,Re-uploading VQC,19,held-out depolarizing,simulator,0.1,1.3775755479618823,0.21701207538092004,ok
+pneumoniamnist,1,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.1,0.7930191021020043,0.2282036127278144,ok
+pneumoniamnist,1,Re-uploading VQC,20,held-out depolarizing,simulator,0.1,0.7806079599028409,0.24068047065701198,ok
+pneumoniamnist,1,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.7238969475366498,0.14937117338286898,0.20248286474207186,ok
+pneumoniamnist,1,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.6347132582373094,0.2607731699960992,0.20399875279677968,ok
+pneumoniamnist,1,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.6778222007009059,0.47954562108869253,0.20337561134642393,ok
+pneumoniamnist,1,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.5941855820165963,0.5841488759984551,0.2084782010784659,ok
+pneumoniamnist,1,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7406756869289964,0.1614922323745115,0.20240355236950455,ok
+pneumoniamnist,1,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.649584341070026,0.2751164844396965,0.19876564506272323,ok
+pneumoniamnist,1,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.7425227212801562,0.600096017280254,0.19742928734636447,ok
+pneumoniamnist,1,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.6511664547612718,0.7140888333134955,0.19496478798724023,ok
+pneumoniamnist,1,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.4056091484859194,1.3770189319890545,0.19271869515640896,ok
+pneumoniamnist,1,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.35546807645350303,1.4398231527385394,0.19637689855045629,ok
+pneumoniamnist,1,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.45199309004277866,0.8384261317330287,0.21989120599901174,ok
+pneumoniamnist,1,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.3963973245962281,0.907782267451232,0.2187954103804974,ok
+pneumoniamnist,1,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.40191408201314266,0.9397821768998599,0.23122677417413837,ok
+pneumoniamnist,1,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.3525217423690781,1.001355458780139,0.22972414941765906,ok
+pneumoniamnist,1,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.4202509347261271,0.580248106016965,0.23697715510521714,ok
+pneumoniamnist,1,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.36853332872754097,0.6447926136831772,0.23651334166130783,ok
+pneumoniamnist,1,QSVM,0,clean,hardware (calibration day),1.1045840196625805,-0.02969028971329556,0.03809540174732397,ok
+pneumoniamnist,1,QSVM,0,clean,simulator,0.9999999999999999,1.1975012995102396e-16,2.4344115881459396e-16,ok
+pneumoniamnist,1,QSVM,1,held-out depolarizing,hardware (calibration day),1.0391161538926816,0.008816990490369776,0.12484065948916023,ok
+pneumoniamnist,1,QSVM,1,held-out depolarizing,simulator,0.941007360503999,0.0365312993415285,0.1155397768134808,ok
+pneumoniamnist,1,QSVM,2,held-out depolarizing,hardware (calibration day),1.0493437336926668,-0.019394248662638867,0.11199352191344794,ok
+pneumoniamnist,1,QSVM,2,held-out depolarizing,simulator,0.9505006232492303,0.0084119845053898,0.09725666103600654,ok
+pneumoniamnist,1,QSVM,3,held-out depolarizing,hardware (calibration day),1.0584779640069448,-0.016842088705886223,0.1285012637197216,ok
+pneumoniamnist,1,QSVM,3,held-out depolarizing,simulator,0.9580599523416076,0.011764801944893105,0.12600946845567665,ok
+pneumoniamnist,1,QSVM,4,held-out depolarizing,hardware (calibration day),1.0649355665042548,-0.033415166729015115,0.11880854939632446,ok
+pneumoniamnist,1,QSVM,4,held-out depolarizing,simulator,0.9639747926174469,-0.004688377366191661,0.1150099914858744,ok
+pneumoniamnist,1,QSVM,5,held-out depolarizing,hardware (calibration day),0.8718943586240299,0.0014724311081567819,0.1288416407590552,ok
+pneumoniamnist,1,QSVM,5,held-out depolarizing,simulator,0.789466393318895,0.0248108229662847,0.12384037874951065,ok
+pneumoniamnist,1,QSVM,6,held-out depolarizing,hardware (calibration day),0.863990472743417,0.03548324447557577,0.10944686253831384,ok
+pneumoniamnist,1,QSVM,6,held-out depolarizing,simulator,0.7816810850610928,0.059101559641539625,0.111959185958829,ok
+pneumoniamnist,1,QSVM,7,held-out depolarizing,hardware (calibration day),0.8590749836021888,0.03799570872345917,0.12397328004458694,ok
+pneumoniamnist,1,QSVM,7,held-out depolarizing,simulator,0.7776196530988114,0.06117804482353271,0.12174934205066602,ok
+pneumoniamnist,1,QSVM,8,held-out depolarizing,hardware (calibration day),0.8656710145320752,0.032120427181344446,0.11334961529434938,ok
+pneumoniamnist,1,QSVM,8,held-out depolarizing,simulator,0.7838429138097385,0.055283232308018716,0.10756106291140399,ok
+pneumoniamnist,1,QSVM,9,held-out depolarizing,hardware (calibration day),0.5336656329992343,0.1103630562776824,0.11352076737898556,ok
+pneumoniamnist,1,QSVM,9,held-out depolarizing,simulator,0.4830137326317343,0.12480407109075531,0.11298786330948846,ok
+pneumoniamnist,1,QSVM,10,held-out depolarizing,hardware (calibration day),0.5383318622587823,0.11308326393100028,0.11483004677977889,ok
+pneumoniamnist,1,QSVM,10,held-out depolarizing,simulator,0.4873453678582684,0.12756588158359125,0.11344689543559296,ok
+pneumoniamnist,1,QSVM,11,held-out depolarizing,hardware (calibration day),0.5278396756214201,0.11015286561738998,0.11632354471631993,ok
+pneumoniamnist,1,QSVM,11,held-out depolarizing,simulator,0.47751681473315644,0.12461129581762788,0.11749070924313582,ok
+pneumoniamnist,1,QSVM,12,held-out depolarizing,hardware (calibration day),0.5230107179474073,0.10871296913349404,0.10590552575177739,ok
+pneumoniamnist,1,QSVM,12,held-out depolarizing,simulator,0.4731636187356486,0.12302710040605462,0.10703879580414762,ok
+pneumoniamnist,1,QSVM,13,held-out depolarizing,hardware (calibration day),0.4179102710214519,0.15447773376430657,0.09667474392055904,ok
+pneumoniamnist,1,QSVM,13,held-out depolarizing,simulator,0.37823246767910307,0.1657962639288905,0.09638165438994126,ok
+pneumoniamnist,1,QSVM,14,held-out depolarizing,hardware (calibration day),0.42388617358396075,0.1527767817594593,0.10686562552920853,ok
+pneumoniamnist,1,QSVM,14,held-out depolarizing,simulator,0.383756862952659,0.16416657535429133,0.1058278067621103,ok
+pneumoniamnist,1,QSVM,15,held-out depolarizing,hardware (calibration day),0.3942923118665386,0.16448470163873183,0.10242457087786856,ok
+pneumoniamnist,1,QSVM,15,held-out depolarizing,simulator,0.3569123924953361,0.1751201681932527,0.10182334905128057,ok
+pneumoniamnist,1,QSVM,16,held-out depolarizing,hardware (calibration day),0.41902863783908373,0.14911196404197183,0.10091202291778333,ok
+pneumoniamnist,1,QSVM,16,held-out depolarizing,simulator,0.3791343753232602,0.16054700114025353,0.10138648669653677,ok
+pneumoniamnist,1,QSVM,17,held-out depolarizing,hardware (calibration day),0.1,0.28432616479150913,0.09358423968595557,ok
+pneumoniamnist,1,QSVM,17,held-out depolarizing,simulator,0.1,0.27961164985531134,0.09488295658307398,ok
+pneumoniamnist,1,QSVM,18,held-out depolarizing,hardware (calibration day),0.10767176377576516,0.2773517495827906,0.07621470071746976,ok
+pneumoniamnist,1,QSVM,18,held-out depolarizing,simulator,0.1,0.27827350049384625,0.07631825419624251,ok
+pneumoniamnist,1,QSVM,19,held-out depolarizing,hardware (calibration day),0.10900622829684149,0.26609908367028706,0.08921840821201117,ok
+pneumoniamnist,1,QSVM,19,held-out depolarizing,simulator,0.1,0.2680012345290412,0.08909465018305814,ok
+pneumoniamnist,1,QSVM,20,held-out depolarizing,hardware (calibration day),0.11017718362592704,0.287981416192956,0.08901720763104311,ok
+pneumoniamnist,1,QSVM,20,held-out depolarizing,simulator,0.1,0.29074384061107494,0.08907908720721552,ok
+pneumoniamnist,1,QSVM,21,unseen: amplitude damping,hardware (calibration day),0.7902341943204063,0.05058283426600607,0.11715373535911995,ok
+pneumoniamnist,1,QSVM,21,unseen: amplitude damping,simulator,0.7150554697166288,0.07210349222866448,0.11797487606260422,ok
+pneumoniamnist,1,QSVM,22,unseen: amplitude damping,hardware (calibration day),0.7772532985989196,0.07101989705440839,0.11622628215468352,ok
+pneumoniamnist,1,QSVM,22,unseen: amplitude damping,simulator,0.7037804106390574,0.0918188809799088,0.11173261475671227,ok
+pneumoniamnist,1,QSVM,23,unseen: amplitude damping,hardware (calibration day),0.7677780091753627,0.0757067189243839,0.1259754560956447,ok
+pneumoniamnist,1,QSVM,23,unseen: amplitude damping,simulator,0.6950595827606986,0.09636256228872823,0.12340646974943767,ok
+pneumoniamnist,1,QSVM,24,unseen: amplitude damping,hardware (calibration day),0.7859262713217394,0.05837576364125011,0.11090293591818332,ok
+pneumoniamnist,1,QSVM,24,unseen: amplitude damping,simulator,0.7115344531701767,0.07948429864468014,0.1072839930032942,ok
+pneumoniamnist,1,QSVM,25,unseen: amplitude damping,hardware (calibration day),0.4517765119637166,0.21594615847209586,0.12384412079398487,ok
+pneumoniamnist,1,QSVM,25,unseen: amplitude damping,simulator,0.40900346863369136,0.22808798580097697,0.12284803896477164,ok
+pneumoniamnist,1,QSVM,26,unseen: amplitude damping,hardware (calibration day),0.4789524104165503,0.1963856383209551,0.12164054636724701,ok
+pneumoniamnist,1,QSVM,26,unseen: amplitude damping,simulator,0.4337818469933644,0.20912068737425035,0.11934032808015695,ok
+pneumoniamnist,1,QSVM,27,unseen: amplitude damping,hardware (calibration day),0.47036683261163276,0.20832253975014434,0.1077659835672373,ok
+pneumoniamnist,1,QSVM,27,unseen: amplitude damping,simulator,0.4255252492644032,0.22120515335060306,0.10875272495031216,ok
+pneumoniamnist,1,QSVM,28,unseen: amplitude damping,hardware (calibration day),0.48101145666666983,0.19800120720922146,0.10191351202889357,ok
+pneumoniamnist,1,QSVM,28,unseen: amplitude damping,simulator,0.43551090775050144,0.2108971720772863,0.10021733227590357,ok
+pneumoniamnist,2,VQC,0,clean,hardware (calibration day),1.1195272438994228,-0.14876530143143793,0.10079301381928472,ok
+pneumoniamnist,2,VQC,0,clean,simulator,0.9999999999999999,4.981547581846731e-16,7.518433768982442e-16,ok
+pneumoniamnist,2,VQC,1,held-out depolarizing,hardware (calibration day),0.9998859910152996,0.024721091063649652,0.30940754101690715,ok
+pneumoniamnist,2,VQC,1,held-out depolarizing,simulator,0.8928632251327115,0.15844893938178814,0.3096908226001812,ok
+pneumoniamnist,2,VQC,2,held-out depolarizing,hardware (calibration day),1.0376695108852299,0.03759642604511895,0.31269373742409046,ok
+pneumoniamnist,2,VQC,2,held-out depolarizing,simulator,0.9265735822559908,0.1764703282369823,0.31447120345863677,ok
+pneumoniamnist,2,VQC,3,held-out depolarizing,hardware (calibration day),1.0485329213243946,0.2587140120500719,0.31888433856208065,ok
+pneumoniamnist,2,VQC,3,held-out depolarizing,simulator,0.9365151159128279,0.3982703662593658,0.30829329355122204,ok
+pneumoniamnist,2,VQC,4,held-out depolarizing,hardware (calibration day),1.0129561611594289,-0.13700241919607972,0.29365441824710514,ok
+pneumoniamnist,2,VQC,4,held-out depolarizing,simulator,0.9046434065609489,-0.0018750754648198947,0.28812636782324713,ok
+pneumoniamnist,2,VQC,5,held-out depolarizing,hardware (calibration day),0.8133508164901339,0.05755605360361115,0.3636676348667005,ok
+pneumoniamnist,2,VQC,5,held-out depolarizing,simulator,0.7265191455571567,0.1656154858331585,0.3559941252923813,ok
+pneumoniamnist,2,VQC,6,held-out depolarizing,hardware (calibration day),0.8524502824445336,0.6326718726606201,0.2982376760087834,ok
+pneumoniamnist,2,VQC,6,held-out depolarizing,simulator,0.761208660666102,0.7466800369858472,0.29843515652609764,ok
+pneumoniamnist,2,VQC,7,held-out depolarizing,hardware (calibration day),0.8234333388060702,0.4875482542376879,0.32170817960292597,ok
+pneumoniamnist,2,VQC,7,held-out depolarizing,simulator,0.734980262170375,0.5986903963104219,0.33412763790599226,ok
+pneumoniamnist,2,VQC,8,held-out depolarizing,hardware (calibration day),0.8603150622102134,0.11324906150725304,0.29011189945805194,ok
+pneumoniamnist,2,VQC,8,held-out depolarizing,simulator,0.7682113361961396,0.2283740060676871,0.2912425359100878,ok
+pneumoniamnist,2,VQC,9,held-out depolarizing,hardware (calibration day),0.6172412814727762,0.22995174696240114,0.30536787143788263,ok
+pneumoniamnist,2,VQC,9,held-out depolarizing,simulator,0.5510631331082315,0.31286091783208525,0.30893048250062294,ok
+pneumoniamnist,2,VQC,10,held-out depolarizing,hardware (calibration day),0.5683951230828673,0.6979384922455175,0.33836502487828213,ok
+pneumoniamnist,2,VQC,10,held-out depolarizing,simulator,0.5078910708418889,0.7728888268300546,0.32970236056310864,ok
+pneumoniamnist,2,VQC,11,held-out depolarizing,hardware (calibration day),0.5755220429999226,0.1053453063161431,0.3533032756962823,ok
+pneumoniamnist,2,VQC,11,held-out depolarizing,simulator,0.5141303579503973,0.18164798656844985,0.3481019054561109,ok
+pneumoniamnist,2,VQC,12,held-out depolarizing,hardware (calibration day),0.604191842179444,0.5442824744463873,0.30660380703876333,ok
+pneumoniamnist,2,VQC,12,held-out depolarizing,simulator,0.5393581858065084,0.6256135027153115,0.3116371951939546,ok
+pneumoniamnist,2,VQC,13,held-out depolarizing,hardware (calibration day),0.49387019603025295,0.8251481615646835,0.3476434521461046,ok
+pneumoniamnist,2,VQC,13,held-out depolarizing,simulator,0.4411252733407404,0.8908274113497674,0.34515093349885373,ok
+pneumoniamnist,2,VQC,14,held-out depolarizing,hardware (calibration day),0.5093491434899766,0.9981848714895905,0.311032752225299,ok
+pneumoniamnist,2,VQC,14,held-out depolarizing,simulator,0.45491791059520015,1.066028745091166,0.3089085974083653,ok
+pneumoniamnist,2,VQC,15,held-out depolarizing,hardware (calibration day),0.479813162129307,0.8326815108241723,0.3247967193286488,ok
+pneumoniamnist,2,VQC,15,held-out depolarizing,simulator,0.4283889925259074,0.8970687251422923,0.3263860062908585,ok
+pneumoniamnist,2,VQC,16,held-out depolarizing,hardware (calibration day),0.5078940754236502,0.5922234480665816,0.3496191829123791,ok
+pneumoniamnist,2,VQC,16,held-out depolarizing,simulator,0.4537087105816286,0.6595844617041492,0.34570477543882316,ok
+pneumoniamnist,2,VQC,17,held-out depolarizing,hardware (calibration day),0.16277989213195584,1.7107055902841413,0.33809625424705153,ok
+pneumoniamnist,2,VQC,17,held-out depolarizing,simulator,0.14502858620059444,1.7335258779419227,0.34052195372151156,ok
+pneumoniamnist,2,VQC,18,held-out depolarizing,hardware (calibration day),0.16456749255145073,1.404707046192371,0.3426878133912978,ok
+pneumoniamnist,2,VQC,18,held-out depolarizing,simulator,0.14721727591198222,1.4258716059546508,0.3407354359604194,ok
+pneumoniamnist,2,VQC,19,held-out depolarizing,hardware (calibration day),0.1593854888700768,1.5398655698453496,0.3021871684382302,ok
+pneumoniamnist,2,VQC,19,held-out depolarizing,simulator,0.14231029241784174,1.561231455867157,0.3023192466117635,ok
+pneumoniamnist,2,VQC,20,held-out depolarizing,hardware (calibration day),0.14867366367945767,0.6407586680853345,0.337049263976481,ok
+pneumoniamnist,2,VQC,20,held-out depolarizing,simulator,0.13245269421995898,0.661626852417649,0.33913378103848507,ok
+pneumoniamnist,2,VQC,21,unseen: amplitude damping,hardware (calibration day),0.766325924985705,0.08870595922266263,0.3316131098507053,ok
+pneumoniamnist,2,VQC,21,unseen: amplitude damping,simulator,0.684408360547435,0.19085738926760806,0.3279765851879119,ok
+pneumoniamnist,2,VQC,22,unseen: amplitude damping,hardware (calibration day),0.743687799276203,0.5424273213446482,0.32200733494619554,ok
+pneumoniamnist,2,VQC,22,unseen: amplitude damping,simulator,0.6641892906872442,0.6415639006422083,0.3185119841021188,ok
+pneumoniamnist,2,VQC,23,unseen: amplitude damping,hardware (calibration day),0.8016946557418466,0.09453485844886882,0.3486797042238713,ok
+pneumoniamnist,2,VQC,23,unseen: amplitude damping,simulator,0.7161231128666447,0.20099534375946884,0.3403293001696711,ok
+pneumoniamnist,2,VQC,24,unseen: amplitude damping,hardware (calibration day),0.8092696739643708,0.6838414686699429,0.30127879846962824,ok
+pneumoniamnist,2,VQC,24,unseen: amplitude damping,simulator,0.7225738086988054,0.7923178537551259,0.30457934912132717,ok
+pneumoniamnist,2,VQC,25,unseen: amplitude damping,hardware (calibration day),0.5246436898585676,1.7571112931683082,0.33679394271219865,ok
+pneumoniamnist,2,VQC,25,unseen: amplitude damping,simulator,0.4686391215045728,1.8267969185862107,0.33323649459356974,ok
+pneumoniamnist,2,VQC,26,unseen: amplitude damping,hardware (calibration day),0.549907034452866,1.0887882183770736,0.3121316833869169,ok
+pneumoniamnist,2,VQC,26,unseen: amplitude damping,simulator,0.49094861525841194,1.162651566408833,0.314890702260989,ok
+pneumoniamnist,2,VQC,27,unseen: amplitude damping,hardware (calibration day),0.5318332023883775,1.0218823020649734,0.3517148971776429,ok
+pneumoniamnist,2,VQC,27,unseen: amplitude damping,simulator,0.47495559275465343,1.0928605471247772,0.35068744598009705,ok
+pneumoniamnist,2,VQC,28,unseen: amplitude damping,hardware (calibration day),0.5271759957140554,0.6340117256791951,0.36078753859696056,ok
+pneumoniamnist,2,VQC,28,unseen: amplitude damping,simulator,0.47081177117499023,0.7043194418751776,0.3594581529369863,ok
+pneumoniamnist,2,Re-uploading VQC,0,clean,hardware (calibration day),1.1308676012585914,-0.20376946085886116,0.08582130904850384,ok
+pneumoniamnist,2,Re-uploading VQC,0,clean,simulator,0.9999999999999999,4.917941054394248e-16,6.415944603006379e-16,ok
+pneumoniamnist,2,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),1.0092249435513807,-0.025010044131767148,0.23145122449787164,ok
+pneumoniamnist,2,Re-uploading VQC,1,held-out depolarizing,simulator,0.8923660715319163,0.1570590748406068,0.22241440871569346,ok
+pneumoniamnist,2,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.0429587098557456,0.01061675751304264,0.21360419565895317,ok
+pneumoniamnist,2,Re-uploading VQC,2,held-out depolarizing,simulator,0.9222946579522058,0.1984484957640654,0.19633426346501792,ok
+pneumoniamnist,2,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0511391347175996,0.16510507737919017,0.21121386967546665,ok
+pneumoniamnist,2,Re-uploading VQC,3,held-out depolarizing,simulator,0.9295469767477174,0.35435138970557256,0.19216165493683618,ok
+pneumoniamnist,2,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),0.9922663762939645,-0.06275078801675182,0.2624349590793624,ok
+pneumoniamnist,2,Re-uploading VQC,4,held-out depolarizing,simulator,0.8773905028748461,0.11619692966742474,0.2538002987878889,ok
+pneumoniamnist,2,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.8164354629276183,0.1430469034719706,0.23191250748919168,ok
+pneumoniamnist,2,Re-uploading VQC,5,held-out depolarizing,simulator,0.7219277843194162,0.2902462896418054,0.2247521427348411,ok
+pneumoniamnist,2,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.8345316754817343,0.6131681438105165,0.22163336146748833,ok
+pneumoniamnist,2,Re-uploading VQC,6,held-out depolarizing,simulator,0.737871142493708,0.7638162922040475,0.21667681903806646,ok
+pneumoniamnist,2,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.8294455190102252,0.41075042399845163,0.2459728466500507,ok
+pneumoniamnist,2,Re-uploading VQC,7,held-out depolarizing,simulator,0.7334119229965668,0.5603592641726384,0.23989914413114355,ok
+pneumoniamnist,2,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.8377713709345763,0.17005432669356324,0.2278510820581449,ok
+pneumoniamnist,2,Re-uploading VQC,8,held-out depolarizing,simulator,0.7407025672344246,0.3213930953514739,0.22458089057074546,ok
+pneumoniamnist,2,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.589715829535931,0.38665654182872805,0.2330881986843711,ok
+pneumoniamnist,2,Re-uploading VQC,9,held-out depolarizing,simulator,0.5215254880518008,0.4927454030815232,0.22697672697268756,ok
+pneumoniamnist,2,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.5547441881964381,0.7643920972477418,0.24194168136600203,ok
+pneumoniamnist,2,Re-uploading VQC,10,held-out depolarizing,simulator,0.49027980143784344,0.8652078981240637,0.24611274112932385,ok
+pneumoniamnist,2,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.5434742930558697,0.40457907182296465,0.2639367879515517,ok
+pneumoniamnist,2,Re-uploading VQC,11,held-out depolarizing,simulator,0.48056551174781464,0.5025588546440916,0.26112737201849695,ok
+pneumoniamnist,2,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5531252975903763,0.7355693230347583,0.24028712286496431,ok
+pneumoniamnist,2,Re-uploading VQC,12,held-out depolarizing,simulator,0.4888975157934756,0.8359356285072357,0.24305156305963974,ok
+pneumoniamnist,2,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.4559796893936888,0.9523240899873638,0.231394145734192,ok
+pneumoniamnist,2,Re-uploading VQC,13,held-out depolarizing,simulator,0.40299139943309825,1.0351938948188117,0.23436947923351237,ok
+pneumoniamnist,2,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.4733283921274493,1.0806643449164595,0.27718817318240335,ok
+pneumoniamnist,2,Re-uploading VQC,14,held-out depolarizing,simulator,0.4181383401068589,1.167281955243423,0.2838664024150661,ok
+pneumoniamnist,2,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.4515835602888838,0.8911337500491178,0.2680261671576422,ok
+pneumoniamnist,2,Re-uploading VQC,15,held-out depolarizing,simulator,0.3991127363631667,0.9731834532309988,0.2704085384107265,ok
+pneumoniamnist,2,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.48149133673787015,0.6644345627557301,0.2744651753413639,ok
+pneumoniamnist,2,Re-uploading VQC,16,held-out depolarizing,simulator,0.4254456544433362,0.7522379306097097,0.2793230074682872,ok
+pneumoniamnist,2,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.1435815800781903,1.8579564553476182,0.24388649304442234,ok
+pneumoniamnist,2,Re-uploading VQC,17,held-out depolarizing,simulator,0.1270290595589885,1.8836257941774033,0.24316459544237648,ok
+pneumoniamnist,2,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.12897803118604173,1.6721050964134043,0.24263592892471952,ok
+pneumoniamnist,2,Re-uploading VQC,18,held-out depolarizing,simulator,0.11417827751480437,1.6949418957645908,0.2415765161410301,ok
+pneumoniamnist,2,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.13020403887285384,1.72615942251608,0.23442628476976815,ok
+pneumoniamnist,2,Re-uploading VQC,19,held-out depolarizing,simulator,0.11535288874716663,1.748927315820697,0.23266755811790676,ok
+pneumoniamnist,2,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.13046411266799382,1.0132620992687047,0.24912716430392476,ok
+pneumoniamnist,2,Re-uploading VQC,20,held-out depolarizing,simulator,0.11532089897063057,1.0369159578918203,0.24923595206238258,ok
+pneumoniamnist,2,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.7547094364237018,0.1081544310839982,0.26934948105146245,ok
+pneumoniamnist,2,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.6673247766162912,0.24429591601269418,0.2649230499137793,ok
+pneumoniamnist,2,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.7299094112530462,0.47651383300902816,0.2707948665267459,ok
+pneumoniamnist,2,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.6452936712319047,0.60851020568798,0.2702562145927265,ok
+pneumoniamnist,2,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7777136314165713,0.11246808403459409,0.25261103371426874,ok
+pneumoniamnist,2,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.6875927380650616,0.25299205905413236,0.25050147960324665,ok
+pneumoniamnist,2,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.8074024158949592,0.5771119694932136,0.24164928982600542,ok
+pneumoniamnist,2,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.713919789939827,0.7227486631120396,0.23584480812284397,ok
+pneumoniamnist,2,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.5108429113093094,1.5032465523642682,0.3184355262609043,ok
+pneumoniamnist,2,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.451695922471842,1.5953927042847038,0.31670105478987215,ok
+pneumoniamnist,2,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.5391790560026201,0.950172861455036,0.28432101217683214,ok
+pneumoniamnist,2,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.4767773631810677,1.0473465646148237,0.28151298599881747,ok
+pneumoniamnist,2,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.502438151125269,1.0070370446789303,0.3208253151956819,ok
+pneumoniamnist,2,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.4440540526986659,1.0983405545792384,0.323376869017402,ok
+pneumoniamnist,2,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.5083641923956808,0.6238843983593355,0.3158872383805182,ok
+pneumoniamnist,2,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.4496255081072367,0.7151948687151894,0.3116270262570204,ok
+pneumoniamnist,2,QSVM,0,clean,hardware (calibration day),1.107405571317032,-0.043334405169380995,0.04512775818874469,ok
+pneumoniamnist,2,QSVM,0,clean,simulator,1.0000000000000002,-2.0180616437196855e-16,3.1920168979218513e-16,ok
+pneumoniamnist,2,QSVM,1,held-out depolarizing,hardware (calibration day),1.0419075635893589,-0.014645793055978336,0.12308017180958472,ok
+pneumoniamnist,2,QSVM,1,held-out depolarizing,simulator,0.9409812379347747,0.026012521540435377,0.11388526441852732,ok
+pneumoniamnist,2,QSVM,2,held-out depolarizing,hardware (calibration day),1.0530389591698577,-0.017878312531368585,0.12705514578161684,ok
+pneumoniamnist,2,QSVM,2,held-out depolarizing,simulator,0.9508917482091882,0.02334165277018403,0.11977176101662199,ok
+pneumoniamnist,2,QSVM,3,held-out depolarizing,hardware (calibration day),1.0652382743217919,-0.033025345738995925,0.13119277499870022,ok
+pneumoniamnist,2,QSVM,3,held-out depolarizing,simulator,0.9620447863004754,0.008549817775258465,0.12229399053478253,ok
+pneumoniamnist,2,QSVM,4,held-out depolarizing,hardware (calibration day),1.0501588747331962,-0.026811555160416778,0.11899771705056121,ok
+pneumoniamnist,2,QSVM,4,held-out depolarizing,simulator,0.9483691338424505,0.01422598320004221,0.11017649918047995,ok
+pneumoniamnist,2,QSVM,5,held-out depolarizing,hardware (calibration day),0.8627909880342712,0.0471525686038759,0.1125132808100814,ok
+pneumoniamnist,2,QSVM,5,held-out depolarizing,simulator,0.7788098998788229,0.08118283301052398,0.1102776700325051,ok
+pneumoniamnist,2,QSVM,6,held-out depolarizing,hardware (calibration day),0.8609471579982222,0.05790545604014461,0.12602906154613677,ok
+pneumoniamnist,2,QSVM,6,held-out depolarizing,simulator,0.7766693239533139,0.09228795612676621,0.12866530538512022,ok
+pneumoniamnist,2,QSVM,7,held-out depolarizing,hardware (calibration day),0.8731923861103338,0.031765792097450736,0.1271420493984391,ok
+pneumoniamnist,2,QSVM,7,held-out depolarizing,simulator,0.7883227593745161,0.06609574741501108,0.12388215792009259,ok
+pneumoniamnist,2,QSVM,8,held-out depolarizing,hardware (calibration day),0.86190523722499,0.050415948941271264,0.13219104866483816,ok
+pneumoniamnist,2,QSVM,8,held-out depolarizing,simulator,0.7784973748346339,0.08397668700841765,0.12562449568109013,ok
+pneumoniamnist,2,QSVM,9,held-out depolarizing,hardware (calibration day),0.5218483628058078,0.17490362931883627,0.11807001034648587,ok
+pneumoniamnist,2,QSVM,9,held-out depolarizing,simulator,0.47085071918929244,0.195667319592843,0.1185730692492172,ok
+pneumoniamnist,2,QSVM,10,held-out depolarizing,hardware (calibration day),0.5127161402542677,0.21770425827101084,0.11248311875961756,ok
+pneumoniamnist,2,QSVM,10,held-out depolarizing,simulator,0.4625965948198695,0.23811739297356824,0.11308541486933786,ok
+pneumoniamnist,2,QSVM,11,held-out depolarizing,hardware (calibration day),0.5075191105540064,0.1959878402713712,0.10843351176070247,ok
+pneumoniamnist,2,QSVM,11,held-out depolarizing,simulator,0.4583012089106348,0.21584281057795565,0.10640483720342936,ok
+pneumoniamnist,2,QSVM,12,held-out depolarizing,hardware (calibration day),0.5264708719056882,0.1727091544340571,0.11491501048399969,ok
+pneumoniamnist,2,QSVM,12,held-out depolarizing,simulator,0.47544737863530767,0.19327672356910833,0.11264106040006489,ok
+pneumoniamnist,2,QSVM,13,held-out depolarizing,hardware (calibration day),0.4035292418051889,0.2389145277453,0.11648619304932918,ok
+pneumoniamnist,2,QSVM,13,held-out depolarizing,simulator,0.3642662677071521,0.254817024102344,0.11594244940461038,ok
+pneumoniamnist,2,QSVM,14,held-out depolarizing,hardware (calibration day),0.40813794029971945,0.23826039798456655,0.11495018745174895,ok
+pneumoniamnist,2,QSVM,14,held-out depolarizing,simulator,0.3678973142227814,0.2548167830523775,0.11704291678595859,ok
+pneumoniamnist,2,QSVM,15,held-out depolarizing,hardware (calibration day),0.39829888969803967,0.2475763799771179,0.11818083406434429,ok
+pneumoniamnist,2,QSVM,15,held-out depolarizing,simulator,0.35913877542284517,0.26363509878124947,0.1195992082770115,ok
+pneumoniamnist,2,QSVM,16,held-out depolarizing,hardware (calibration day),0.41175143746794995,0.23455550232993083,0.10135133658167554,ok
+pneumoniamnist,2,QSVM,16,held-out depolarizing,simulator,0.37216816177622075,0.2503539474889123,0.09786496269559701,ok
+pneumoniamnist,2,QSVM,17,held-out depolarizing,hardware (calibration day),0.1,0.3939129427912607,0.1043673260261764,ok
+pneumoniamnist,2,QSVM,17,held-out depolarizing,simulator,0.1,0.38917117900194276,0.10609858188789681,ok
+pneumoniamnist,2,QSVM,18,held-out depolarizing,hardware (calibration day),0.1,0.4044398987027205,0.08394604939896048,ok
+pneumoniamnist,2,QSVM,18,held-out depolarizing,simulator,0.1,0.3996981349134026,0.08690528451312916,ok
+pneumoniamnist,2,QSVM,19,held-out depolarizing,hardware (calibration day),0.1,0.39827470553049654,0.09440712336367969,ok
+pneumoniamnist,2,QSVM,19,held-out depolarizing,simulator,0.1,0.3935329417411786,0.0961784930547401,ok
+pneumoniamnist,2,QSVM,20,held-out depolarizing,hardware (calibration day),0.1,0.41269614310167935,0.09058565918940832,ok
+pneumoniamnist,2,QSVM,20,held-out depolarizing,simulator,0.1,0.4079543793123614,0.09258046706336023,ok
+pneumoniamnist,2,QSVM,21,unseen: amplitude damping,hardware (calibration day),0.7782895536326776,0.10973031372081671,0.11581383946107746,ok
+pneumoniamnist,2,QSVM,21,unseen: amplitude damping,simulator,0.7026239342222831,0.1403470041378634,0.11316878033127879,ok
+pneumoniamnist,2,QSVM,22,unseen: amplitude damping,hardware (calibration day),0.7833990971866337,0.10989990669689191,0.11622592570978793,ok
+pneumoniamnist,2,QSVM,22,unseen: amplitude damping,simulator,0.707025535631327,0.1409060573468964,0.11561151507218682,ok
+pneumoniamnist,2,QSVM,23,unseen: amplitude damping,hardware (calibration day),0.7672729808607777,0.12535637353127646,0.10512698643916367,ok
+pneumoniamnist,2,QSVM,23,unseen: amplitude damping,simulator,0.6930916358778828,0.15517092941070723,0.0977731679458636,ok
+pneumoniamnist,2,QSVM,24,unseen: amplitude damping,hardware (calibration day),0.7691749626299775,0.09858762339033561,0.118869738668293,ok
+pneumoniamnist,2,QSVM,24,unseen: amplitude damping,simulator,0.6948292252929198,0.12845868975309224,0.11219526718868687,ok
+pneumoniamnist,2,QSVM,25,unseen: amplitude damping,hardware (calibration day),0.46448716918354255,0.260605767084242,0.12187775797800515,ok
+pneumoniamnist,2,QSVM,25,unseen: amplitude damping,simulator,0.41972264961838057,0.27852716856648174,0.11881959310239833,ok
+pneumoniamnist,2,QSVM,26,unseen: amplitude damping,hardware (calibration day),0.47013881914007916,0.27281868715631885,0.11348618416813216,ok
+pneumoniamnist,2,QSVM,26,unseen: amplitude damping,simulator,0.42416217094459147,0.2915537617873818,0.11410080863149458,ok
+pneumoniamnist,2,QSVM,27,unseen: amplitude damping,hardware (calibration day),0.4712912625511378,0.2649469865262457,0.11585178763027544,ok
+pneumoniamnist,2,QSVM,27,unseen: amplitude damping,simulator,0.42529991722089727,0.28364053022008595,0.1158909072413764,ok
+pneumoniamnist,2,QSVM,28,unseen: amplitude damping,hardware (calibration day),0.4754785063185725,0.2547506453448086,0.12388131841467255,ok
+pneumoniamnist,2,QSVM,28,unseen: amplitude damping,simulator,0.429219244780338,0.2734847188491791,0.12314742896774832,ok
+breastmnist,0,VQC,0,clean,hardware (calibration day),1.1192961832749462,-0.06990718778235591,0.0356140423106477,ok
+breastmnist,0,VQC,0,clean,simulator,1.0000000000000002,-2.5271892162722435e-16,2.245431431404547e-16,ok
+breastmnist,0,VQC,1,held-out depolarizing,hardware (calibration day),1.0049068320087824,0.009124465494427393,0.10140957919642563,ok
+breastmnist,0,VQC,1,held-out depolarizing,simulator,0.8974819127918852,0.07228272708857005,0.10023981542246968,ok
+breastmnist,0,VQC,2,held-out depolarizing,hardware (calibration day),1.033631592098624,0.03923585764434448,0.09798164923850727,ok
+breastmnist,0,VQC,2,held-out depolarizing,simulator,0.9233884135134921,0.10388804747438553,0.09334751938934158,ok
+breastmnist,0,VQC,3,held-out depolarizing,hardware (calibration day),1.0624745151505948,0.05906497147855193,0.11608918848287819,ok
+breastmnist,0,VQC,3,held-out depolarizing,simulator,0.9494411331404345,0.1251683200381861,0.10861642268534984,ok
+breastmnist,0,VQC,4,held-out depolarizing,hardware (calibration day),0.9965081509494956,-0.018758661439720197,0.09904012134319798,ok
+breastmnist,0,VQC,4,held-out depolarizing,simulator,0.8903133603044437,0.04346177995609933,0.09363967605209605,ok
+breastmnist,0,VQC,5,held-out depolarizing,hardware (calibration day),0.8474205047059435,0.06497895683790363,0.1059838466683272,ok
+breastmnist,0,VQC,5,held-out depolarizing,simulator,0.7569774984356726,0.11805840707943191,0.10373803873027743,ok
+breastmnist,0,VQC,6,held-out depolarizing,hardware (calibration day),0.8303509122370668,0.2975733080701737,0.1316793746478892,ok
+breastmnist,0,VQC,6,held-out depolarizing,simulator,0.7421635084574242,0.3490483917238776,0.1265203692959542,ok
+breastmnist,0,VQC,7,held-out depolarizing,hardware (calibration day),0.8306966718598727,0.20295479731141966,0.10565621325165625,ok
+breastmnist,0,VQC,7,held-out depolarizing,simulator,0.7421809894279088,0.2548110075399064,0.10208675404139797,ok
+breastmnist,0,VQC,8,held-out depolarizing,hardware (calibration day),0.8636505619328414,0.053199288250218656,0.11963849962001653,ok
+breastmnist,0,VQC,8,held-out depolarizing,simulator,0.7710453828541911,0.10782579664820818,0.12137007226158565,ok
+breastmnist,0,VQC,9,held-out depolarizing,hardware (calibration day),0.6100185846395665,0.18811468479003418,0.12311948852533529,ok
+breastmnist,0,VQC,9,held-out depolarizing,simulator,0.545728032972166,0.22531845388357583,0.11704357720308836,ok
+breastmnist,0,VQC,10,held-out depolarizing,hardware (calibration day),0.5902020941358218,0.31339621609867097,0.11613885569535579,ok
+breastmnist,0,VQC,10,held-out depolarizing,simulator,0.5277152999502807,0.34974268181308393,0.11195147442507902,ok
+breastmnist,0,VQC,11,held-out depolarizing,hardware (calibration day),0.586765427196112,0.1311255698274894,0.11812163004101811,ok
+breastmnist,0,VQC,11,held-out depolarizing,simulator,0.5240537945193752,0.16798665873018173,0.11769668976821346,ok
+breastmnist,0,VQC,12,held-out depolarizing,hardware (calibration day),0.5937958204992086,0.3060810082454893,0.1123770081397182,ok
+breastmnist,0,VQC,12,held-out depolarizing,simulator,0.5300318612374111,0.3437550204272013,0.11385131140443462,ok
+breastmnist,0,VQC,13,held-out depolarizing,hardware (calibration day),0.4575235410436193,0.46489993316790285,0.10282455854760793,ok
+breastmnist,0,VQC,13,held-out depolarizing,simulator,0.40890929435405166,0.49329105042023963,0.10096608279618162,ok
+breastmnist,0,VQC,14,held-out depolarizing,hardware (calibration day),0.4879467450473051,0.5005877469544483,0.11421477438541296,ok
+breastmnist,0,VQC,14,held-out depolarizing,simulator,0.4360383241120127,0.5309426777815125,0.11263925751064269,ok
+breastmnist,0,VQC,15,held-out depolarizing,hardware (calibration day),0.4757407586502894,0.40947180907160613,0.0948030292983928,ok
+breastmnist,0,VQC,15,held-out depolarizing,simulator,0.42511292204404916,0.43908950026386606,0.09310567590561396,ok
+breastmnist,0,VQC,16,held-out depolarizing,hardware (calibration day),0.4680939835931672,0.34866016250461984,0.12695220186852205,ok
+breastmnist,0,VQC,16,held-out depolarizing,simulator,0.41808605907988716,0.37804094763461027,0.12660838263298574,ok
+breastmnist,0,VQC,17,held-out depolarizing,hardware (calibration day),0.1554083436853522,0.7726216504201926,0.11634481311177969,ok
+breastmnist,0,VQC,17,held-out depolarizing,simulator,0.13915711064156666,0.7819424750543089,0.11572794549625703,ok
+breastmnist,0,VQC,18,held-out depolarizing,hardware (calibration day),0.13309415430375304,0.7103300019488407,0.08679654241811356,ok
+breastmnist,0,VQC,18,held-out depolarizing,simulator,0.11925591423631086,0.7182143356067743,0.08603899776196096,ok
+breastmnist,0,VQC,19,held-out depolarizing,hardware (calibration day),0.17526719393174034,0.7012517339875466,0.10076090550902206,ok
+breastmnist,0,VQC,19,held-out depolarizing,simulator,0.15635943824400414,0.7124789885345554,0.10108898105933176,ok
+breastmnist,0,VQC,20,held-out depolarizing,hardware (calibration day),0.14826544984731696,0.39598328542516364,0.11777444926629328,ok
+breastmnist,0,VQC,20,held-out depolarizing,simulator,0.13248948852236184,0.4052108617286795,0.11763932961348605,ok
+breastmnist,0,VQC,21,unseen: amplitude damping,hardware (calibration day),0.7546938312453019,0.08113255658783766,0.09707674711984059,ok
+breastmnist,0,VQC,21,unseen: amplitude damping,simulator,0.6740564817515677,0.12851597960773586,0.09600882639683993,ok
+breastmnist,0,VQC,22,unseen: amplitude damping,hardware (calibration day),0.722768535657701,0.2530012320475826,0.11119767504897478,ok
+breastmnist,0,VQC,22,unseen: amplitude damping,simulator,0.6457250604370371,0.2981547965705004,0.10887287656265361,ok
+breastmnist,0,VQC,23,unseen: amplitude damping,hardware (calibration day),0.7725241786613454,0.09835475568081567,0.10286874313426893,ok
+breastmnist,0,VQC,23,unseen: amplitude damping,simulator,0.6900502685567148,0.1467730593443065,0.10117597268014888,ok
+breastmnist,0,VQC,24,unseen: amplitude damping,hardware (calibration day),0.7835719107144408,0.2860067822926528,0.11359046159860606,ok
+breastmnist,0,VQC,24,unseen: amplitude damping,simulator,0.6998395087281821,0.3352150273839868,0.11268839305874437,ok
+breastmnist,0,VQC,25,unseen: amplitude damping,hardware (calibration day),0.4822080134711491,0.7162082204543765,0.10275477757283658,ok
+breastmnist,0,VQC,25,unseen: amplitude damping,simulator,0.43073182644219665,0.7464260656974858,0.10207558131835971,ok
+breastmnist,0,VQC,26,unseen: amplitude damping,hardware (calibration day),0.5208551561806178,0.4772617494351426,0.09446741618514556,ok
+breastmnist,0,VQC,26,unseen: amplitude damping,simulator,0.46506949303179573,0.5101282610653304,0.09484493763087187,ok
+breastmnist,0,VQC,27,unseen: amplitude damping,hardware (calibration day),0.4791478418389566,0.5042522501081472,0.11098943244955285,ok
+breastmnist,0,VQC,27,unseen: amplitude damping,simulator,0.42795626743059395,0.5343302216972518,0.11059161492268432,ok
+breastmnist,0,VQC,28,unseen: amplitude damping,hardware (calibration day),0.4874187480220587,0.34093866411928636,0.1230954527071055,ok
+breastmnist,0,VQC,28,unseen: amplitude damping,simulator,0.4355683158171515,0.37125850354576717,0.12162929145856467,ok
+breastmnist,0,Re-uploading VQC,0,clean,hardware (calibration day),1.1428784538497543,-0.11041777112675585,0.043314778974689674,ok
+breastmnist,0,Re-uploading VQC,0,clean,simulator,0.9999999999999998,3.016766730603476e-16,3.292451101900855e-16,ok
+breastmnist,0,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),1.0100367311059926,-0.0045023333647686925,0.10163518355310366,ok
+breastmnist,0,Re-uploading VQC,1,held-out depolarizing,simulator,0.8828416388462226,0.09437455059937423,0.1100830023200426,ok
+breastmnist,0,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.0558441309563682,0.00942338047318159,0.1413768649988461,ok
+breastmnist,0,Re-uploading VQC,2,held-out depolarizing,simulator,0.9241881900681209,0.11095398248246749,0.1308701291835218,ok
+breastmnist,0,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0420344199674603,0.11140082922456107,0.1230862172778557,ok
+breastmnist,0,Re-uploading VQC,3,held-out depolarizing,simulator,0.9114018180024294,0.212581426645454,0.12208017943098372,ok
+breastmnist,0,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),1.0197215366747239,-0.11500694971865552,0.15595710356813713,ok
+breastmnist,0,Re-uploading VQC,4,held-out depolarizing,simulator,0.8918688266682288,-0.015968669940882408,0.15539627212852414,ok
+breastmnist,0,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.8010219718014241,0.10797266649400011,0.14369249769223902,ok
+breastmnist,0,Re-uploading VQC,5,held-out depolarizing,simulator,0.7009730549054468,0.1852337608739673,0.13953168898639653,ok
+breastmnist,0,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.84762428843842,0.31169475762745225,0.10666967811986094,ok
+breastmnist,0,Re-uploading VQC,6,held-out depolarizing,simulator,0.7416996850739043,0.3935277579581921,0.10110122559050536,ok
+breastmnist,0,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.8349776300027829,0.20924815771219774,0.14739524211311936,ok
+breastmnist,0,Re-uploading VQC,7,held-out depolarizing,simulator,0.7303284407187087,0.2902871317999133,0.14659765154889345,ok
+breastmnist,0,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.8421493198923765,0.08241232421649432,0.16280930002724625,ok
+breastmnist,0,Re-uploading VQC,8,held-out depolarizing,simulator,0.7363972189447975,0.16443300871394284,0.16391319103073662,ok
+breastmnist,0,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.5720022731756425,0.20259617969946783,0.15135180162820622,ok
+breastmnist,0,Re-uploading VQC,9,held-out depolarizing,simulator,0.500288827944449,0.2581447832218447,0.15114238679232828,ok
+breastmnist,0,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.54814235186799,0.40476628291183364,0.13938564533653217,ok
+breastmnist,0,Re-uploading VQC,10,held-out depolarizing,simulator,0.4797999268129939,0.4574663686465389,0.1365440978759425,ok
+breastmnist,0,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.5004780277808835,0.20396989580054084,0.15334117051644344,ok
+breastmnist,0,Re-uploading VQC,11,held-out depolarizing,simulator,0.43819312865438625,0.2519267809459567,0.15053061948923846,ok
+breastmnist,0,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5385312410370852,0.3693051175705921,0.13640716450830306,ok
+breastmnist,0,Re-uploading VQC,12,held-out depolarizing,simulator,0.4711367286084728,0.4214316746925301,0.13535343608710054,ok
+breastmnist,0,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.4298536699552952,0.5148514061520196,0.12045365589756629,ok
+breastmnist,0,Re-uploading VQC,13,held-out depolarizing,simulator,0.3751048193721092,0.5577951632401129,0.1255240725905602,ok
+breastmnist,0,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.4522115848733359,0.5668218957465984,0.12628770833662653,ok
+breastmnist,0,Re-uploading VQC,14,held-out depolarizing,simulator,0.3956312246231414,0.6105768903046824,0.12541232492783114,ok
+breastmnist,0,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.4044826748808042,0.5402118472755153,0.14348733783108417,ok
+breastmnist,0,Re-uploading VQC,15,held-out depolarizing,simulator,0.3543515563466738,0.5786803780305647,0.14049311867527536,ok
+breastmnist,0,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.44090897353841474,0.4130538108314492,0.13135216108119974,ok
+breastmnist,0,Re-uploading VQC,16,held-out depolarizing,simulator,0.3851076588906168,0.4566042455110132,0.1342380683469601,ok
+breastmnist,0,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.1114310853170038,0.9981760700507147,0.14072603879103934,ok
+breastmnist,0,Re-uploading VQC,17,held-out depolarizing,simulator,0.1,1.0054428661789265,0.14015970937745117,ok
+breastmnist,0,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.1289674782963791,0.8606887980840928,0.1514148762484006,ok
+breastmnist,0,Re-uploading VQC,18,held-out depolarizing,simulator,0.1124284015456896,0.8737312013099815,0.1519519510220448,ok
+breastmnist,0,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.1,0.9364720773517446,0.1205990406889162,ok
+breastmnist,0,Re-uploading VQC,19,held-out depolarizing,simulator,0.1,0.9286336043370306,0.125687983049041,ok
+breastmnist,0,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.11292602548371432,0.4849692504280273,0.15103094996467373,ok
+breastmnist,0,Re-uploading VQC,20,held-out depolarizing,simulator,0.1,0.494211490964579,0.15109553906692935,ok
+breastmnist,0,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.7867230357377961,-0.009589963382221315,0.1445319235920958,ok
+breastmnist,0,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.688533489334572,0.06618919291864388,0.13982571829355647,ok
+breastmnist,0,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.6995804001468242,0.29779283876017293,0.13957918653903967,ok
+breastmnist,0,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.6116243522904626,0.3660777434401876,0.14139282164770312,ok
+breastmnist,0,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7709912706645958,0.09409695641595822,0.16897868490414428,ok
+breastmnist,0,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.6749785723153262,0.16806207983935958,0.16338419646524324,ok
+breastmnist,0,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.795336246405185,0.30259602967551574,0.14560127639642217,ok
+breastmnist,0,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.6957311567612442,0.3796815264494002,0.14414164368193064,ok
+breastmnist,0,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.5091596156178249,0.7409575167430832,0.13981593415942511,ok
+breastmnist,0,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.44523946658614516,0.7905229291479472,0.14017847106344167,ok
+breastmnist,0,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.5255695672439704,0.45770639671115926,0.13943133106521052,ok
+breastmnist,0,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.45940752451690886,0.5091237337450326,0.1410044484725323,ok
+breastmnist,0,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.4874226954429475,0.5229227227770069,0.12498952738242573,ok
+breastmnist,0,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.4261651825559737,0.5704648061129816,0.12580913102377506,ok
+breastmnist,0,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.4633966544581388,0.31372541249740465,0.15161221975397632,ok
+breastmnist,0,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.4053346230289792,0.35867771928740216,0.15128697305811684,ok
+breastmnist,1,VQC,0,clean,hardware (calibration day),1.11911156670163,-0.04293722030368387,0.036653387308509824,ok
+breastmnist,1,VQC,0,clean,simulator,1.0000000000000004,-6.465286859672291e-16,7.367042638614484e-16,ok
+breastmnist,1,VQC,1,held-out depolarizing,hardware (calibration day),0.9925165696842371,0.007228398905167541,0.1027925717985352,ok
+breastmnist,1,VQC,1,held-out depolarizing,simulator,0.8869494455447353,0.04520398077444424,0.09615732605078604,ok
+breastmnist,1,VQC,2,held-out depolarizing,hardware (calibration day),1.0477661998718164,0.053657158381660144,0.11123914734736114,ok
+breastmnist,1,VQC,2,held-out depolarizing,simulator,0.9360800206595757,0.09410670902099429,0.10890551349116719,ok
+breastmnist,1,VQC,3,held-out depolarizing,hardware (calibration day),1.056240046759693,0.06692177211095918,0.10112824478349472,ok
+breastmnist,1,VQC,3,held-out depolarizing,simulator,0.9437957656263044,0.10748298147662234,0.09553639243542121,ok
+breastmnist,1,VQC,4,held-out depolarizing,hardware (calibration day),0.9997892233176053,-0.05106923553572258,0.11929575944999452,ok
+breastmnist,1,VQC,4,held-out depolarizing,simulator,0.8933292413911024,-0.012638278027482304,0.11550515539253783,ok
+breastmnist,1,VQC,5,held-out depolarizing,hardware (calibration day),0.8521134211127132,-0.010854085032166783,0.13342580175282273,ok
+breastmnist,1,VQC,5,held-out depolarizing,simulator,0.76098137019947,0.022489572705001085,0.1357568669783073,ok
+breastmnist,1,VQC,6,held-out depolarizing,hardware (calibration day),0.8504221293540263,0.22521032435555807,0.12700907242796047,ok
+breastmnist,1,VQC,6,held-out depolarizing,simulator,0.7595344671157468,0.2583935310705752,0.1286581417012021,ok
+breastmnist,1,VQC,7,held-out depolarizing,hardware (calibration day),0.8625846675499705,0.11341075201435713,0.12714371537840824,ok
+breastmnist,1,VQC,7,held-out depolarizing,simulator,0.77123272694056,0.1458282263713118,0.11782843095195875,ok
+breastmnist,1,VQC,8,held-out depolarizing,hardware (calibration day),0.8615359216636945,-0.008661518270372232,0.12113929407964831,ok
+breastmnist,1,VQC,8,held-out depolarizing,simulator,0.7695173286437625,0.02487097299455775,0.12215978282167876,ok
+breastmnist,1,VQC,9,held-out depolarizing,hardware (calibration day),0.6180010049566944,0.04131887087351492,0.1348072328043056,ok
+breastmnist,1,VQC,9,held-out depolarizing,simulator,0.5521627940671155,0.06512169596070787,0.13381831403653188,ok
+breastmnist,1,VQC,10,held-out depolarizing,hardware (calibration day),0.5878976514888794,0.22507498520051136,0.11982251198333221,ok
+breastmnist,1,VQC,10,held-out depolarizing,simulator,0.5257428843870362,0.24701118358691979,0.11428653224525373,ok
+breastmnist,1,VQC,11,held-out depolarizing,hardware (calibration day),0.5638892875199123,-0.0062769150304483766,0.12350260230617023,ok
+breastmnist,1,VQC,11,held-out depolarizing,simulator,0.5038544510501217,0.015384412462610207,0.12226881706640562,ok
+breastmnist,1,VQC,12,held-out depolarizing,hardware (calibration day),0.5770832267959192,0.17486603763169908,0.13852508740600522,ok
+breastmnist,1,VQC,12,held-out depolarizing,simulator,0.5151434418251271,0.1977767554755163,0.14127537833932927,ok
+breastmnist,1,VQC,13,held-out depolarizing,hardware (calibration day),0.498219039430103,0.2518779444264818,0.12660662921829643,ok
+breastmnist,1,VQC,13,held-out depolarizing,simulator,0.4454951070151566,0.2705426745685459,0.12325986996803652,ok
+breastmnist,1,VQC,14,held-out depolarizing,hardware (calibration day),0.5162345672333765,0.32738045526970044,0.13239248821968364,ok
+breastmnist,1,VQC,14,held-out depolarizing,simulator,0.4611103607948473,0.34745306228155015,0.13262927434364288,ok
+breastmnist,1,VQC,15,held-out depolarizing,hardware (calibration day),0.4690353286415235,0.26224589083144306,0.11839395175598635,ok
+breastmnist,1,VQC,15,held-out depolarizing,simulator,0.41898996725236387,0.2804255972998521,0.11832287090686541,ok
+breastmnist,1,VQC,16,held-out depolarizing,hardware (calibration day),0.4894581640383668,0.16232993180754582,0.1436209588700212,ok
+breastmnist,1,VQC,16,held-out depolarizing,simulator,0.43758877378217204,0.18077418407497012,0.14125794939892614,ok
+breastmnist,1,VQC,17,held-out depolarizing,hardware (calibration day),0.13542612382059263,0.656304397712481,0.13034263904299642,ok
+breastmnist,1,VQC,17,held-out depolarizing,simulator,0.12033314130733336,0.6625082660435205,0.1315866005315078,ok
+breastmnist,1,VQC,18,held-out depolarizing,hardware (calibration day),0.14901516853419303,0.5152842882656715,0.1330685459775926,ok
+breastmnist,1,VQC,18,held-out depolarizing,simulator,0.13313434598967416,0.5210320718839908,0.13302235481258887,ok
+breastmnist,1,VQC,19,held-out depolarizing,hardware (calibration day),0.17687475143382533,0.5412015309513822,0.13310385055762772,ok
+breastmnist,1,VQC,19,held-out depolarizing,simulator,0.15792392731799865,0.5481737631850526,0.13329127572798322,ok
+breastmnist,1,VQC,20,held-out depolarizing,hardware (calibration day),0.15387521176596602,0.20465265490347156,0.12846696884922315,ok
+breastmnist,1,VQC,20,held-out depolarizing,simulator,0.13723305784361595,0.21094917848368266,0.12896362254122354,ok
+breastmnist,1,VQC,21,unseen: amplitude damping,hardware (calibration day),0.7346969300256931,-0.08076305980974943,0.11997891093396645,ok
+breastmnist,1,VQC,21,unseen: amplitude damping,simulator,0.6559584961254445,-0.051770723324570514,0.12375263015282718,ok
+breastmnist,1,VQC,22,unseen: amplitude damping,hardware (calibration day),0.7255385181687883,0.11853507772580853,0.13686164678222665,ok
+breastmnist,1,VQC,22,unseen: amplitude damping,simulator,0.6482346700464018,0.14649348569631848,0.13561035409625255,ok
+breastmnist,1,VQC,23,unseen: amplitude damping,hardware (calibration day),0.7813331461728721,-0.07892757495489136,0.12359403893409047,ok
+breastmnist,1,VQC,23,unseen: amplitude damping,simulator,0.6978515000828847,-0.048473194797237946,0.12476365911256983,ok
+breastmnist,1,VQC,24,unseen: amplitude damping,hardware (calibration day),0.7959186013041544,0.15190475968930706,0.11149197703540593,ok
+breastmnist,1,VQC,24,unseen: amplitude damping,simulator,0.7110621868895695,0.1826550872227609,0.1103695764510001,ok
+breastmnist,1,VQC,25,unseen: amplitude damping,hardware (calibration day),0.4903275048119385,0.4162555214851993,0.13715192747890897,ok
+breastmnist,1,VQC,25,unseen: amplitude damping,simulator,0.43742780397823194,0.43612515330664947,0.1409515692518777,ok
+breastmnist,1,VQC,26,unseen: amplitude damping,hardware (calibration day),0.5353268129893041,0.12494565516005482,0.14738143398664358,ok
+breastmnist,1,VQC,26,unseen: amplitude damping,simulator,0.4783472958885832,0.14548840872114333,0.1463521806038961,ok
+breastmnist,1,VQC,27,unseen: amplitude damping,hardware (calibration day),0.497154362491813,0.13780368737205898,0.1194969665285683,ok
+breastmnist,1,VQC,27,unseen: amplitude damping,simulator,0.44436551145543707,0.1566921392603914,0.11738679589550573,ok
+breastmnist,1,VQC,28,unseen: amplitude damping,hardware (calibration day),0.4911727183009056,0.016674398261290205,0.1256732265622096,ok
+breastmnist,1,VQC,28,unseen: amplitude damping,simulator,0.4389796970718743,0.035393944445957594,0.12401056959497128,ok
+breastmnist,1,Re-uploading VQC,0,clean,hardware (calibration day),1.1394374495505637,-0.17006881356673084,0.054924211580596585,ok
+breastmnist,1,Re-uploading VQC,0,clean,simulator,1.0,0.0,0.0,ok
+breastmnist,1,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),1.0062152119778562,-0.03649218173373793,0.12803776276110287,ok
+breastmnist,1,Re-uploading VQC,1,held-out depolarizing,simulator,0.8824948425877298,0.11444809872412288,0.1275068678565803,ok
+breastmnist,1,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.0568058746248763,-0.010858632117040731,0.12148017816051677,ok
+breastmnist,1,Re-uploading VQC,2,held-out depolarizing,simulator,0.927051243478003,0.14743047210615667,0.11776275387325384,ok
+breastmnist,1,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0820948253277527,0.05879248195757962,0.1326585526353165,ok
+breastmnist,1,Re-uploading VQC,3,held-out depolarizing,simulator,0.9490230522970224,0.2211430920472202,0.13239713502757677,ok
+breastmnist,1,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),0.9895883027406399,-0.01790498580489434,0.1410752841331162,ok
+breastmnist,1,Re-uploading VQC,4,held-out depolarizing,simulator,0.8690611487315505,0.1290590348436456,0.12447613137230638,ok
+breastmnist,1,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.8159235782286646,0.16355975417591304,0.12855511509287398,ok
+breastmnist,1,Re-uploading VQC,5,held-out depolarizing,simulator,0.7158284456916864,0.285661017003805,0.12545378344415292,ok
+breastmnist,1,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.8399007250353605,0.3967820528903659,0.12185731329058204,ok
+breastmnist,1,Re-uploading VQC,6,held-out depolarizing,simulator,0.7374344433177507,0.5217357148395383,0.11051016316843357,ok
+breastmnist,1,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.8300096568378327,0.3016735021349846,0.1433515429567612,ok
+breastmnist,1,Re-uploading VQC,7,held-out depolarizing,simulator,0.7289579446070698,0.42488747073270466,0.13162543060485177,ok
+breastmnist,1,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.8519946119277557,0.14209895199908987,0.1332378878694536,ok
+breastmnist,1,Re-uploading VQC,8,held-out depolarizing,simulator,0.7477523577062822,0.2692395683006468,0.1265014505949015,ok
+breastmnist,1,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.5907206909676366,0.40076294606059365,0.1434701818702378,ok
+breastmnist,1,Re-uploading VQC,9,held-out depolarizing,simulator,0.5182178301581997,0.48920817236903036,0.14229702351326604,ok
+breastmnist,1,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.5493717970550659,0.6289522636834131,0.14638328633514777,ok
+breastmnist,1,Re-uploading VQC,10,held-out depolarizing,simulator,0.4831593569324217,0.7096385758942391,0.13647036471452464,ok
+breastmnist,1,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.5208080572890884,0.4265137097228818,0.1391504340188104,ok
+breastmnist,1,Re-uploading VQC,11,held-out depolarizing,simulator,0.4567787558559276,0.5046296885152289,0.13896862136030705,ok
+breastmnist,1,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5507936891854313,0.5995043386648577,0.14539399115790283,ok
+breastmnist,1,Re-uploading VQC,12,held-out depolarizing,simulator,0.4827114483727302,0.6825905978451309,0.14778814283922265,ok
+breastmnist,1,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.4371127262046199,0.770375199392397,0.16442000880364505,ok
+breastmnist,1,Re-uploading VQC,13,held-out depolarizing,simulator,0.3841799865672223,0.8348967879206682,0.16022175737765335,ok
+breastmnist,1,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.4479120847917952,0.8754846439757984,0.13001175619028396,ok
+breastmnist,1,Re-uploading VQC,14,held-out depolarizing,simulator,0.3929564607904691,0.9425228768197247,0.1291416520185338,ok
+breastmnist,1,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.4304769006320727,0.7831729595311546,0.14933180395523946,ok
+breastmnist,1,Re-uploading VQC,15,held-out depolarizing,simulator,0.3786750997681904,0.8462927156564893,0.14299300075133062,ok
+breastmnist,1,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.46237013363478635,0.6625744385011388,0.1324527269110403,ok
+breastmnist,1,Re-uploading VQC,16,held-out depolarizing,simulator,0.40570183882531236,0.7316975924105431,0.13113723459688761,ok
+breastmnist,1,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.10923659192382779,1.4003793536795592,0.1446132247494473,ok
+breastmnist,1,Re-uploading VQC,17,held-out depolarizing,simulator,0.1,1.411354173632999,0.14364259449627495,ok
+breastmnist,1,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.11458277145040308,1.2751524901566338,0.13851125842569806,ok
+breastmnist,1,Re-uploading VQC,18,held-out depolarizing,simulator,0.1,1.292978262896836,0.1398871301523525,ok
+breastmnist,1,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.11388780521363846,1.3291476165143645,0.15791629875093427,ok
+breastmnist,1,Re-uploading VQC,19,held-out depolarizing,simulator,0.1,1.34608281293688,0.1583475122617523,ok
+breastmnist,1,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.1084561016304548,0.8717654153443599,0.14290007282466005,ok
+breastmnist,1,Re-uploading VQC,20,held-out depolarizing,simulator,0.1,0.8817400627215057,0.14356882540310176,ok
+breastmnist,1,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.7530378244217862,0.1642742406997394,0.13909626869055555,ok
+breastmnist,1,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.6604208262995411,0.2772698951900804,0.13909127426911297,ok
+breastmnist,1,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.7167068825081099,0.4447201873370091,0.13949772662091847,ok
+breastmnist,1,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.6297491474425653,0.5507279402034607,0.12746300959352347,ok
+breastmnist,1,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7810023886729303,0.20172571550584747,0.15627721354061527,ok
+breastmnist,1,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.6851420403518296,0.31866462625450265,0.15441962106424492,ok
+breastmnist,1,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.791845998327763,0.4340289793727649,0.14688437883060046,ok
+breastmnist,1,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.6954323947167291,0.55158821012847,0.1366192913782396,ok
+breastmnist,1,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.47376285576015426,1.083976279077407,0.1454461382100674,ok
+breastmnist,1,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.4153461201137302,1.1552569102233565,0.14634796177071246,ok
+breastmnist,1,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.5443421676565693,0.6721842777844845,0.16507325796383002,ok
+breastmnist,1,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.47810603927844897,0.7529444834837145,0.16058662518878222,ok
+breastmnist,1,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.493077755719161,0.7464662683036056,0.1595681465022533,ok
+breastmnist,1,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.4331285834304012,0.8195574584571651,0.15547369242654735,ok
+breastmnist,1,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.459589506766923,0.5730974033665248,0.12096099683309632,ok
+breastmnist,1,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.4037509346331177,0.6411741033921246,0.11594538720096655,ok
+breastmnist,2,VQC,0,clean,hardware (calibration day),1.1139453982267962,-0.06381717443327689,0.034469298874945827,ok
+breastmnist,2,VQC,0,clean,simulator,1.0000000000000002,-2.882394499448447e-16,2.6924367394298875e-16,ok
+breastmnist,2,VQC,1,held-out depolarizing,hardware (calibration day),0.993422305289041,-0.0041886952600853535,0.08940378961672558,ok
+breastmnist,2,VQC,1,held-out depolarizing,simulator,0.8916547392430882,0.052930923185606,0.08675358981253029,ok
+breastmnist,2,VQC,2,held-out depolarizing,hardware (calibration day),1.058516919915544,0.012636479343682831,0.09564192537880888,ok
+breastmnist,2,VQC,2,held-out depolarizing,simulator,0.9502963236081292,0.07320244509734496,0.08881568220950517,ok
+breastmnist,2,VQC,3,held-out depolarizing,hardware (calibration day),1.028579124206763,0.11203852993482565,0.11484138169540062,ok
+breastmnist,2,VQC,3,held-out depolarizing,simulator,0.9232297785092458,0.17115242351717586,0.11235277638635675,ok
+breastmnist,2,VQC,4,held-out depolarizing,hardware (calibration day),0.9760878174051792,-0.02937686558780259,0.1092189919981249,ok
+breastmnist,2,VQC,4,held-out depolarizing,simulator,0.8761252681556116,0.026705795668738878,0.10670887096918454,ok
+breastmnist,2,VQC,5,held-out depolarizing,hardware (calibration day),0.8293264157288105,0.03484400947387598,0.12482912367867056,ok
+breastmnist,2,VQC,5,held-out depolarizing,simulator,0.7449349033419729,0.08174954282835013,0.11728425061373907,ok
+breastmnist,2,VQC,6,held-out depolarizing,hardware (calibration day),0.8583547857149262,0.24690442634560045,0.09889083651177934,ok
+breastmnist,2,VQC,6,held-out depolarizing,simulator,0.7699272396147825,0.2969414100270948,0.10389103061466218,ok
+breastmnist,2,VQC,7,held-out depolarizing,hardware (calibration day),0.8456229761260854,0.17661694660218916,0.09573470193142206,ok
+breastmnist,2,VQC,7,held-out depolarizing,simulator,0.758786423796749,0.22552717182502088,0.09692291549530917,ok
+breastmnist,2,VQC,8,held-out depolarizing,hardware (calibration day),0.8563123901361507,0.06376725176374416,0.11419825491450367,ok
+breastmnist,2,VQC,8,held-out depolarizing,simulator,0.7687079413858459,0.11284175651549401,0.11123337528149665,ok
+breastmnist,2,VQC,9,held-out depolarizing,hardware (calibration day),0.6364203271038603,0.0833328791478488,0.10446380910884853,ok
+breastmnist,2,VQC,9,held-out depolarizing,simulator,0.571200017392951,0.1199594209878184,0.1037834277105423,ok
+breastmnist,2,VQC,10,held-out depolarizing,hardware (calibration day),0.5942534663402008,0.2829819466241214,0.11909181586295688,ok
+breastmnist,2,VQC,10,held-out depolarizing,simulator,0.533636126649,0.31679394727832416,0.11629191716598841,ok
+breastmnist,2,VQC,11,held-out depolarizing,hardware (calibration day),0.5932175097481678,0.09946995762998535,0.1003622536923579,ok
+breastmnist,2,VQC,11,held-out depolarizing,simulator,0.5326088454807201,0.1333565403329168,0.0979792031574507,ok
+breastmnist,2,VQC,12,held-out depolarizing,hardware (calibration day),0.6015173066729333,0.23339919226806027,0.11835351359040044,ok
+breastmnist,2,VQC,12,held-out depolarizing,simulator,0.5396675971569941,0.26830096762172967,0.11948923316709238,ok
+breastmnist,2,VQC,13,held-out depolarizing,hardware (calibration day),0.5286967666969782,0.3123880544243415,0.11347328795713954,ok
+breastmnist,2,VQC,13,held-out depolarizing,simulator,0.4747893012071569,0.3424387344999219,0.11097798606524525,ok
+breastmnist,2,VQC,14,held-out depolarizing,hardware (calibration day),0.5106820125904474,0.4245175565036839,0.11409483804238728,ok
+breastmnist,2,VQC,14,held-out depolarizing,simulator,0.45864409996167943,0.45349925683757364,0.111541977230144,ok
+breastmnist,2,VQC,15,held-out depolarizing,hardware (calibration day),0.4865165762162167,0.3561582549973288,0.1202460835239857,ok
+breastmnist,2,VQC,15,held-out depolarizing,simulator,0.43654272398197114,0.38431693295985814,0.12064933220614894,ok
+breastmnist,2,VQC,16,held-out depolarizing,hardware (calibration day),0.5110729668259779,0.27089564764770824,0.12252930731383929,ok
+breastmnist,2,VQC,16,held-out depolarizing,simulator,0.45864174837839683,0.3003861134192886,0.12253323718113537,ok
+breastmnist,2,VQC,17,held-out depolarizing,hardware (calibration day),0.1698858728807087,0.6943511750570519,0.11842501450509713,ok
+breastmnist,2,VQC,17,held-out depolarizing,simulator,0.1525908005729982,0.7039701952740842,0.11811851339835211,ok
+breastmnist,2,VQC,18,held-out depolarizing,hardware (calibration day),0.18035608283916857,0.5706660348057312,0.13763510047732097,ok
+breastmnist,2,VQC,18,held-out depolarizing,simulator,0.16241189117483243,0.5803041361743736,0.13645812960779383,ok
+breastmnist,2,VQC,19,held-out depolarizing,hardware (calibration day),0.1609950562890692,0.6575498788609366,0.11114537370049023,ok
+breastmnist,2,VQC,19,held-out depolarizing,simulator,0.14479864342380544,0.6663990752009232,0.11040106767244297,ok
+breastmnist,2,VQC,20,held-out depolarizing,hardware (calibration day),0.16400973585034703,0.2920561421518113,0.11752572580254259,ok
+breastmnist,2,VQC,20,held-out depolarizing,simulator,0.14721271291378388,0.30148033853705064,0.11746183568784808,ok
+breastmnist,2,VQC,21,unseen: amplitude damping,hardware (calibration day),0.7603823364373875,-0.04348526273613943,0.11922888799889836,ok
+breastmnist,2,VQC,21,unseen: amplitude damping,simulator,0.6826277387275901,4.230348325186284e-05,0.11662528470480515,ok
+breastmnist,2,VQC,22,unseen: amplitude damping,hardware (calibration day),0.7370403254092911,0.14629981759521535,0.11346565471815116,ok
+breastmnist,2,VQC,22,unseen: amplitude damping,simulator,0.6616457462834907,0.18852817655925072,0.11117939356985676,ok
+breastmnist,2,VQC,23,unseen: amplitude damping,hardware (calibration day),0.7806990776183385,-0.010339511912823767,0.1047672658442644,ok
+breastmnist,2,VQC,23,unseen: amplitude damping,simulator,0.7011319777866105,0.03398623384029007,0.09832022773958048,ok
+breastmnist,2,VQC,24,unseen: amplitude damping,hardware (calibration day),0.8298140055047942,0.14181195016098463,0.11288675296105563,ok
+breastmnist,2,VQC,24,unseen: amplitude damping,simulator,0.7448652183305327,0.18944389486712626,0.11073561490462011,ok
+breastmnist,2,VQC,25,unseen: amplitude damping,hardware (calibration day),0.4919254279853107,0.5149052248157487,0.13896553998803476,ok
+breastmnist,2,VQC,25,unseen: amplitude damping,simulator,0.4408852412138812,0.5440800471281477,0.1421743935054917,ok
+breastmnist,2,VQC,26,unseen: amplitude damping,hardware (calibration day),0.5472834355086614,0.22488399858468092,0.12705424176412938,ok
+breastmnist,2,VQC,26,unseen: amplitude damping,simulator,0.49104531291868975,0.256590639991155,0.12769089954397417,ok
+breastmnist,2,VQC,27,unseen: amplitude damping,hardware (calibration day),0.5402957335841966,0.23473028674066657,0.11387817092601271,ok
+breastmnist,2,VQC,27,unseen: amplitude damping,simulator,0.48457405755451527,0.2663096184459733,0.11607957091311034,ok
+breastmnist,2,VQC,28,unseen: amplitude damping,hardware (calibration day),0.4952872841750579,0.12637732176253658,0.12948672151194557,ok
+breastmnist,2,VQC,28,unseen: amplitude damping,simulator,0.4447404137579101,0.1545922659334293,0.1278596054247179,ok
+breastmnist,2,Re-uploading VQC,0,clean,hardware (calibration day),1.1476215283631868,-0.1425981457413951,0.03914723560023506,ok
+breastmnist,2,Re-uploading VQC,0,clean,simulator,0.9999999999999998,2.5046102757912757e-16,2.4233991659893687e-16,ok
+breastmnist,2,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),1.011976320899405,-0.006327518409117351,0.11397651531634255,ok
+breastmnist,2,Re-uploading VQC,1,held-out depolarizing,simulator,0.8817154939109272,0.11952707793832167,0.10986166066980803,ok
+breastmnist,2,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.0703386354933797,-0.057651737524793925,0.11188072888457261,ok
+breastmnist,2,Re-uploading VQC,2,held-out depolarizing,simulator,0.9321682061492248,0.07596436777719488,0.11306198184287228,ok
+breastmnist,2,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0599248624550661,0.05966830908149647,0.10887243794468753,ok
+breastmnist,2,Re-uploading VQC,3,held-out depolarizing,simulator,0.9234492212663444,0.19154040089406885,0.10479252728487035,ok
+breastmnist,2,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),0.9939852838276809,-0.03116803124719515,0.11125282675480082,ok
+breastmnist,2,Re-uploading VQC,4,held-out depolarizing,simulator,0.8662457019245169,0.09218882174688817,0.10423955163399576,ok
+breastmnist,2,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.779512873543427,0.1443560785533797,0.1210828327157712,ok
+breastmnist,2,Re-uploading VQC,5,held-out depolarizing,simulator,0.6792180206533689,0.24124526876041083,0.11836919859750024,ok
+breastmnist,2,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.8330249909632732,0.34349092343219045,0.11044201518892718,ok
+breastmnist,2,Re-uploading VQC,6,held-out depolarizing,simulator,0.7253344628452258,0.4476782744848019,0.11292416959450488,ok
+breastmnist,2,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.8327943644485729,0.2337362342686991,0.13737253059981305,ok
+breastmnist,2,Re-uploading VQC,7,held-out depolarizing,simulator,0.7262091791293457,0.33653216687398485,0.1292060445004402,ok
+breastmnist,2,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.8438858412476516,0.09894045717988363,0.12759370647656448,ok
+breastmnist,2,Re-uploading VQC,8,held-out depolarizing,simulator,0.73556041199819,0.20351175829428028,0.1219443174386099,ok
+breastmnist,2,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.5534402698318406,0.32083655362193275,0.12191155724741468,ok
+breastmnist,2,Re-uploading VQC,9,held-out depolarizing,simulator,0.4819467414462765,0.38998844336624816,0.1225451249028118,ok
+breastmnist,2,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.5088589077950642,0.5458559543453069,0.1166797065216565,ok
+breastmnist,2,Re-uploading VQC,10,held-out depolarizing,simulator,0.4430344421304144,0.6095514188227319,0.11783283601774697,ok
+breastmnist,2,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.5208390011983458,0.3243571232440333,0.12421890563105173,ok
+breastmnist,2,Re-uploading VQC,11,held-out depolarizing,simulator,0.4539560771593543,0.38892981402286525,0.12220351818797971,ok
+breastmnist,2,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5135324250655047,0.5214371223506039,0.12252050728723109,ok
+breastmnist,2,Re-uploading VQC,12,held-out depolarizing,simulator,0.44664036476067775,0.5863042085078495,0.12653365247979106,ok
+breastmnist,2,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.4227051071494276,0.6082039628932022,0.1104289993769687,ok
+breastmnist,2,Re-uploading VQC,13,held-out depolarizing,simulator,0.3681942510422902,0.660901167211322,0.11028808205569583,ok
+breastmnist,2,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.4235491905799675,0.6885881677693644,0.11782687410209439,ok
+breastmnist,2,Re-uploading VQC,14,held-out depolarizing,simulator,0.3700123700751372,0.7400187055951648,0.11158805219984438,ok
+breastmnist,2,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.38711048425450584,0.6442574329238224,0.12083213354495297,ok
+breastmnist,2,Re-uploading VQC,15,held-out depolarizing,simulator,0.33735923969062814,0.6923025287122135,0.11989309559667004,ok
+breastmnist,2,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.42367903768771953,0.5246290163299487,0.13016358846311227,ok
+breastmnist,2,Re-uploading VQC,16,held-out depolarizing,simulator,0.3693114470425454,0.5771070207504695,0.12870113741534023,ok
+breastmnist,2,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.1,1.1442766194279712,0.1078486391124555,ok
+breastmnist,2,Re-uploading VQC,17,held-out depolarizing,simulator,0.1,1.1404058494776699,0.11015193716313293,ok
+breastmnist,2,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.1,0.9835900953742782,0.11766325663808817,ok
+breastmnist,2,Re-uploading VQC,18,held-out depolarizing,simulator,0.1,0.979719325423977,0.11995517064371225,ok
+breastmnist,2,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.1,1.027413692843467,0.13830261136708555,ok
+breastmnist,2,Re-uploading VQC,19,held-out depolarizing,simulator,0.1,1.023542922893166,0.14291856869951158,ok
+breastmnist,2,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.1,0.6983775020092288,0.10747742944400626,ok
+breastmnist,2,Re-uploading VQC,20,held-out depolarizing,simulator,0.1,0.6945067320589275,0.11152828072255984,ok
+breastmnist,2,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.7287151723600013,0.12807786221094888,0.13214881893782976,ok
+breastmnist,2,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.6350568234470831,0.21852560767182166,0.12911895113829755,ok
+breastmnist,2,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.6910000795399273,0.3183221935846569,0.11448970126348547,ok
+breastmnist,2,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.6018185636093456,0.4045581577789793,0.11478946110343168,ok
+breastmnist,2,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7527077947500592,0.12734738253096672,0.12102384550352983,ok
+breastmnist,2,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.6558971906867886,0.22085998282999925,0.11815086732147374,ok
+breastmnist,2,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.7686441673864332,0.35455178756752975,0.12149755535300501,ok
+breastmnist,2,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.6702284386466003,0.4494810406495917,0.1140299332636818,ok
+breastmnist,2,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.45553799278781754,0.8384839888250288,0.10158086018031869,ok
+breastmnist,2,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.39612204213011926,0.8961245128371559,0.10589392752444204,ok
+breastmnist,2,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.4805891694395322,0.5741105119203533,0.12046995856884007,ok
+breastmnist,2,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.41821534739565297,0.6345286541224464,0.12270341497384289,ok
+breastmnist,2,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.45677508911793474,0.6057532270863399,0.12262854884728906,ok
+breastmnist,2,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.39778572212035646,0.6628054322480615,0.12296215730405509,ok
+breastmnist,2,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.43723786012702637,0.44307909846232474,0.1162444303409683,ok
+breastmnist,2,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.38076173138597647,0.4977035535577545,0.11662323307458149,ok
+octmnist,0,VQC,0,clean,hardware (calibration day),1.1213715876652874,0.01201680571928865,0.09132119055314347,ok
+octmnist,0,VQC,0,clean,simulator,1.0,0.0,0.0,ok
+octmnist,0,VQC,1,held-out depolarizing,hardware (calibration day),0.9986254823620407,-0.045788592194338985,0.2736609332475574,ok
+octmnist,0,VQC,1,held-out depolarizing,simulator,0.8904098373594643,-0.05648752314586736,0.26830746733876404,ok
+octmnist,0,VQC,2,held-out depolarizing,hardware (calibration day),1.059502353212835,0.07486617072675078,0.27078904961157246,ok
+octmnist,0,VQC,2,held-out depolarizing,simulator,0.944917646204131,0.0635106144088572,0.2512560524948605,ok
+octmnist,0,VQC,3,held-out depolarizing,hardware (calibration day),1.0539873124611912,0.27109252024070074,0.27770314213405095,ok
+octmnist,0,VQC,3,held-out depolarizing,simulator,0.9399777419646053,0.25979648580667036,0.2601401123869081,ok
+octmnist,0,VQC,4,held-out depolarizing,hardware (calibration day),0.9925366384508623,-0.14434075385669987,0.3240787282883615,ok
+octmnist,0,VQC,4,held-out depolarizing,simulator,0.8851470748782623,-0.15497767034450485,0.31212591040348475,ok
+octmnist,0,VQC,5,held-out depolarizing,hardware (calibration day),0.8237347632489588,-0.19352489869094322,0.3190556504829125,ok
+octmnist,0,VQC,5,held-out depolarizing,simulator,0.7344053380121321,-0.20234883752875518,0.3183976276048251,ok
+octmnist,0,VQC,6,held-out depolarizing,hardware (calibration day),0.8682907902465308,0.3854115103295652,0.28599739222398773,ok
+octmnist,0,VQC,6,held-out depolarizing,simulator,0.774220405286798,0.3761085224593334,0.28118092299612013,ok
+octmnist,0,VQC,7,held-out depolarizing,hardware (calibration day),0.8380791654202588,0.15523001356203975,0.2964699354640019,ok
+octmnist,0,VQC,7,held-out depolarizing,simulator,0.7476427143184557,0.1462437309735843,0.27688530089223895,ok
+octmnist,0,VQC,8,held-out depolarizing,hardware (calibration day),0.8544241671963928,-0.1026873079273164,0.283977778256386,ok
+octmnist,0,VQC,8,held-out depolarizing,simulator,0.7620876336564021,-0.1118462101582417,0.2689186094511663,ok
+octmnist,0,VQC,9,held-out depolarizing,hardware (calibration day),0.6282005142030442,-0.3301933922252778,0.2731879349806679,ok
+octmnist,0,VQC,9,held-out depolarizing,simulator,0.5605191999563442,-0.3369313338867705,0.25765517166961216,ok
+octmnist,0,VQC,10,held-out depolarizing,hardware (calibration day),0.599624327032473,0.046074752308431034,0.26304348047373655,ok
+octmnist,0,VQC,10,held-out depolarizing,simulator,0.534512266355658,0.03965317773850927,0.2654290427451567,ok
+octmnist,0,VQC,11,held-out depolarizing,hardware (calibration day),0.5851851161293519,-0.43148527787282265,0.2783838725688006,ok
+octmnist,0,VQC,11,held-out depolarizing,simulator,0.5215648641751875,-0.4377507443508542,0.2828015304150471,ok
+octmnist,0,VQC,12,held-out depolarizing,hardware (calibration day),0.5897861185248416,-0.0784922806416665,0.3283181476985574,ok
+octmnist,0,VQC,12,held-out depolarizing,simulator,0.5256425306951945,-0.08480656145882028,0.33271976906926565,ok
+octmnist,0,VQC,13,held-out depolarizing,hardware (calibration day),0.49417138218381274,0.08652038795820592,0.2814534079291671,ok
+octmnist,0,VQC,13,held-out depolarizing,simulator,0.44080573047189764,0.08122242261682949,0.275462983042585,ok
+octmnist,0,VQC,14,held-out depolarizing,hardware (calibration day),0.5424608228793505,0.2394590405912355,0.2920883051065225,ok
+octmnist,0,VQC,14,held-out depolarizing,simulator,0.48367578960064467,0.23364733014598868,0.29065889959863633,ok
+octmnist,0,VQC,15,held-out depolarizing,hardware (calibration day),0.49972999797416945,-0.04589970037294506,0.3204549678166902,ok
+octmnist,0,VQC,15,held-out depolarizing,simulator,0.4454720949716493,-0.05125160575964364,0.3216662181720914,ok
+octmnist,0,VQC,16,held-out depolarizing,hardware (calibration day),0.5111435408061826,-0.19903066788063362,0.2853979523721322,ok
+octmnist,0,VQC,16,held-out depolarizing,simulator,0.4559637394173728,-0.2045109517781174,0.2785830820009016,ok
+octmnist,0,VQC,17,held-out depolarizing,hardware (calibration day),0.17544930932704045,0.46647812489251805,0.30459105913505663,ok
+octmnist,0,VQC,17,held-out depolarizing,simulator,0.156574953738371,0.46459574647976726,0.30329858422126466,ok
+octmnist,0,VQC,18,held-out depolarizing,hardware (calibration day),0.18011358917766698,0.18259788710523742,0.3162827292937947,ok
+octmnist,0,VQC,18,held-out depolarizing,simulator,0.1604002733215421,0.18067199490978533,0.31772642802174245,ok
+octmnist,0,VQC,19,held-out depolarizing,hardware (calibration day),0.15474252725795784,0.2912948438215474,0.335762972926395,ok
+octmnist,0,VQC,19,held-out depolarizing,simulator,0.1384822611788168,0.2896271426507333,0.332271808852886,ok
+octmnist,0,VQC,20,held-out depolarizing,hardware (calibration day),0.16797538646755442,-0.571869799964252,0.30966924626533826,ok
+octmnist,0,VQC,20,held-out depolarizing,simulator,0.14955643657845838,-0.5736652412891555,0.31121637181328465,ok
+octmnist,0,VQC,21,unseen: amplitude damping,hardware (calibration day),0.7633063985638104,-0.4362300127572422,0.2855472399456205,ok
+octmnist,0,VQC,21,unseen: amplitude damping,simulator,0.6806006194977775,-0.4444080017974779,0.2821905845406551,ok
+octmnist,0,VQC,22,unseen: amplitude damping,hardware (calibration day),0.7573154430255972,0.009262412116320479,0.29833173668677293,ok
+octmnist,0,VQC,22,unseen: amplitude damping,simulator,0.675485248663972,0.0011442249035026146,0.2867078615607832,ok
+octmnist,0,VQC,23,unseen: amplitude damping,hardware (calibration day),0.8016887720259445,-0.3295408723209999,0.31702947590288033,ok
+octmnist,0,VQC,23,unseen: amplitude damping,simulator,0.7148691900846375,-0.33813095769563106,0.3120410770609856,ok
+octmnist,0,VQC,24,unseen: amplitude damping,hardware (calibration day),0.8158806445795701,0.20964080752039235,0.29581278730677274,ok
+octmnist,0,VQC,24,unseen: amplitude damping,simulator,0.7275440763412387,0.20089827041744798,0.2894616919541621,ok
+octmnist,0,VQC,25,unseen: amplitude damping,hardware (calibration day),0.5277141406537925,0.6186182081762277,0.29391174430937783,ok
+octmnist,0,VQC,25,unseen: amplitude damping,simulator,0.4707197581256974,0.6129607587916054,0.2875366595106777,ok
+octmnist,0,VQC,26,unseen: amplitude damping,hardware (calibration day),0.5506035935281101,0.033674312072264734,0.261798722226167,ok
+octmnist,0,VQC,26,unseen: amplitude damping,simulator,0.4910093337803587,0.027773946188313425,0.25792138032893036,ok
+octmnist,0,VQC,27,unseen: amplitude damping,hardware (calibration day),0.5376054373085837,0.027597454587938317,0.30324958128064405,ok
+octmnist,0,VQC,27,unseen: amplitude damping,simulator,0.47954988643196433,0.021833826103711988,0.2966536703899182,ok
+octmnist,0,VQC,28,unseen: amplitude damping,hardware (calibration day),0.5163697986612865,-0.4201019117679074,0.29388240314858,ok
+octmnist,0,VQC,28,unseen: amplitude damping,simulator,0.460298624623695,-0.4256318946000263,0.2954578198267536,ok
+octmnist,0,Re-uploading VQC,0,clean,hardware (calibration day),1.1373792382868908,-0.06588608260830824,0.1144820796271323,ok
+octmnist,0,Re-uploading VQC,0,clean,simulator,1.0000000000000004,2.671474153004283e-16,1.809655016138727e-15,ok
+octmnist,0,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),1.0036530473005467,-0.0313366503046188,0.3064816636715404,ok
+octmnist,0,Re-uploading VQC,1,held-out depolarizing,simulator,0.8823682683756217,0.02676895833252142,0.29213795325623415,ok
+octmnist,0,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.04754927913567,0.07794358157740998,0.29194752492550946,ok
+octmnist,0,Re-uploading VQC,2,held-out depolarizing,simulator,0.920750588798214,0.13846735260205423,0.28636128336130584,ok
+octmnist,0,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0654076162188386,0.2482357385413334,0.285628024456316,ok
+octmnist,0,Re-uploading VQC,3,held-out depolarizing,simulator,0.9365140726469807,0.3098305915625582,0.2761436953960042,ok
+octmnist,0,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),0.9951128893139373,-0.15887161714191797,0.30480854912817557,ok
+octmnist,0,Re-uploading VQC,4,held-out depolarizing,simulator,0.8748651443553874,-0.10125748405252992,0.2903928825681926,ok
+octmnist,0,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.8118810130891616,-0.09820287677252658,0.3786212908737448,ok
+octmnist,0,Re-uploading VQC,5,held-out depolarizing,simulator,0.7138481440206982,-0.051154120191278823,0.3687511274552162,ok
+octmnist,0,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.8456973008353159,0.6034988066061161,0.3785914198795869,ok
+octmnist,0,Re-uploading VQC,6,held-out depolarizing,simulator,0.7435388863906689,0.6524823384314092,0.36922430326126077,ok
+octmnist,0,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.844609563235893,0.3493626389636641,0.331492826794024,ok
+octmnist,0,Re-uploading VQC,7,held-out depolarizing,simulator,0.7422988234575434,0.39811623573806393,0.33104625983369856,ok
+octmnist,0,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.838176513151612,-0.019563225405627965,0.33089611421820225,ok
+octmnist,0,Re-uploading VQC,8,held-out depolarizing,simulator,0.7366564936036163,0.028825777952083024,0.33004953002264403,ok
+octmnist,0,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.5785763249860452,-0.11427086417394301,0.32804384546570947,ok
+octmnist,0,Re-uploading VQC,9,held-out depolarizing,simulator,0.5085110299637392,-0.08086189589231553,0.327343146293559,ok
+octmnist,0,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.558584253388073,0.38293379537337097,0.34174636967787725,ok
+octmnist,0,Re-uploading VQC,10,held-out depolarizing,simulator,0.49098814686015174,0.4152166884184984,0.34001691103082055,ok
+octmnist,0,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.5407309895401836,-0.14934638520034918,0.3689706331214839,ok
+octmnist,0,Re-uploading VQC,11,held-out depolarizing,simulator,0.4755192457277079,-0.11796358206250274,0.3628410276501112,ok
+octmnist,0,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5590580653408838,0.27590324019906304,0.3576596494045482,ok
+octmnist,0,Re-uploading VQC,12,held-out depolarizing,simulator,0.4917098400789098,0.3083930973025893,0.349247322103302,ok
+octmnist,0,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.46480716428310537,0.4862434890870218,0.31571324307123333,ok
+octmnist,0,Re-uploading VQC,13,held-out depolarizing,simulator,0.4085233733095539,0.5130854608697816,0.3151587560432138,ok
+octmnist,0,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.48036406866161097,0.6470754792501827,0.3390794919276279,ok
+octmnist,0,Re-uploading VQC,14,held-out depolarizing,simulator,0.422677569621869,0.6750988963751117,0.3288554267269755,ok
+octmnist,0,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.43844656640443636,0.43676313746876566,0.3090871471989279,ok
+octmnist,0,Re-uploading VQC,15,held-out depolarizing,simulator,0.3849136237550502,0.4618232497300239,0.31720761952531323,ok
+octmnist,0,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.45767057082961304,0.193947792132685,0.3111194784160602,ok
+octmnist,0,Re-uploading VQC,16,held-out depolarizing,simulator,0.402376526428267,0.22045151785183972,0.30797966925868697,ok
+octmnist,0,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.11150363767063806,1.1235529580016423,0.35532913955722933,ok
+octmnist,0,Re-uploading VQC,17,held-out depolarizing,simulator,0.1,1.1311679351768031,0.3544601567316768,ok
+octmnist,0,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.12941214385670344,0.8827868733537135,0.3366294669570903,ok
+octmnist,0,Re-uploading VQC,18,held-out depolarizing,simulator,0.11411458394138549,0.890479728819673,0.33457782835719835,ok
+octmnist,0,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.1130843273552815,0.9133207457813294,0.3638766584560788,ok
+octmnist,0,Re-uploading VQC,19,held-out depolarizing,simulator,0.1,0.9202095980822552,0.3633803107052704,ok
+octmnist,0,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.1,-0.04377138984960816,0.34490402650355245,ok
+octmnist,0,Re-uploading VQC,20,held-out depolarizing,simulator,0.1,-0.03087196150228517,0.34994361536931823,ok
+octmnist,0,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.7436936986321808,-0.16380143392318694,0.34148806319236363,ok
+octmnist,0,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.6540677291411795,-0.12060211329711522,0.3268360332363934,ok
+octmnist,0,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.7383699116211262,0.3052028350482539,0.28653974662659354,ok
+octmnist,0,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.6485861107010437,0.3476225548629286,0.29821493512933306,ok
+octmnist,0,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7648837740622307,-0.046819091466309117,0.2756885767925866,ok
+octmnist,0,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.6722008009040651,-0.0026850106951410344,0.2763984573431263,ok
+octmnist,0,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.7990666545789439,0.5513408685461486,0.29865646886464386,ok
+octmnist,0,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.7021028898904144,0.5973656713016483,0.30449688235227534,ok
+octmnist,0,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.4998542319827812,1.3245057129584594,0.33927333774154445,ok
+octmnist,0,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.43928500865281617,1.3533471514255702,0.3395317282344553,ok
+octmnist,0,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.5298399831375976,0.5479605250439804,0.32696200945059073,ok
+octmnist,0,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.4662104735906176,0.5788693842017035,0.3140351189115571,ok
+octmnist,0,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.4923551029119219,0.5895616821246054,0.3509263227132691,ok
+octmnist,0,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.43309109300808796,0.6182037196246787,0.3433179066323771,ok
+octmnist,0,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.47577442906145695,0.12907006102632562,0.3449547629651285,ok
+octmnist,0,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.4180505032549306,0.15647942022503322,0.3465776630138115,ok
+octmnist,0,QSVM,0,clean,hardware (calibration day),1.1091054239127982,-0.023474329036805814,0.0518408000944061,ok
+octmnist,0,QSVM,0,clean,simulator,1.0000000000000004,8.244454019941856e-17,6.848193298233699e-16,ok
+octmnist,0,QSVM,1,held-out depolarizing,hardware (calibration day),1.0535117052228082,0.005384586169527746,0.15306402822750725,ok
+octmnist,0,QSVM,1,held-out depolarizing,simulator,0.949677603292055,0.02763992993370552,0.1480959791817005,ok
+octmnist,0,QSVM,2,held-out depolarizing,hardware (calibration day),1.0280380260963051,-0.012764254769092055,0.15207456618179047,ok
+octmnist,0,QSVM,2,held-out depolarizing,simulator,0.9270790194362549,0.009031052007059245,0.14152884363862606,ok
+octmnist,0,QSVM,3,held-out depolarizing,hardware (calibration day),1.0529084292254298,-0.021175582664298535,0.14364161041684415,ok
+octmnist,0,QSVM,3,held-out depolarizing,simulator,0.9492671629923465,0.0010955993344304142,0.13605852067253776,ok
+octmnist,0,QSVM,4,held-out depolarizing,hardware (calibration day),1.0533557342449893,-0.013972579660416339,0.13569953724860292,ok
+octmnist,0,QSVM,4,held-out depolarizing,simulator,0.949292267275397,0.008227022462645962,0.13441920745128683,ok
+octmnist,0,QSVM,5,held-out depolarizing,hardware (calibration day),0.8688516003001271,-0.0010516151102730447,0.13496155651412903,ok
+octmnist,0,QSVM,5,held-out depolarizing,simulator,0.7835340845108326,0.01737062269397993,0.1263725540167538,ok
+octmnist,0,QSVM,6,held-out depolarizing,hardware (calibration day),0.8585178627441725,0.00918093613090898,0.12167525719471273,ok
+octmnist,0,QSVM,6,held-out depolarizing,simulator,0.7741401556362895,0.027368012716383075,0.11357985209315223,ok
+octmnist,0,QSVM,7,held-out depolarizing,hardware (calibration day),0.8705027619442174,0.009020668165659494,0.13062576846929394,ok
+octmnist,0,QSVM,7,held-out depolarizing,simulator,0.7846575732733029,0.027399581898615927,0.1273958579954636,ok
+octmnist,0,QSVM,8,held-out depolarizing,hardware (calibration day),0.8646506587316095,-0.007258552131837434,0.13817188617572917,ok
+octmnist,0,QSVM,8,held-out depolarizing,simulator,0.7795429809157195,0.01103118003742981,0.13285523616852518,ok
+octmnist,0,QSVM,9,held-out depolarizing,hardware (calibration day),0.521230628751626,0.0640460961754724,0.11647728952117326,ok
+octmnist,0,QSVM,9,held-out depolarizing,simulator,0.470027948210027,0.07509343693090363,0.11316277090009913,ok
+octmnist,0,QSVM,10,held-out depolarizing,hardware (calibration day),0.5188917420327507,0.07970135734084219,0.12539521277738622,ok
+octmnist,0,QSVM,10,held-out depolarizing,simulator,0.46784671130735705,0.09068367324175948,0.12303086717931823,ok
+octmnist,0,QSVM,11,held-out depolarizing,hardware (calibration day),0.5247498840574393,0.0767531517089448,0.1221093785019715,ok
+octmnist,0,QSVM,11,held-out depolarizing,simulator,0.47289231729231224,0.08780882654198403,0.12191401174482568,ok
+octmnist,0,QSVM,12,held-out depolarizing,hardware (calibration day),0.5170810220242071,0.060370815824509615,0.11944568011710008,ok
+octmnist,0,QSVM,12,held-out depolarizing,simulator,0.46651470302423903,0.07137922279591975,0.11397482675981702,ok
+octmnist,0,QSVM,13,held-out depolarizing,hardware (calibration day),0.39461798394957964,0.11296094873715773,0.1324538091644838,ok
+octmnist,0,QSVM,13,held-out depolarizing,simulator,0.3553683155655929,0.12122090283282438,0.13401754317463446,ok
+octmnist,0,QSVM,14,held-out depolarizing,hardware (calibration day),0.421816563085823,0.11482506605144989,0.13189370996626398,ok
+octmnist,0,QSVM,14,held-out depolarizing,simulator,0.3802472918724034,0.12373696839979209,0.13094560712680284,ok
+octmnist,0,QSVM,15,held-out depolarizing,hardware (calibration day),0.4138126558135561,0.08943761749611985,0.13886071238859235,ok
+octmnist,0,QSVM,15,held-out depolarizing,simulator,0.37256250380411515,0.09807977240183018,0.14109900256428812,ok
+octmnist,0,QSVM,16,held-out depolarizing,hardware (calibration day),0.4067472251349248,0.08548870057473194,0.11223324949252751,ok
+octmnist,0,QSVM,16,held-out depolarizing,simulator,0.3662882589753091,0.09400191797968278,0.11421141472601037,ok
+octmnist,0,QSVM,17,held-out depolarizing,hardware (calibration day),0.10881128231182625,0.13280616525323194,0.09399698825256977,ok
+octmnist,0,QSVM,17,held-out depolarizing,simulator,0.1,0.1355147798193387,0.09383885860204699,ok
+octmnist,0,QSVM,18,held-out depolarizing,hardware (calibration day),0.1,0.12310592537657546,0.08340490222900408,ok
+octmnist,0,QSVM,18,held-out depolarizing,simulator,0.1,0.12733053771000993,0.0849032796156329,ok
+octmnist,0,QSVM,19,held-out depolarizing,hardware (calibration day),0.102920120518028,0.11782823452516596,0.10071617210912161,ok
+octmnist,0,QSVM,19,held-out depolarizing,simulator,0.1,0.12155043460701287,0.10155301894206857,ok
+octmnist,0,QSVM,20,held-out depolarizing,hardware (calibration day),0.1,0.12215997805851542,0.09911133649081705,ok
+octmnist,0,QSVM,20,held-out depolarizing,simulator,0.1,0.12638459039194985,0.1012317280827226,ok
+octmnist,0,QSVM,21,unseen: amplitude damping,hardware (calibration day),0.8086571121175644,-0.03608358627968707,0.14171870292666938,ok
+octmnist,0,QSVM,21,unseen: amplitude damping,simulator,0.7285472926138551,-0.019088333283770662,0.14379223630353916,ok
+octmnist,0,QSVM,22,unseen: amplitude damping,hardware (calibration day),0.768224129081981,-0.015318971838899895,0.15180589761281038,ok
+octmnist,0,QSVM,22,unseen: amplitude damping,simulator,0.692017493788654,0.0008045889874516073,0.1546924719431921,ok
+octmnist,0,QSVM,23,unseen: amplitude damping,hardware (calibration day),0.777005444122324,-0.04607267259545933,0.13575307582500445,ok
+octmnist,0,QSVM,23,unseen: amplitude damping,simulator,0.7003188448660331,-0.029680990574189072,0.13408502666029903,ok
+octmnist,0,QSVM,24,unseen: amplitude damping,hardware (calibration day),0.7792509515570906,-0.023575191959110398,0.12930665698738344,ok
+octmnist,0,QSVM,24,unseen: amplitude damping,simulator,0.7023028790982518,-0.007144679141419137,0.12808597771183303,ok
+octmnist,0,QSVM,25,unseen: amplitude damping,hardware (calibration day),0.4926423999745327,-0.05058567484381896,0.13521368465391287,ok
+octmnist,0,QSVM,25,unseen: amplitude damping,simulator,0.4434866919116202,-0.04030741379348207,0.13883528484325688,ok
+octmnist,0,QSVM,26,unseen: amplitude damping,hardware (calibration day),0.4854544196885937,-0.06181964163218795,0.15569514377760174,ok
+octmnist,0,QSVM,26,unseen: amplitude damping,simulator,0.43681921757953546,-0.05173350149215356,0.1600938799990715,ok
+octmnist,0,QSVM,27,unseen: amplitude damping,hardware (calibration day),0.49353173368729225,-0.04780975434687678,0.1563678537163244,ok
+octmnist,0,QSVM,27,unseen: amplitude damping,simulator,0.4438459893885243,-0.03760750810669838,0.16253242069771648,ok
+octmnist,0,QSVM,28,unseen: amplitude damping,hardware (calibration day),0.4863100403985452,-0.0683099296526843,0.14469400703155458,ok
+octmnist,0,QSVM,28,unseen: amplitude damping,simulator,0.43836277930990397,-0.05804021846124807,0.14371307503709832,ok
+octmnist,1,VQC,0,clean,hardware (calibration day),1.1246274239376097,0.04671258674072787,0.10776547329614289,ok
+octmnist,1,VQC,0,clean,simulator,1.0000000000000002,9.389190813724468e-17,9.910897427534897e-16,ok
+octmnist,1,VQC,1,held-out depolarizing,hardware (calibration day),0.9919992307929348,-0.0198562151252217,0.3129609916929596,ok
+octmnist,1,VQC,1,held-out depolarizing,simulator,0.8820850510271518,-0.061052515138909476,0.29727457487784115,ok
+octmnist,1,VQC,2,held-out depolarizing,hardware (calibration day),1.057556536386321,0.13805760559355504,0.30886092964280937,ok
+octmnist,1,VQC,2,held-out depolarizing,simulator,0.9403807311489573,0.0941398229676701,0.2905810077761172,ok
+octmnist,1,VQC,3,held-out depolarizing,hardware (calibration day),1.0686333709732805,0.34364108691951345,0.30928775484393395,ok
+octmnist,1,VQC,3,held-out depolarizing,simulator,0.9504168583274029,0.2993509202663424,0.2786706469928502,ok
+octmnist,1,VQC,4,held-out depolarizing,hardware (calibration day),0.9991441815586086,-0.11545254903538298,0.3214354826422454,ok
+octmnist,1,VQC,4,held-out depolarizing,simulator,0.8885003715804958,-0.15691644107503458,0.3024769060193532,ok
+octmnist,1,VQC,5,held-out depolarizing,hardware (calibration day),0.8245867208832326,-0.18945383255323778,0.33753892013776404,ok
+octmnist,1,VQC,5,held-out depolarizing,simulator,0.7331766779507846,-0.22371899315318236,0.3295361094777692,ok
+octmnist,1,VQC,6,held-out depolarizing,hardware (calibration day),0.8495149714024778,0.37193477441828565,0.28633127659225593,ok
+octmnist,1,VQC,6,held-out depolarizing,simulator,0.7552154660018645,0.3365745631106412,0.2828015213958464,ok
+octmnist,1,VQC,7,held-out depolarizing,hardware (calibration day),0.8402090975355677,0.17096715640072077,0.3377342875931028,ok
+octmnist,1,VQC,7,held-out depolarizing,simulator,0.7471630822932402,0.13609782538066606,0.32522325417353964,ok
+octmnist,1,VQC,8,held-out depolarizing,hardware (calibration day),0.8669535027809359,-0.16894956994821184,0.3328992744011614,ok
+octmnist,1,VQC,8,held-out depolarizing,simulator,0.7707957664791245,-0.2049992470249966,0.3262424971010474,ok
+octmnist,1,VQC,9,held-out depolarizing,hardware (calibration day),0.6346754840812363,-0.4257892815060463,0.3018383125563048,ok
+octmnist,1,VQC,9,held-out depolarizing,simulator,0.5641221495515872,-0.45225483948618117,0.30363304189948825,ok
+octmnist,1,VQC,10,held-out depolarizing,hardware (calibration day),0.5808818557569829,-0.03194916731535452,0.2709517111956051,ok
+octmnist,1,VQC,10,held-out depolarizing,simulator,0.5164348993732659,-0.05611219784653415,0.2679859866468877,ok
+octmnist,1,VQC,11,held-out depolarizing,hardware (calibration day),0.5586416059048138,-0.5356937865991188,0.2487100541160446,ok
+octmnist,1,VQC,11,held-out depolarizing,simulator,0.4963276042690387,-0.5590887581583238,0.25837960687619493,ok
+octmnist,1,VQC,12,held-out depolarizing,hardware (calibration day),0.6012886379230977,-0.10054173467855802,0.3214683711779281,ok
+octmnist,1,VQC,12,held-out depolarizing,simulator,0.5344325852766615,-0.1256217254977943,0.3234312360652356,ok
+octmnist,1,VQC,13,held-out depolarizing,hardware (calibration day),0.48348500238408054,-0.05869959447788775,0.3518080921684124,ok
+octmnist,1,VQC,13,held-out depolarizing,simulator,0.43009642317098196,-0.07869263060350941,0.3442238159081619,ok
+octmnist,1,VQC,14,held-out depolarizing,hardware (calibration day),0.4936671540838573,0.16147363280819965,0.3602515525472327,ok
+octmnist,1,VQC,14,held-out depolarizing,simulator,0.4391803239259489,0.1410718035741583,0.3519048973483633,ok
+octmnist,1,VQC,15,held-out depolarizing,hardware (calibration day),0.4655172163081665,-0.08807483914641283,0.3035830099554991,ok
+octmnist,1,VQC,15,held-out depolarizing,simulator,0.4139824026085672,-0.10738606116874098,0.29890131433502765,ok
+octmnist,1,VQC,16,held-out depolarizing,hardware (calibration day),0.49425546127105785,-0.2119996187589425,0.26737637465942066,ok
+octmnist,1,VQC,16,held-out depolarizing,simulator,0.43931741292327847,-0.23260713467557373,0.2684306776001446,ok
+octmnist,1,VQC,17,held-out depolarizing,hardware (calibration day),0.15784001857699473,0.31873430652950857,0.31348167714924446,ok
+octmnist,1,VQC,17,held-out depolarizing,simulator,0.1404655594498477,0.31223311505845397,0.3121084414336482,ok
+octmnist,1,VQC,18,held-out depolarizing,hardware (calibration day),0.16037747076920014,0.005946261411463839,0.36546792448633475,ok
+octmnist,1,VQC,18,held-out depolarizing,simulator,0.14237137580217893,-0.0008248705605761719,0.36689173611528686,ok
+octmnist,1,VQC,19,held-out depolarizing,hardware (calibration day),0.16777786399932532,0.1173042094938536,0.3008531214721527,ok
+octmnist,1,VQC,19,held-out depolarizing,simulator,0.1492608161420896,0.11037084266953688,0.29970165097027585,ok
+octmnist,1,VQC,20,held-out depolarizing,hardware (calibration day),0.1411517666265873,-0.7962120568656159,0.29976740779512756,ok
+octmnist,1,VQC,20,held-out depolarizing,simulator,0.1253453147927535,-0.8021521770434724,0.3007827460374113,ok
+octmnist,1,VQC,21,unseen: amplitude damping,hardware (calibration day),0.753648600977534,-0.5285752554245723,0.2901904102899395,ok
+octmnist,1,VQC,21,unseen: amplitude damping,simulator,0.6700017885826623,-0.5599398902995697,0.28695365284502866,ok
+octmnist,1,VQC,22,unseen: amplitude damping,hardware (calibration day),0.7367580222226865,-0.005186377879684363,0.28814392777864173,ok
+octmnist,1,VQC,22,unseen: amplitude damping,simulator,0.6549688077487039,-0.0358560929159763,0.28578190240475077,ok
+octmnist,1,VQC,23,unseen: amplitude damping,hardware (calibration day),0.7821411899825198,-0.3488011132421757,0.2861690631743331,ok
+octmnist,1,VQC,23,unseen: amplitude damping,simulator,0.6955874518525111,-0.3812315873333123,0.2702869406953114,ok
+octmnist,1,VQC,24,unseen: amplitude damping,hardware (calibration day),0.8057482568251425,0.20183988122603722,0.3392386769646038,ok
+octmnist,1,VQC,24,unseen: amplitude damping,simulator,0.7164916396894373,0.168388096334028,0.32892873018186114,ok
+octmnist,1,VQC,25,unseen: amplitude damping,hardware (calibration day),0.49765605617061365,0.576344911839765,0.32168505976936385,ok
+octmnist,1,VQC,25,unseen: amplitude damping,simulator,0.44235785838674146,0.5556039865468514,0.32210373460625646,ok
+octmnist,1,VQC,26,unseen: amplitude damping,hardware (calibration day),0.5370975582836243,-0.05204775225415912,0.3065910349993468,ok
+octmnist,1,VQC,26,unseen: amplitude damping,simulator,0.47760845185496914,-0.07434246915204239,0.3013211333769277,ok
+octmnist,1,VQC,27,unseen: amplitude damping,hardware (calibration day),0.506359826116739,-0.09742600775616068,0.33429064994800095,ok
+octmnist,1,VQC,27,unseen: amplitude damping,simulator,0.4501895286102337,-0.11848505784989578,0.3322431805273509,ok
+octmnist,1,VQC,28,unseen: amplitude damping,hardware (calibration day),0.4970690474995154,-0.5341682281353829,0.2997587963188468,ok
+octmnist,1,VQC,28,unseen: amplitude damping,simulator,0.4418844372374119,-0.5548619816215945,0.2988364202261359,ok
+octmnist,1,Re-uploading VQC,0,clean,hardware (calibration day),1.1288856713772213,-0.05249090503172085,0.10767221485125712,ok
+octmnist,1,Re-uploading VQC,0,clean,simulator,1.0000000000000002,2.3707887505016363e-17,9.333478651536386e-16,ok
+octmnist,1,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),0.9992905356387883,-0.007203939296372058,0.3266874922900918,ok
+octmnist,1,Re-uploading VQC,1,held-out depolarizing,simulator,0.8854739161232396,0.039333203093091525,0.296752947685187,ok
+octmnist,1,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.0457978086797473,0.02202576971188565,0.2685847427791571,ok
+octmnist,1,Re-uploading VQC,2,held-out depolarizing,simulator,0.9264527227952323,0.07066762571281894,0.24534094956412267,ok
+octmnist,1,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0455170869447958,0.30096336410981933,0.31866980008331375,ok
+octmnist,1,Re-uploading VQC,3,held-out depolarizing,simulator,0.9258979017010868,0.34951128153277927,0.3175569014489201,ok
+octmnist,1,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),0.9913469828469752,-0.12447676454888708,0.2754029895824022,ok
+octmnist,1,Re-uploading VQC,4,held-out depolarizing,simulator,0.8782152730293271,-0.0783676373505288,0.25520484524029524,ok
+octmnist,1,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.8110703337754279,-0.11321173512941596,0.30084614940840737,ok
+octmnist,1,Re-uploading VQC,5,held-out depolarizing,simulator,0.7182673152563458,-0.07555211549481014,0.3004801140163113,ok
+octmnist,1,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.8312836323873433,0.4707762428280636,0.32051388473290854,ok
+octmnist,1,Re-uploading VQC,6,held-out depolarizing,simulator,0.7364735975750042,0.5094551991136719,0.30590470843376305,ok
+octmnist,1,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.8275016097106653,0.25836762683151443,0.3096364885186083,ok
+octmnist,1,Re-uploading VQC,7,held-out depolarizing,simulator,0.7330198552908297,0.29684337752859524,0.299665933328163,ok
+octmnist,1,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.8436225303150112,-0.07356823232480854,0.3218345393486745,ok
+octmnist,1,Re-uploading VQC,8,held-out depolarizing,simulator,0.7471693197649255,-0.03437748060697366,0.3180186876448481,ok
+octmnist,1,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.5618900052302404,-0.12255933525860314,0.34442516496334175,ok
+octmnist,1,Re-uploading VQC,9,held-out depolarizing,simulator,0.4976756628580015,-0.09644921977341551,0.34204975063662435,ok
+octmnist,1,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.5605536385996959,0.34352671580169486,0.29614244798885075,ok
+octmnist,1,Re-uploading VQC,10,held-out depolarizing,simulator,0.4965546480878177,0.3695912790468945,0.29128252377626623,ok
+octmnist,1,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.517453752604195,-0.19626124916426266,0.32581384876738917,ok
+octmnist,1,Re-uploading VQC,11,held-out depolarizing,simulator,0.4583609488680655,-0.17220458976119582,0.32246947541392373,ok
+octmnist,1,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5527877058364378,0.19039871721184212,0.29393941693026865,ok
+octmnist,1,Re-uploading VQC,12,held-out depolarizing,simulator,0.48988635873161784,0.21615792742928633,0.28201065458379626,ok
+octmnist,1,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.4466689920946731,0.36254326131410713,0.3413693759800709,ok
+octmnist,1,Re-uploading VQC,13,held-out depolarizing,simulator,0.39561111442712565,0.3832962551395008,0.3401174259057653,ok
+octmnist,1,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.4531224337255426,0.5583631224936373,0.3299625548437298,ok
+octmnist,1,Re-uploading VQC,14,held-out depolarizing,simulator,0.40142710262088777,0.5794424343802288,0.32619556354628687,ok
+octmnist,1,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.432136260379895,0.3237156772857137,0.3059764804456977,ok
+octmnist,1,Re-uploading VQC,15,held-out depolarizing,simulator,0.38275711253227,0.34379808503048076,0.30423241161462367,ok
+octmnist,1,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.4466951721832637,0.0743721870050989,0.3225711192806295,ok
+octmnist,1,Re-uploading VQC,16,held-out depolarizing,simulator,0.3960255844998424,0.09522977517225423,0.3115493494396797,ok
+octmnist,1,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.11169104626149441,0.9333239290528815,0.29096602694080964,ok
+octmnist,1,Re-uploading VQC,17,held-out depolarizing,simulator,0.1,0.9387976033859718,0.2914543988179702,ok
+octmnist,1,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.1285502577610036,0.548121046836994,0.3626283499657401,ok
+octmnist,1,Re-uploading VQC,18,held-out depolarizing,simulator,0.11404880710224416,0.5541446686808607,0.36132797268559813,ok
+octmnist,1,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.12645190892811603,0.8070645446893208,0.29976463693394095,ok
+octmnist,1,Re-uploading VQC,19,held-out depolarizing,simulator,0.11210128080746205,0.8129671502260049,0.2988803769889768,ok
+octmnist,1,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.11807270893359707,-0.22630081976818986,0.30339385096450644,ok
+octmnist,1,Re-uploading VQC,20,held-out depolarizing,simulator,0.1043840616006586,-0.2208656849815743,0.30460277177672285,ok
+octmnist,1,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.7261172955634959,-0.2679981369449202,0.33600528865508067,ok
+octmnist,1,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.6430366145072532,-0.23428253542334768,0.3356677706896603,ok
+octmnist,1,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.698799529527002,0.25067964516147223,0.31191277368269904,ok
+octmnist,1,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.6191011974440227,0.28319463269232753,0.30130489643108627,ok
+octmnist,1,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7386042351516948,-0.11911168405020477,0.34177455214231167,ok
+octmnist,1,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.6542322361159867,-0.0847799760754042,0.33617590401760444,ok
+octmnist,1,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.7716273792266348,0.4591610271503075,0.29570675007749775,ok
+octmnist,1,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.6834214353631212,0.49501142307372553,0.29149488921390987,ok
+octmnist,1,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.4450350001678987,1.1842540096892291,0.33288283639967703,ok
+octmnist,1,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.39434053504567484,1.2049777527169885,0.3274220586304181,ok
+octmnist,1,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.4617856573793586,0.45317686377929833,0.31541792389592954,ok
+octmnist,1,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.4092048522553191,0.4746863727486798,0.3086318268306231,ok
+octmnist,1,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.4365033640745672,0.514871826707817,0.35025414948842487,ok
+octmnist,1,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.38642185337479695,0.535103459992703,0.3531371601739396,ok
+octmnist,1,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.4346025267205274,0.04753780255356021,0.32476096756833833,ok
+octmnist,1,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.38501393920095395,0.06775394515982099,0.3213867487823922,ok
+octmnist,1,QSVM,0,clean,hardware (calibration day),1.1019241518119156,-0.036654884150279975,0.04762483255557793,ok
+octmnist,1,QSVM,0,clean,simulator,0.9999999999999996,-7.806255641895632e-17,6.024595815786963e-16,ok
+octmnist,1,QSVM,1,held-out depolarizing,hardware (calibration day),1.055051803714236,-0.032159349009843914,0.12971410498434535,ok
+octmnist,1,QSVM,1,held-out depolarizing,simulator,0.9573287799441285,0.002916044552824326,0.12346202976360865,ok
+octmnist,1,QSVM,2,held-out depolarizing,hardware (calibration day),1.0490251964464548,-0.033069113973310915,0.15090874248665706,ok
+octmnist,1,QSVM,2,held-out depolarizing,simulator,0.9521440764343077,0.0018487912037041601,0.14200954196759835,ok
+octmnist,1,QSVM,3,held-out depolarizing,hardware (calibration day),1.0361545278447242,-0.0033741054507528934,0.1356438598415728,ok
+octmnist,1,QSVM,3,held-out depolarizing,simulator,0.9401732952729657,0.031071752971414277,0.13001376786529686,ok
+octmnist,1,QSVM,4,held-out depolarizing,hardware (calibration day),1.0218544258914755,-0.03890183577737474,0.12587514750743808,ok
+octmnist,1,QSVM,4,held-out depolarizing,simulator,0.926871762692173,-0.004980640745240641,0.12472377702161298,ok
+octmnist,1,QSVM,5,held-out depolarizing,hardware (calibration day),0.8602571985904731,0.05389735240828952,0.14557589875052085,ok
+octmnist,1,QSVM,5,held-out depolarizing,simulator,0.7809120251024683,0.08254741464934438,0.13831259737241194,ok
+octmnist,1,QSVM,6,held-out depolarizing,hardware (calibration day),0.8804862421124581,0.04338338362119801,0.1505652913673617,ok
+octmnist,1,QSVM,6,held-out depolarizing,simulator,0.7990015867682633,0.07266580269886404,0.14612842329676692,ok
+octmnist,1,QSVM,7,held-out depolarizing,hardware (calibration day),0.8629081963487455,0.047570391261605394,0.13403394014145428,ok
+octmnist,1,QSVM,7,held-out depolarizing,simulator,0.7833152073165747,0.0763082434481218,0.12609671591253177,ok
+octmnist,1,QSVM,8,held-out depolarizing,hardware (calibration day),0.8611368294268446,0.0680725649741226,0.14109599803934758,ok
+octmnist,1,QSVM,8,held-out depolarizing,simulator,0.7813532870312607,0.09669794293774792,0.13754614903393725,ok
+octmnist,1,QSVM,9,held-out depolarizing,hardware (calibration day),0.5337527691167303,0.1699505559540677,0.12094146904820784,ok
+octmnist,1,QSVM,9,held-out depolarizing,simulator,0.4842517572112317,0.1876857854058328,0.11974532090484859,ok
+octmnist,1,QSVM,10,held-out depolarizing,hardware (calibration day),0.5225526520694833,0.16267128931105532,0.13606207556469013,ok
+octmnist,1,QSVM,10,held-out depolarizing,simulator,0.47399576073563693,0.18002007419016455,0.13568321663480248,ok
+octmnist,1,QSVM,11,held-out depolarizing,hardware (calibration day),0.521827390752008,0.17182251712594984,0.11145441297546028,ok
+octmnist,1,QSVM,11,held-out depolarizing,simulator,0.4734986464125881,0.18917151367859855,0.10966234566166422,ok
+octmnist,1,QSVM,12,held-out depolarizing,hardware (calibration day),0.5485528313815027,0.17792917730350447,0.13166415651862196,ok
+octmnist,1,QSVM,12,held-out depolarizing,simulator,0.4978822231753603,0.196186846055065,0.12900223265198776,ok
+octmnist,1,QSVM,13,held-out depolarizing,hardware (calibration day),0.4146754910316259,0.20832102147045184,0.15084547793605718,ok
+octmnist,1,QSVM,13,held-out depolarizing,simulator,0.37654256177434803,0.22214868014628508,0.14869148760915346,ok
+octmnist,1,QSVM,14,held-out depolarizing,hardware (calibration day),0.4291777101554814,0.21039487952065616,0.1344623728756569,ok
+octmnist,1,QSVM,14,held-out depolarizing,simulator,0.3896550325714248,0.2246976414720809,0.1321870523151468,ok
+octmnist,1,QSVM,15,held-out depolarizing,hardware (calibration day),0.42520821864226294,0.20022844761348416,0.1270554228219528,ok
+octmnist,1,QSVM,15,held-out depolarizing,simulator,0.38570648863744644,0.21434685230408265,0.12673009482345526,ok
+octmnist,1,QSVM,16,held-out depolarizing,hardware (calibration day),0.4117729630189931,0.21478513770923838,0.12921560470292603,ok
+octmnist,1,QSVM,16,held-out depolarizing,simulator,0.37385251030835226,0.22850778408535685,0.1270393140097989,ok
+octmnist,1,QSVM,17,held-out depolarizing,hardware (calibration day),0.10648671510329252,0.2850369884347423,0.10910228420022808,ok
+octmnist,1,QSVM,17,held-out depolarizing,simulator,0.1,0.2890873585540381,0.10898177599583359,ok
+octmnist,1,QSVM,18,held-out depolarizing,hardware (calibration day),0.10378093110086806,0.2853448752467504,0.11103361127185955,ok
+octmnist,1,QSVM,18,held-out depolarizing,simulator,0.1,0.28967627371058086,0.11106883188954904,ok
+octmnist,1,QSVM,19,held-out depolarizing,hardware (calibration day),0.11950006723290575,0.29558629779248663,0.11131756847080793,ok
+octmnist,1,QSVM,19,held-out depolarizing,simulator,0.10791917214323501,0.29948168492298993,0.11218331701628967,ok
+octmnist,1,QSVM,20,held-out depolarizing,hardware (calibration day),0.11669140616181273,0.31252289906531844,0.10545398499576976,ok
+octmnist,1,QSVM,20,held-out depolarizing,simulator,0.10520894399714624,0.3163004759234773,0.1066566023451908,ok
+octmnist,1,QSVM,21,unseen: amplitude damping,hardware (calibration day),0.7961372429771483,0.015880956676922818,0.1185152181808547,ok
+octmnist,1,QSVM,21,unseen: amplitude damping,simulator,0.7222833144082139,0.042331675719108196,0.11600978618710577,ok
+octmnist,1,QSVM,22,unseen: amplitude damping,hardware (calibration day),0.7663782588498838,0.015169179641143176,0.1405085510406823,ok
+octmnist,1,QSVM,22,unseen: amplitude damping,simulator,0.6953882137615637,0.04064679778084477,0.1375540877640924,ok
+octmnist,1,QSVM,23,unseen: amplitude damping,hardware (calibration day),0.7842341255481453,0.019141292108048772,0.1359589676784746,ok
+octmnist,1,QSVM,23,unseen: amplitude damping,simulator,0.7120102641975741,0.04527600478609959,0.12833858462220815,ok
+octmnist,1,QSVM,24,unseen: amplitude damping,hardware (calibration day),0.7816738300907317,0.031207616179399638,0.1487686537414664,ok
+octmnist,1,QSVM,24,unseen: amplitude damping,simulator,0.7092732950822804,0.057194682175728324,0.14580843350593703,ok
+octmnist,1,QSVM,25,unseen: amplitude damping,hardware (calibration day),0.46785861224908004,0.05488100104459725,0.13939968463417063,ok
+octmnist,1,QSVM,25,unseen: amplitude damping,simulator,0.42469625792235444,0.07046111897311215,0.13725298597947672,ok
+octmnist,1,QSVM,26,unseen: amplitude damping,hardware (calibration day),0.4940041687103232,0.06631833232528027,0.13572106900628866,ok
+octmnist,1,QSVM,26,unseen: amplitude damping,simulator,0.4483551187261732,0.08275784366039173,0.13374298969318907,ok
+octmnist,1,QSVM,27,unseen: amplitude damping,hardware (calibration day),0.49964544041946923,0.06102628838172195,0.15375991186259272,ok
+octmnist,1,QSVM,27,unseen: amplitude damping,simulator,0.45386815456608587,0.07771292185851415,0.14969618124397532,ok
+octmnist,1,QSVM,28,unseen: amplitude damping,hardware (calibration day),0.4884167926743531,0.06677587101366077,0.13746571000487603,ok
+octmnist,1,QSVM,28,unseen: amplitude damping,simulator,0.4429634515246922,0.08298100165770322,0.13756394671636638,ok
+octmnist,2,VQC,0,clean,hardware (calibration day),1.108897556893391,0.030482574249273517,0.08380332052891364,ok
+octmnist,2,VQC,0,clean,simulator,0.9999999999999997,-7.13224329133381e-17,1.5544524423553888e-15,ok
+octmnist,2,VQC,1,held-out depolarizing,hardware (calibration day),0.9904778522899976,-0.03639255953763045,0.31540901789609777,ok
+octmnist,2,VQC,1,held-out depolarizing,simulator,0.8934067532564129,-0.06357712263500477,0.29572801684244354,ok
+octmnist,2,VQC,2,held-out depolarizing,hardware (calibration day),1.0330162471421294,0.11815785013177371,0.31004576263741407,ok
+octmnist,2,VQC,2,held-out depolarizing,simulator,0.931611287320442,0.08977002722691547,0.2977381207697306,ok
+octmnist,2,VQC,3,held-out depolarizing,hardware (calibration day),1.0492775749943501,0.33886298846160884,0.2967771067779235,ok
+octmnist,2,VQC,3,held-out depolarizing,simulator,0.9464053713234046,0.31005627119062557,0.2755110212470022,ok
+octmnist,2,VQC,4,held-out depolarizing,hardware (calibration day),0.9952365214070952,-0.10713909351715821,0.3072314764674839,ok
+octmnist,2,VQC,4,held-out depolarizing,simulator,0.8975298318359546,-0.13449095109896847,0.2962874378166566,ok
+octmnist,2,VQC,5,held-out depolarizing,hardware (calibration day),0.8270922486245761,-0.24024207626460328,0.32738458900371226,ok
+octmnist,2,VQC,5,held-out depolarizing,simulator,0.7457017921649217,-0.26301432147579035,0.3283583369934966,ok
+octmnist,2,VQC,6,held-out depolarizing,hardware (calibration day),0.863606257836445,0.3818880777067746,0.30413998847610857,ok
+octmnist,2,VQC,6,held-out depolarizing,simulator,0.7787087823421616,0.3581291766676203,0.3012488457874042,ok
+octmnist,2,VQC,7,held-out depolarizing,hardware (calibration day),0.8469390520174543,0.148676100543717,0.30242597392122844,ok
+octmnist,2,VQC,7,held-out depolarizing,simulator,0.7636827287069603,0.12537631425069654,0.2995058713452358,ok
+octmnist,2,VQC,8,held-out depolarizing,hardware (calibration day),0.8752877006925569,-0.16141132303603886,0.3148461033775687,ok
+octmnist,2,VQC,8,held-out depolarizing,simulator,0.7892178404343929,-0.18549680560729395,0.31308421789800245,ok
+octmnist,2,VQC,9,held-out depolarizing,hardware (calibration day),0.6701001781507899,-0.3656845757333376,0.3040052186771066,ok
+octmnist,2,VQC,9,held-out depolarizing,simulator,0.6042386400608484,-0.38411702343546406,0.30178656720343816,ok
+octmnist,2,VQC,10,held-out depolarizing,hardware (calibration day),0.6166113717505454,0.05592376362578023,0.3186900931535745,ok
+octmnist,2,VQC,10,held-out depolarizing,simulator,0.5560636140803391,0.03897489840089834,0.3150845693933344,ok
+octmnist,2,VQC,11,held-out depolarizing,hardware (calibration day),0.6246988987329815,-0.5185971011465068,0.324164969973947,ok
+octmnist,2,VQC,11,held-out depolarizing,simulator,0.5630188858918485,-0.5358415734261096,0.33118105090729,ok
+octmnist,2,VQC,12,held-out depolarizing,hardware (calibration day),0.6222502613893874,-0.11685422102868886,0.3374460664578797,ok
+octmnist,2,VQC,12,held-out depolarizing,simulator,0.5610789196162181,-0.13397323298257763,0.33611380719612494,ok
+octmnist,2,VQC,13,held-out depolarizing,hardware (calibration day),0.5459517803469558,-0.023157048838597455,0.26271880215670385,ok
+octmnist,2,VQC,13,held-out depolarizing,simulator,0.49253418420562795,-0.038122104621092646,0.25255884850717597,ok
+octmnist,2,VQC,14,held-out depolarizing,hardware (calibration day),0.5611894603807427,0.1466198139998012,0.31954625641731266,ok
+octmnist,2,VQC,14,held-out depolarizing,simulator,0.5060556296231229,0.13118822471152192,0.3173913567536629,ok
+octmnist,2,VQC,15,held-out depolarizing,hardware (calibration day),0.5298023842779033,-0.08366662823646777,0.2951217504844094,ok
+octmnist,2,VQC,15,held-out depolarizing,simulator,0.47773178332793864,-0.09823955434789837,0.2936470494179645,ok
+octmnist,2,VQC,16,held-out depolarizing,hardware (calibration day),0.5580431283285943,-0.2851352681764611,0.32899489971755586,ok
+octmnist,2,VQC,16,held-out depolarizing,simulator,0.503259357581476,-0.30047146131725083,0.3257744890081056,ok
+octmnist,2,VQC,17,held-out depolarizing,hardware (calibration day),0.2031251179806837,0.35772500505031735,0.2939057039082243,ok
+octmnist,2,VQC,17,held-out depolarizing,simulator,0.18315364117695718,0.35213610252830924,0.29377624272362635,ok
+octmnist,2,VQC,18,held-out depolarizing,hardware (calibration day),0.20729920071066835,0.1161236304839599,0.322317542371899,ok
+octmnist,2,VQC,18,held-out depolarizing,simulator,0.18685878819496374,0.1104071888143282,0.32281304056388677,ok
+octmnist,2,VQC,19,held-out depolarizing,hardware (calibration day),0.20525663896453641,0.18644118046675384,0.34550318218111364,ok
+octmnist,2,VQC,19,held-out depolarizing,simulator,0.1850829001052858,0.18079521520247657,0.3453193005429599,ok
+octmnist,2,VQC,20,held-out depolarizing,hardware (calibration day),0.1944125088109672,-0.7240243946199331,0.3020423880968075,ok
+octmnist,2,VQC,20,held-out depolarizing,simulator,0.17527699952030162,-0.7293780538038018,0.30214565402678323,ok
+octmnist,2,VQC,21,unseen: amplitude damping,hardware (calibration day),0.7801432885830583,-0.5660866674127075,0.29272169637138135,ok
+octmnist,2,VQC,21,unseen: amplitude damping,simulator,0.7033185615089848,-0.5875780462725707,0.29605222925562297,ok
+octmnist,2,VQC,22,unseen: amplitude damping,hardware (calibration day),0.7536606833516507,-0.13162678883841558,0.30894135870895856,ok
+octmnist,2,VQC,22,unseen: amplitude damping,simulator,0.6794811248386464,-0.15238054036327955,0.3104044538026356,ok
+octmnist,2,VQC,23,unseen: amplitude damping,hardware (calibration day),0.7916567592195072,-0.4861239929603358,0.22986583263173466,ok
+octmnist,2,VQC,23,unseen: amplitude damping,simulator,0.713716022970181,-0.5079286895828637,0.23322688228288277,ok
+octmnist,2,VQC,24,unseen: amplitude damping,hardware (calibration day),0.8187039340849523,0.13327417849811155,0.3288631146869673,ok
+octmnist,2,VQC,24,unseen: amplitude damping,simulator,0.7382459451047442,0.11075608879119773,0.32541684354909756,ok
+octmnist,2,VQC,25,unseen: amplitude damping,hardware (calibration day),0.5362823762744935,0.42415758931382613,0.30124046305045105,ok
+octmnist,2,VQC,25,unseen: amplitude damping,simulator,0.4837187584676064,0.4094376117065653,0.29549817358330316,ok
+octmnist,2,VQC,26,unseen: amplitude damping,hardware (calibration day),0.5857302868510951,-0.30876003087104337,0.3119845624217827,ok
+octmnist,2,VQC,26,unseen: amplitude damping,simulator,0.5284190221839482,-0.3248158039059235,0.30222452343066586,ok
+octmnist,2,VQC,27,unseen: amplitude damping,hardware (calibration day),0.5446035489646687,-0.30344585062431945,0.30738582633744577,ok
+octmnist,2,VQC,27,unseen: amplitude damping,simulator,0.49113908573223275,-0.3184127116689491,0.3041036950467933,ok
+octmnist,2,VQC,28,unseen: amplitude damping,hardware (calibration day),0.5444047948978743,-0.6561138148943403,0.2661626902802985,ok
+octmnist,2,VQC,28,unseen: amplitude damping,simulator,0.49079000898917324,-0.6711120354089601,0.26809881931278656,ok
+octmnist,2,Re-uploading VQC,0,clean,hardware (calibration day),1.1445893026531448,-0.10527853658607073,0.11441626471911338,ok
+octmnist,2,Re-uploading VQC,0,clean,simulator,1.0,0.0,0.0,ok
+octmnist,2,Re-uploading VQC,1,held-out depolarizing,hardware (calibration day),1.0036963036150046,-0.020386017361688626,0.2977589159764244,ok
+octmnist,2,Re-uploading VQC,1,held-out depolarizing,simulator,0.8769610769243086,0.07194586814166005,0.2771394908420365,ok
+octmnist,2,Re-uploading VQC,2,held-out depolarizing,hardware (calibration day),1.0729498868153975,0.0657976917016022,0.28782657031768605,ok
+octmnist,2,Re-uploading VQC,2,held-out depolarizing,simulator,0.9374492006183404,0.1644956312480048,0.26459953716912055,ok
+octmnist,2,Re-uploading VQC,3,held-out depolarizing,hardware (calibration day),1.0743897747666142,0.26142675182064684,0.3539319742373818,ok
+octmnist,2,Re-uploading VQC,3,held-out depolarizing,simulator,0.9388870094693844,0.3602976414616032,0.32595489916072157,ok
+octmnist,2,Re-uploading VQC,4,held-out depolarizing,hardware (calibration day),1.0077861467637497,-0.10683634233598072,0.33646222735819675,ok
+octmnist,2,Re-uploading VQC,4,held-out depolarizing,simulator,0.8804403152789664,-0.014149443830746698,0.3229254617038061,ok
+octmnist,2,Re-uploading VQC,5,held-out depolarizing,hardware (calibration day),0.8035315332198112,-0.10610277814570696,0.3219106935926665,ok
+octmnist,2,Re-uploading VQC,5,held-out depolarizing,simulator,0.7017044538635167,-0.03226695808729262,0.32466656501240493,ok
+octmnist,2,Re-uploading VQC,6,held-out depolarizing,hardware (calibration day),0.8226074655339158,0.5098576801377813,0.3194573377869323,ok
+octmnist,2,Re-uploading VQC,6,held-out depolarizing,simulator,0.7187872540350082,0.5855419514802959,0.304631989217137,ok
+octmnist,2,Re-uploading VQC,7,held-out depolarizing,hardware (calibration day),0.8127230210279125,0.3068917771060178,0.31998155407905937,ok
+octmnist,2,Re-uploading VQC,7,held-out depolarizing,simulator,0.7098549138791703,0.38160007656180367,0.3178159535695118,ok
+octmnist,2,Re-uploading VQC,8,held-out depolarizing,hardware (calibration day),0.8622279088008894,-0.03156332634663688,0.2955851958611592,ok
+octmnist,2,Re-uploading VQC,8,held-out depolarizing,simulator,0.7534884697287834,0.04778453426447526,0.2738129177382474,ok
+octmnist,2,Re-uploading VQC,9,held-out depolarizing,hardware (calibration day),0.5409890353383424,-0.043740831010154795,0.29757614625366713,ok
+octmnist,2,Re-uploading VQC,9,held-out depolarizing,simulator,0.4724229036341976,0.005968021959641725,0.2992068260187333,ok
+octmnist,2,Re-uploading VQC,10,held-out depolarizing,hardware (calibration day),0.5195173189149278,0.4488319028635246,0.34439625445213995,ok
+octmnist,2,Re-uploading VQC,10,held-out depolarizing,simulator,0.4539481467631399,0.4966299112343182,0.3390345966717229,ok
+octmnist,2,Re-uploading VQC,11,held-out depolarizing,hardware (calibration day),0.48551727442680936,-0.1125659934685022,0.3039142975552003,ok
+octmnist,2,Re-uploading VQC,11,held-out depolarizing,simulator,0.4244326139182972,-0.06785259695907797,0.293549877558079,ok
+octmnist,2,Re-uploading VQC,12,held-out depolarizing,hardware (calibration day),0.5203618352070097,0.353224358458412,0.3395280915342148,ok
+octmnist,2,Re-uploading VQC,12,held-out depolarizing,simulator,0.4550248194043312,0.401176381923568,0.325550256241466,ok
+octmnist,2,Re-uploading VQC,13,held-out depolarizing,hardware (calibration day),0.4058681040903252,0.562718388117119,0.33942714747206537,ok
+octmnist,2,Re-uploading VQC,13,held-out depolarizing,simulator,0.3546237279440627,0.6000558449486362,0.3364832051234575,ok
+octmnist,2,Re-uploading VQC,14,held-out depolarizing,hardware (calibration day),0.4294529662452946,0.7355088270608819,0.2950863041215858,ok
+octmnist,2,Re-uploading VQC,14,held-out depolarizing,simulator,0.3753825405871769,0.7750501377181709,0.2876991703892056,ok
+octmnist,2,Re-uploading VQC,15,held-out depolarizing,hardware (calibration day),0.40741894106853,0.5239574157168346,0.3592685508347059,ok
+octmnist,2,Re-uploading VQC,15,held-out depolarizing,simulator,0.35577313423636253,0.5613912153138672,0.36019155938185027,ok
+octmnist,2,Re-uploading VQC,16,held-out depolarizing,hardware (calibration day),0.4334635270352605,0.26562067562547825,0.3153400273971888,ok
+octmnist,2,Re-uploading VQC,16,held-out depolarizing,simulator,0.3788472717028285,0.30552204379063713,0.3092221686938542,ok
+octmnist,2,Re-uploading VQC,17,held-out depolarizing,hardware (calibration day),0.11296523393968563,1.2612329364923773,0.3347052046588883,ok
+octmnist,2,Re-uploading VQC,17,held-out depolarizing,simulator,0.1,1.2719174058323368,0.3339138545380979,ok
+octmnist,2,Re-uploading VQC,18,held-out depolarizing,hardware (calibration day),0.1,0.9876235096502991,0.30376786872253975,ok
+octmnist,2,Re-uploading VQC,18,held-out depolarizing,simulator,0.1,0.9996673978443568,0.31009830754576184,ok
+octmnist,2,Re-uploading VQC,19,held-out depolarizing,hardware (calibration day),0.1,1.1125660488612124,0.3271145129355272,ok
+octmnist,2,Re-uploading VQC,19,held-out depolarizing,simulator,0.1,1.1246099370552702,0.33379788639789704,ok
+octmnist,2,Re-uploading VQC,20,held-out depolarizing,hardware (calibration day),0.1,0.10356364958822523,0.31485452093822125,ok
+octmnist,2,Re-uploading VQC,20,held-out depolarizing,simulator,0.1,0.11560753778228301,0.321967822361905,ok
+octmnist,2,Re-uploading VQC,21,unseen: amplitude damping,hardware (calibration day),0.720840304282135,-0.32702482675116235,0.31613862640016294,ok
+octmnist,2,Re-uploading VQC,21,unseen: amplitude damping,simulator,0.6298799765069384,-0.26070007574092774,0.30409165313655284,ok
+octmnist,2,Re-uploading VQC,22,unseen: amplitude damping,hardware (calibration day),0.6904576001902588,0.14203360342556395,0.3122802761197315,ok
+octmnist,2,Re-uploading VQC,22,unseen: amplitude damping,simulator,0.6030500670433793,0.20549950451126053,0.31120436901961784,ok
+octmnist,2,Re-uploading VQC,23,unseen: amplitude damping,hardware (calibration day),0.7252992966888046,-0.1433369120337649,0.32129553616953843,ok
+octmnist,2,Re-uploading VQC,23,unseen: amplitude damping,simulator,0.6334915712790862,-0.07666603514909527,0.3197607739194492,ok
+octmnist,2,Re-uploading VQC,24,unseen: amplitude damping,hardware (calibration day),0.752284539877806,0.41582014296880826,0.3100067883680421,ok
+octmnist,2,Re-uploading VQC,24,unseen: amplitude damping,simulator,0.65721958561088,0.48500727138842664,0.3020690072395144,ok
+octmnist,2,Re-uploading VQC,25,unseen: amplitude damping,hardware (calibration day),0.4244068519489357,1.1048612639388915,0.3267308280679009,ok
+octmnist,2,Re-uploading VQC,25,unseen: amplitude damping,simulator,0.3714374480930503,1.1440428753983085,0.3102308018473323,ok
+octmnist,2,Re-uploading VQC,26,unseen: amplitude damping,hardware (calibration day),0.4441375797933818,0.3458773047255355,0.3366253166252017,ok
+octmnist,2,Re-uploading VQC,26,unseen: amplitude damping,simulator,0.38799912133246495,0.3867213067771962,0.3343868676787044,ok
+octmnist,2,Re-uploading VQC,27,unseen: amplitude damping,hardware (calibration day),0.4074345549938727,0.42052125361039944,0.3485962259298074,ok
+octmnist,2,Re-uploading VQC,27,unseen: amplitude damping,simulator,0.3559495688749014,0.45799316502440446,0.34651152275022756,ok
+octmnist,2,Re-uploading VQC,28,unseen: amplitude damping,hardware (calibration day),0.4041020709985052,-0.05228729803936433,0.34305407871388366,ok
+octmnist,2,Re-uploading VQC,28,unseen: amplitude damping,simulator,0.35320037313407476,-0.015085338279893043,0.33789299430315123,ok
+octmnist,2,QSVM,0,clean,hardware (calibration day),1.1048580984839287,-0.03754998419227029,0.0475908084586405,ok
+octmnist,2,QSVM,0,clean,simulator,0.9999999999999999,-1.431146867680866e-17,2.3790390127250937e-16,ok
+octmnist,2,QSVM,1,held-out depolarizing,hardware (calibration day),1.0458767315885227,-0.02374728871873003,0.1319288448286034,ok
+octmnist,2,QSVM,1,held-out depolarizing,simulator,0.9466224824629421,0.011799290656553621,0.12389464593827702,ok
+octmnist,2,QSVM,2,held-out depolarizing,hardware (calibration day),1.0699570761294335,-0.007000347762118427,0.15424558874156394,ok
+octmnist,2,QSVM,2,held-out depolarizing,simulator,0.9685881685436097,0.029396624387113695,0.1445924849774854,ok
+octmnist,2,QSVM,3,held-out depolarizing,hardware (calibration day),1.0509543946810838,-0.01999008267308301,0.11326954768252147,ok
+octmnist,2,QSVM,3,held-out depolarizing,simulator,0.9506413002245361,0.015620951148217188,0.1148526377557293,ok
+octmnist,2,QSVM,4,held-out depolarizing,hardware (calibration day),1.0513977867631383,-0.009066938660730548,0.16350013354059822,ok
+octmnist,2,QSVM,4,held-out depolarizing,simulator,0.9518405619841667,0.026708696479032984,0.1540170899867726,ok
+octmnist,2,QSVM,5,held-out depolarizing,hardware (calibration day),0.8864699965771696,0.05382294675118723,0.1352988605744719,ok
+octmnist,2,QSVM,5,held-out depolarizing,simulator,0.8022889337827566,0.08394148242975386,0.13047508062976992,ok
+octmnist,2,QSVM,6,held-out depolarizing,hardware (calibration day),0.8621350772221095,0.04517741805842441,0.1434042582719279,ok
+octmnist,2,QSVM,6,held-out depolarizing,simulator,0.7797066869094755,0.0743645468684724,0.14589623021844486,ok
+octmnist,2,QSVM,7,held-out depolarizing,hardware (calibration day),0.8682556210467636,0.04377674319593025,0.16051215665857066,ok
+octmnist,2,QSVM,7,held-out depolarizing,simulator,0.7852427840479757,0.07317121772728223,0.1627660496218718,ok
+octmnist,2,QSVM,8,held-out depolarizing,hardware (calibration day),0.8697561634069233,0.06520975215672518,0.15755921091124117,ok
+octmnist,2,QSVM,8,held-out depolarizing,simulator,0.7868944909638601,0.09471023916084682,0.15660999851173552,ok
+octmnist,2,QSVM,9,held-out depolarizing,hardware (calibration day),0.5401026908807067,0.17763888267268266,0.12804904539457035,ok
+octmnist,2,QSVM,9,held-out depolarizing,simulator,0.48864965018842754,0.19595862306334424,0.12757758525763022,ok
+octmnist,2,QSVM,10,held-out depolarizing,hardware (calibration day),0.5426991933455065,0.18667275006720918,0.13409989207368403,ok
+octmnist,2,QSVM,10,held-out depolarizing,simulator,0.49110387083901336,0.20510025171644639,0.13278542964149323,ok
+octmnist,2,QSVM,11,held-out depolarizing,hardware (calibration day),0.5356791973889766,0.1776095793778385,0.1285501141933059,ok
+octmnist,2,QSVM,11,held-out depolarizing,simulator,0.48468447742963683,0.19578619707192668,0.12777764827987143,ok
+octmnist,2,QSVM,12,held-out depolarizing,hardware (calibration day),0.547453312734417,0.16595742100217348,0.13645843359295962,ok
+octmnist,2,QSVM,12,held-out depolarizing,simulator,0.4948883687022641,0.18444934694760184,0.1392915165335503,ok
+octmnist,2,QSVM,13,held-out depolarizing,hardware (calibration day),0.4127091957544131,0.2232838603170114,0.11448483215964925,ok
+octmnist,2,QSVM,13,held-out depolarizing,simulator,0.3731557718335878,0.23723821086026275,0.11588157077474945,ok
+octmnist,2,QSVM,14,held-out depolarizing,hardware (calibration day),0.4127144418475006,0.19716542463943454,0.1353951623061442,ok
+octmnist,2,QSVM,14,held-out depolarizing,simulator,0.3731361908753704,0.21111539430909554,0.13672573581915895,ok
+octmnist,2,QSVM,15,held-out depolarizing,hardware (calibration day),0.4308665057971123,0.21327488522670324,0.1319065232286959,ok
+octmnist,2,QSVM,15,held-out depolarizing,simulator,0.39038158488098673,0.2279947044077518,0.12786542199970627,ok
+octmnist,2,QSVM,16,held-out depolarizing,hardware (calibration day),0.42415820005965826,0.23070768459548097,0.1296223900300464,ok
+octmnist,2,QSVM,16,held-out depolarizing,simulator,0.3838885900855897,0.2451205546149434,0.1284231843022672,ok
+octmnist,2,QSVM,17,held-out depolarizing,hardware (calibration day),0.1,0.2979448435191628,0.1127477473976685,ok
+octmnist,2,QSVM,17,held-out depolarizing,simulator,0.1,0.3031219689162967,0.1149945659788837,ok
+octmnist,2,QSVM,18,held-out depolarizing,hardware (calibration day),0.11274639122543023,0.3279850982532106,0.10671437838314962,ok
+octmnist,2,QSVM,18,held-out depolarizing,simulator,0.10178096735901274,0.33176725243704636,0.10716500266006389,ok
+octmnist,2,QSVM,19,held-out depolarizing,hardware (calibration day),0.1,0.31436219665648363,0.10428318676697582,ok
+octmnist,2,QSVM,19,held-out depolarizing,simulator,0.1,0.3195393220536175,0.10709255450590209,ok
+octmnist,2,QSVM,20,held-out depolarizing,hardware (calibration day),0.1303811014223719,0.32170788951735685,0.0874609182440873,ok
+octmnist,2,QSVM,20,held-out depolarizing,simulator,0.11807782428632962,0.32615230747167884,0.0870677842953084,ok
+octmnist,2,QSVM,21,unseen: amplitude damping,hardware (calibration day),0.7716399530072862,0.028787449475600146,0.1422925142472087,ok
+octmnist,2,QSVM,21,unseen: amplitude damping,simulator,0.6976988335789296,0.05488000610738588,0.146067649317466,ok
+octmnist,2,QSVM,22,unseen: amplitude damping,hardware (calibration day),0.7772074840471906,0.02798233638016237,0.13901158271944922,ok
+octmnist,2,QSVM,22,unseen: amplitude damping,simulator,0.7031854857158752,0.05434797475668065,0.13789722347740782,ok
+octmnist,2,QSVM,23,unseen: amplitude damping,hardware (calibration day),0.7801706920216247,0.030039465165279732,0.16638052335057965,ok
+octmnist,2,QSVM,23,unseen: amplitude damping,simulator,0.706632866025549,0.056649244109193274,0.15801238068073514,ok
+octmnist,2,QSVM,24,unseen: amplitude damping,hardware (calibration day),0.7587966795848693,0.019247529017000258,0.14751369929655792,ok
+octmnist,2,QSVM,24,unseen: amplitude damping,simulator,0.6869063558524489,0.04505948256169718,0.14252291852931137,ok
+octmnist,2,QSVM,25,unseen: amplitude damping,hardware (calibration day),0.48359853034392203,0.052153639788647704,0.1419331861482908,ok
+octmnist,2,QSVM,25,unseen: amplitude damping,simulator,0.4376344309718155,0.06857669022630301,0.14086277281886142,ok
+octmnist,2,QSVM,26,unseen: amplitude damping,hardware (calibration day),0.48807048751980986,0.08603636621155332,0.17145071415704782,ok
+octmnist,2,QSVM,26,unseen: amplitude damping,simulator,0.4417102406625935,0.10261669934010349,0.17038292010221373,ok
+octmnist,2,QSVM,27,unseen: amplitude damping,hardware (calibration day),0.478050550168762,0.06740852482641799,0.15273971404541353,ok
+octmnist,2,QSVM,27,unseen: amplitude damping,simulator,0.4331851434968831,0.08375023911892059,0.14810533680482976,ok
+octmnist,2,QSVM,28,unseen: amplitude damping,hardware (calibration day),0.4785566676425219,0.03715913688761167,0.12871899442703788,ok
+octmnist,2,QSVM,28,unseen: amplitude damping,simulator,0.43292426888886826,0.05338332287678077,0.12866928936062927,ok

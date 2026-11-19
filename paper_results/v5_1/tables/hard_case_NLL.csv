@@ -1,0 +1,4 @@
+dataset,Fixed Platt,Moment matching,EM only,Physics-informed + EM,SDQC (probe only),SDQC-sim (probe + EM),SDQC (probe + EM),Oracle (noise + true prior)
+breastmnist,0.555,0.683,0.688,0.586,0.523,0.42,0.423,0.399
+octmnist,0.256,0.582,0.25,0.228,0.238,0.19,0.189,0.181
+pneumoniamnist,0.271,0.588,0.21,0.197,0.201,0.154,0.153,0.151

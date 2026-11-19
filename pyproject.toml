@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sdqc"
+version = "0.1.0"
+description = "Shift-Disentangled Quantum Calibration for noisy hybrid quantum-classical medical image classifiers"
+authors = [{ name = "Taye Akinrele" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "torch>=2.1", "torchvision>=0.16", "pennylane>=0.38", "medmnist>=3.0", "numpy>=1.24",
+  "scipy>=1.10", "scikit-learn>=1.3", "pandas>=2.0", "matplotlib>=3.7", "tabulate>=0.9",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
