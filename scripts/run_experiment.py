@@ -30,8 +30,28 @@ import pandas as pd  # noqa: E402
 from sdqc.config import make_config  # noqa: E402
 
 
+def fingerprint(cfg, legacy=False):
+    """Hash of every setting that affects a (dataset, seed) unit. Units are only reused when it matches."""
+    import hashlib
+    keep = {k: v for k, v in cfg.items() if k not in ("DATASETS", "SEEDS", "N_BOOT")}
+    keep["legacy_report_stream"] = bool(legacy)
+    return hashlib.sha1(json.dumps(keep, sort_keys=True, default=str).encode()).hexdigest()[:12]
+
+
+def _save(raw_dir, tag, rows, sanity, probes, fp):
+    pd.DataFrame(rows).to_csv(raw_dir / f"{tag}_metrics.csv", index=False)
+    pd.DataFrame(sanity).to_csv(raw_dir / f"{tag}_sanity.csv", index=False)
+    pd.DataFrame(probes).to_csv(raw_dir / f"{tag}_probes.csv", index=False)
+    (raw_dir / f"{tag}_fingerprint.txt").write_text(fp)      # written last: marks the unit complete
+
+
+def _is_done(raw_dir, tag, fp):
+    f = raw_dir / f"{tag}_fingerprint.txt"
+    return (raw_dir / f"{tag}_metrics.csv").exists() and f.exists() and f.read_text().strip() == fp
+
+
 def _unit(args):
-    flag, seed, cfg, cache_dir, sim_device, raw_dir, threads = args
+    flag, seed, cfg, cache_dir, sim_device, raw_dir, threads, fp = args
     import torch
     torch.set_num_threads(threads)
     from sdqc.circuits import Simulator
@@ -41,13 +61,11 @@ def _unit(args):
     D = build_dataset(flag, cfg, cache_dir, device="cpu", verbose=False)   # features already cached
     rows, sanity, probes = run_dataset_seed(flag, seed, D, Simulator(sim_device), cfg, build_conditions(cfg))
     tag = f"{flag}_seed{seed}"
-    pd.DataFrame(rows).to_csv(raw_dir / f"{tag}_metrics.csv", index=False)
-    pd.DataFrame(sanity).to_csv(raw_dir / f"{tag}_sanity.csv", index=False)
-    pd.DataFrame(probes).to_csv(raw_dir / f"{tag}_probes.csv", index=False)
+    _save(raw_dir, tag, rows, sanity, probes, fp)
     return tag
 
 
-def _legacy_run(cfg, a, raw, units):
+def _legacy_run(cfg, a, raw, units, fp):
     """Notebook-identical order: one process, one shared condition RNG across all units."""
     from sdqc.circuits import Simulator
     from sdqc.data import build_dataset
@@ -62,9 +80,7 @@ def _legacy_run(cfg, a, raw, units):
         for seed in cfg["SEEDS"]:
             rows, sanity, probes = run_dataset_seed(flag, seed, D, sim, cfg, conds, legacy_report_stream=True)
             tag = f"{flag}_seed{seed}"
-            pd.DataFrame(rows).to_csv(raw / f"{tag}_metrics.csv", index=False)
-            pd.DataFrame(sanity).to_csv(raw / f"{tag}_sanity.csv", index=False)
-            pd.DataFrame(probes).to_csv(raw / f"{tag}_probes.csv", index=False)
+            _save(raw, tag, rows, sanity, probes, fp)
             print(f"  saved {tag}", flush=True)
 
 
@@ -110,12 +126,15 @@ def main():
     units = [(f, s) for f in cfg["DATASETS"] for s in cfg["SEEDS"]]
     if a.legacy_report_stream:
         a.jobs, a.overwrite = 1, True
-    todo = [u for u in units if a.overwrite or not (raw / f"{u[0]}_seed{u[1]}_metrics.csv").exists()]
-    print(f"{len(units)} units, {len(units) - len(todo)} already done, running {len(todo)}")
+    fp = fingerprint(cfg, a.legacy_report_stream)
+    todo = [u for u in units if a.overwrite or not _is_done(raw, f"{u[0]}_seed{u[1]}", fp)]
+    stale = [u for u in todo if (raw / f"{u[0]}_seed{u[1]}_metrics.csv").exists()]
+    print(f"{len(units)} units, {len(units) - len(todo)} already done with these settings, running {len(todo)}"
+          + (f" ({len(stale)} existing unit(s) were made with different settings and will be recomputed)" if stale and not a.overwrite else ""))
     threads = max(1, (os.cpu_count() or 1) // max(1, a.jobs))
-    args = [(f, s, cfg, a.cache, a.sim_device, raw, threads) for f, s in todo]
+    args = [(f, s, cfg, a.cache, a.sim_device, raw, threads, fp) for f, s in todo]
     if a.legacy_report_stream:
-        _legacy_run(cfg, a, raw, units)
+        _legacy_run(cfg, a, raw, units, fp)
     elif a.jobs > 1 and len(args) > 1:
         with mp.get_context("spawn").Pool(a.jobs) as pool:
             for tag in pool.imap_unordered(_unit, args):
@@ -132,7 +151,7 @@ def main():
     merge("sanity").to_csv(out / "sanity.csv", index=False)
     merge("probes").to_csv(out / "probe_diagnostics.csv", index=False)
     with open(out / "config.json", "w") as f:
-        json.dump(dict(CFG=cfg, feature_device=fdev, sim_device=a.sim_device), f, indent=2, default=str)
+        json.dump(dict(CFG=cfg, fingerprint=fp, feature_device=fdev, sim_device=a.sim_device), f, indent=2, default=str)
     print(f"Merged results in {out} ({(time.time() - t_all) / 60:.1f} min)")
 
     if not a.no_analysis:
