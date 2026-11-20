@@ -28,7 +28,7 @@ Tuscaloosa, Alabama, USA}}
 
 % ============================================================
 \begin{abstract}
-Hybrid quantum--classical classifiers are being proposed for medical imaging, but a prediction is only usable clinically if its confidence is trustworthy. On noisy intermediate-scale quantum (NISQ) hardware, the scores a model produces drift with the device's noise. A deployed model can also meet a patient population whose disease rate differs from the one it was calibrated on. Both effects distort predicted probabilities. When only unlabeled deployment scores are available, they are hard to tell apart: hardware drift can look like a change in prevalence, and the reverse. We first benchmark five classifiers (a variational quantum classifier (VQC), a data re-uploading VQC, a quantum-kernel SVM, an MLP and an RBF-SVM) on MedMNIST tasks under simulated depolarizing, amplitude-damping, readout and shot noise. We find that recalibration refitted on current hardware repairs nearly all noise-induced miscalibration, whereas a calibrator frozen on calibration day does not. We then propose \emph{Shift-Disentangled Quantum Calibration} (SDQC). SDQC measures a small fixed set of probe inputs on the hardware on calibration day and again at deployment. It uses the change in their scores to map today's outputs back to the calibration-day scale, then applies a frozen Platt calibrator, and finally estimates the new disease prevalence with a shrunken expectation--maximization (EM) prior correction. Across PneumoniaMNIST, BreastMNIST and a binary OCTMNIST task, ten seeds, 29 hardware conditions (including amplitude damping never seen during design) and four target prevalences, SDQC achieves lower Brier score than frozen Platt scaling, moment matching, EM-only correction, physics-informed correction with EM, and probe correction alone in every noisy, changed-prevalence setting, with all 95\% cluster-bootstrap intervals excluding zero. On the hardest PneumoniaMNIST setting it reduces Brier from 0.0890 (frozen Platt) to 0.0446, against 0.0432 for an oracle that knows the noise and the true prevalence. The EM step has a cost when prevalence has not changed, most visibly on the small BreastMNIST set, which we report explicitly.
+Hybrid quantum--classical classifiers are increasingly proposed for medical imaging, but a clinical prediction is only useful if its confidence can be trusted. On noisy intermediate-scale quantum (NISQ) hardware, the scores a model produces drift as the device's noise changes from day to day. At the same time, a deployed model may meet a patient population whose disease prevalence differs from the population it was calibrated on. Both effects distort predicted probabilities, and when only unlabeled deployment scores are available they are confounded: hardware drift can look like a change in prevalence, and a change in prevalence can look like drift. We first benchmark five classifiers, a variational quantum classifier (VQC), a data re-uploading VQC, a quantum-kernel SVM, an MLP and an RBF-SVM, on MedMNIST tasks under simulated depolarizing, amplitude-damping, readout and shot noise. We find that a calibrator refitted on the current hardware repairs nearly all noise-induced miscalibration, whereas a calibrator frozen on calibration day does not, so the real problem is transfer. We then propose Shift-Disentangled Quantum Calibration (SDQC). SDQC measures a small fixed set of probe inputs on the hardware on calibration day and again at deployment. Because the probes do not change, any change in their scores must come from the hardware, so SDQC uses it to map today's outputs back to the calibration-day scale, applies the frozen Platt calibrator, and only then estimates the new prevalence with a shrunken expectation--maximization (EM) prior correction. We evaluate SDQC on PneumoniaMNIST, BreastMNIST and a binary OCTMNIST task, with three quantum models, ten seeds, 29 hardware conditions (including amplitude damping never used in designing the method) and four target prevalences. In every noisy setting with a changed prevalence, SDQC achieves a lower Brier score than frozen Platt scaling, moment matching, EM-only correction, physics-informed correction with EM, and probe correction alone, with all 95\% cluster-bootstrap intervals excluding zero. In the hardest PneumoniaMNIST setting it reduces the Brier score from 0.0890 to 0.0446, close to the 0.0432 achieved by an oracle that knows both the noise and the true prevalence. The EM step carries a small cost when prevalence has not changed, most visibly on the small BreastMNIST dataset.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -40,7 +40,14 @@ quantum machine learning, calibration, medical imaging, label shift, NISQ noise,
 
 Quantum machine learning (QML) has been suggested as a route to new inductive biases for medical image analysis~\cite{sunki2025,gupta2025}. Most QML studies in this area report accuracy or AUROC. In clinical decision support, however, a model's output probability is acted on directly: a 0.9 risk score should be wrong about one time in ten. Modern neural networks are known to be miscalibrated~\cite{guo2017}, and calibration degrades further under distribution shift~\cite{ovadia2019}. Quantum classifiers add a further source of distortion. On NISQ hardware~\cite{preskill2018}, gate noise, relaxation, readout error and finite measurement shots all shrink and bias the expectation values that serve as model scores. Noise levels also drift from day to day on real devices.
 
-This creates a specific deployment problem. A hospital calibrates a hybrid model on a labeled calibration set on a given day. Later, at deployment, two things may have changed without anyone being told: the hardware noise, and the disease prevalence among incoming patients. Only unlabeled scores are available at deployment. A shift in the score distribution could be caused by either change. Standard label-shift correction such as EM prior estimation~\cite{saerens2002} assumes the classifier itself is unchanged, so it misreads hardware drift as a change in prevalence. Conversely, matching the score distribution to the calibration-day distribution (moment matching) removes genuine changes in prevalence along with the noise. We call this the \emph{identifiability problem}: hardware drift and label shift are confounded in unlabeled data.
+This creates a specific deployment problem. A hospital calibrates a hybrid model on a labeled calibration set on a given day. Later, at deployment, two things may have changed without anyone being told: the hardware noise, and the disease prevalence among incoming patients. Only unlabeled scores are available at deployment. A shift in the score distribution could be caused by either change. Standard label-shift correction such as EM prior estimation~\cite{saerens2002} assumes the classifier itself is unchanged, so it misreads hardware drift as a change in prevalence. Conversely, matching the score distribution to the calibration-day distribution (moment matching) removes genuine changes in prevalence along with the noise. We call this the \emph{identifiability problem}: hardware drift and label shift are confounded in unlabeled data. Fig.~\ref{fig:intro} illustrates the problem and the idea behind our solution.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{sdqc_intro.png}
+\caption{The identifiability problem (illustrative, synthetic scores). (a) On calibration day the classifier's scores separate healthy and diseased patients. (b) Hardware drift compresses and shifts every score. (c) A drop in prevalence changes the mix of patients but not their individual scores. Without labels, (b) and (c) both appear as a shift of the unlabeled score distribution. (d) SDQC re-measures a fixed set of probe inputs: their scores move only under hardware drift, which lets SDQC estimate and undo the drift before estimating prevalence.}
+\label{fig:intro}
+\end{figure*}
 
 This paper makes three contributions:
 \begin{enumerate}
@@ -190,56 +197,13 @@ The main study is a full factorial design:
 
 \subsection{Model Sanity}
 
-Table~\ref{tab:sanity} reports discrimination. On PneumoniaMNIST and OCTMNIST all five models reach AUROC of about 0.97--0.98, so quantum and classical models discriminate equally well on these features. On BreastMNIST, QSVM (mean validation AUROC 0.738) and RBF-SVM (0.714) fail the 0.75 gate and are excluded from the calibration study.
-
-\begin{table}[t]
-\centering
-\caption{Mean validation / test AUROC under the reference hardware (V5.1, 10 seeds). $^\dagger$Excluded by the 0.75 validation-AUROC gate in every seed. $^\ddagger$Passes the gate in 8 of 10 seeds.}
-\label{tab:sanity}
-\setlength{\tabcolsep}{4pt}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{lccc}
-\toprule
-Model & PneumoniaMNIST & BreastMNIST & OCTMNIST \\
-\midrule
-VQC       & 0.978 / 0.983 & 0.781 / 0.828 & 0.975 / 0.974 \\
-Re-upload & 0.977 / 0.981 & 0.769 / 0.848$^\ddagger$ & 0.975 / 0.973 \\
-QSVM      & 0.972 / 0.977 & 0.738 / 0.839$^\dagger$ & 0.972 / 0.969 \\
-MLP       & 0.977 / 0.981 & 0.785 / 0.835 & 0.977 / 0.974 \\
-RBF-SVM   & 0.970 / 0.982 & 0.714 / 0.848$^\dagger$ & 0.977 / 0.973 \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
+Under the reference hardware, all five models reach a mean test AUROC of 0.97--0.98 on PneumoniaMNIST and OCTMNIST, so quantum and classical models discriminate equally well on these features. BreastMNIST is harder (test AUROC 0.83--0.85). There, QSVM (mean validation AUROC 0.738) and RBF-SVM (0.714) fail the 0.75 gate and are excluded, and the re-uploading VQC passes in 8 of 10 seeds.
 
 \subsection{Initial Benchmark: Noise Is Repairable, Transfer Is Not}
 
 \textbf{Part A (in-place recalibration).} When Platt scaling is refitted on the same hardware, the extra Brier score caused by noise is at most $0.0006$ for every model and noise type. Temperature scaling leaves $+0.036$ to $+0.093$ Brier at the strongest noise levels, because noise biases the scores as well as shrinking them, and one temperature cannot correct a shift. Shot noise down to 100 shots costs about $+0.004$. Noise therefore damages calibration, but in a way that is easy to repair \emph{if} labeled data on the current hardware exist.
 
-\textbf{Part B (transfer).} Table~\ref{tab:v4b} and Fig.~\ref{fig:v4b} show that a calibrator frozen on REF is clearly worse than Oracle Platt. For example, on VQC with depolarizing noise, Brier rises from 0.054 to 0.069. Moment matching nearly closes the gap when prevalence is unchanged, as do physics-informed correction and, to a lesser degree, NC. The classical control behaves in the same way as the quantum models, which shows that the effect comes from the distortion, not from anything specifically quantum.
-
-\begin{table}[t]
-\centering
-\caption{V4 Part B: mean Brier when transferring a REF calibrator to held-out hardware (PneumoniaMNIST, 3 seeds, source prevalence). NC: noise-conditioned Platt; Phys: physics-informed; MM: moment matching.}
-\label{tab:v4b}
-\setlength{\tabcolsep}{4pt}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{llccccc}
-\toprule
-Model & Noise & Fixed & NC & Phys & MM & Oracle \\
-\midrule
-\multirow{2}{*}{VQC}       & Depol. & 0.069 & 0.059 & 0.055 & 0.055 & 0.054 \\
-                           & Amp.   & 0.058 & 0.055 & 0.055 & 0.049 & 0.049 \\
-\multirow{2}{*}{Re-upload} & Depol. & 0.079 & 0.067 & 0.063 & 0.061 & 0.060 \\
-                           & Amp.   & 0.064 & 0.061 & 0.062 & 0.051 & 0.051 \\
-\multirow{2}{*}{QSVM}      & Depol. & 0.077 & 0.061 & 0.061 & 0.061 & 0.060 \\
-                           & Amp.   & 0.061 & 0.060 & 0.060 & 0.053 & 0.053 \\
-\multirow{2}{*}{Control}   & Depol. & 0.071 & 0.060 & 0.057 & 0.056 & 0.056 \\
-                           & Amp.   & 0.061 & 0.058 & 0.058 & 0.050 & 0.050 \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
+\textbf{Part B (transfer).} Fig.~\ref{fig:v4b} shows that a calibrator frozen on REF is clearly worse than Oracle Platt. For example, on VQC with depolarizing noise, Brier rises from 0.054 to 0.069. Moment matching nearly closes the gap when prevalence is unchanged, as do physics-informed correction and, to a lesser degree, NC. The classical control behaves in the same way as the quantum models, which shows that the effect comes from the distortion, not from anything specifically quantum.
 
 \begin{figure*}[t]
 \centering
@@ -267,22 +231,7 @@ Noise    & 0.089 & 0.064 & 0.050 & 0.175 & 0.153 & 0.049 \\
 \end{adjustbox}
 \end{table}
 
-\textbf{Part D (MM batch size).} MM needs a large deployment batch: Brier is 0.067 at 16 samples, 0.059 at 32, 0.056 at 64, 0.055 at 128 and 0.054 using all samples (Table~\ref{tab:v4d}).
-
-\begin{table}[t]
-\centering
-\caption{V4 Part D: moment-matching Brier versus deployment batch size.}
-\label{tab:v4d}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{lccccc}
-\toprule
-Batch size & 16 & 32 & 64 & 128 & All \\
-\midrule
-Brier & 0.067 & 0.059 & 0.056 & 0.055 & 0.054 \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
+\textbf{Part D (MM batch size).} MM needs a large deployment batch: Brier is 0.067 at 16 samples, 0.059 at 32, 0.056 at 64, 0.055 at 128 and 0.054 using all samples.
 
 \subsection{Main Result: SDQC Across Datasets, Noise and Prevalence}
 
@@ -429,51 +378,7 @@ Dataset & Metric & Fixed & MM & EM only & Phys+EM & Probe only & SDQC-sim & SDQC
 \label{fig:hard}
 \end{figure*}
 
-Table~\ref{tab:hard_model} breaks the hard case down by model. SDQC improves on Fixed Platt, MM and Phys+EM for every model. The benefit is not specific to one architecture: it holds for the VQC, the re-uploading circuit and the kernel model.
-
-\begin{table}[t]
-\centering
-\caption{Hard case by model: mean Brier (unseen amplitude damping, changed prevalence, 10 seeds).}
-\label{tab:hard_model}
-\setlength{\tabcolsep}{3.5pt}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{llccccc}
-\toprule
-Dataset & Model & Fixed & MM & Phys+EM & SDQC & Oracle \\
-\midrule
-\multirow{2}{*}{Breast} & Re-upload & 0.1835 & 0.2229 & 0.1642 & \textbf{0.1304} & 0.1241 \\
- & VQC & 0.1808 & 0.2267 & 0.2197 & \textbf{0.1423} & 0.1314 \\
-\midrule
-\multirow{3}{*}{OCT} & QSVM & 0.0735 & 0.1365 & 0.0621 & \textbf{0.0570} & 0.0547 \\
- & Re-upload & 0.0767 & 0.1468 & 0.0809 & \textbf{0.0546} & 0.0524 \\
- & VQC & 0.0724 & 0.1460 & 0.0555 & \textbf{0.0525} & 0.0505 \\
-\midrule
-\multirow{3}{*}{Pneum.} & QSVM & 0.0889 & 0.1626 & 0.0593 & \textbf{0.0482} & 0.0466 \\
- & Re-upload & 0.0919 & 0.1760 & 0.0646 & \textbf{0.0440} & 0.0426 \\
- & VQC & 0.0862 & 0.1771 & 0.0600 & \textbf{0.0417} & 0.0404 \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
-
-Table~\ref{tab:byprior} breaks the PneumoniaMNIST hard case down by target prevalence. The largest gain is at $\pi_t=0.30$, the prevalence furthest from the source value of 0.74. There Fixed Platt scores 0.1288 and SDQC 0.0430. MM collapses at this prevalence (0.3030).
-
-\begin{table*}[t]
-\centering
-\caption{PneumoniaMNIST hard case by target prevalence: mean Brier (10 seeds). $n$ is the test-subset size.}
-\label{tab:byprior}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{ccccccccc}
-\toprule
-$\pi_t$ & $n$ & Fixed & MM & EM only & Phys+EM & Probe only & SDQC & Oracle \\
-\midrule
-0.30 & 288 & 0.1288 & 0.3030 & 0.0643 & 0.0584 & 0.0775 & \textbf{0.0430} & 0.0408 \\
-0.50 & 404 & 0.0994 & 0.1347 & 0.0822 & 0.0765 & 0.0666 & \textbf{0.0546} & 0.0536 \\
-0.90 & 647 & 0.0388 & 0.0780 & 0.0485 & 0.0490 & 0.0422 & \textbf{0.0363} & 0.0352 \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table*}
+Broken down by model, SDQC improves on Fixed Platt, MM and Phys+EM for every model in the hard case, so the benefit is not specific to one architecture: it holds for the VQC, the re-uploading circuit and the kernel model. Broken down by prevalence, the largest gain on PneumoniaMNIST is at $\pi_t=0.30$, the prevalence furthest from the source value of 0.74, where Fixed Platt scores 0.1288, SDQC 0.0430, and MM collapses to 0.3030.
 
 \subsection{Prevalence Estimation}
 
@@ -510,83 +415,11 @@ Dataset & Hardware & EM only & Phys+EM & SDQC & SDQC-sim \\
 
 \subsection{Probe Diagnostics}
 
-Table~\ref{tab:probe} gives the average fitted slope and residual RMSE of the probe fits under noisy hardware. A slope of about 0.61 means that, on average, deployment hardware shrinks scores to about 61\% of their calibration-day spread. The simulator reference gives a lower slope (about 0.54), because it also absorbs the reference device's own noise into the map. The residual RMSE is not small, because 1,000-shot deployment scores are noisy. Even so, an affine map fitted on 96 points is enough to recover most of the calibration, and the two reference choices end up within 0.0003 Brier of each other (Table~\ref{tab:paired_changed}).
-
-\begin{table}[t]
-\centering
-\caption{Probe-fit diagnostics (noisy conditions, 10 seeds): mean fitted slope $\hat a$ and residual RMSE.}
-\label{tab:probe}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{lcccc}
-\toprule
- & \multicolumn{2}{c}{Hardware reference} & \multicolumn{2}{c}{Simulator reference} \\
-\cmidrule(lr){2-3}\cmidrule(lr){4-5}
-Dataset & Slope & RMSE & Slope & RMSE \\
-\midrule
-BreastMNIST    & 0.610 & 0.121 & 0.541 & 0.119 \\
-OCTMNIST       & 0.612 & 0.265 & 0.548 & 0.261 \\
-PneumoniaMNIST & 0.606 & 0.216 & 0.541 & 0.213 \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
+Under noisy hardware the fitted probe slope averages about 0.61 on all three datasets. A slope of 0.61 means that, on average, deployment hardware shrinks scores to about 61\% of their calibration-day spread. The simulator reference gives a lower slope (about 0.54), because it also absorbs the reference device's own noise into the map. The residual RMSE is not small, because 1,000-shot deployment scores are noisy. Even so, an affine map fitted on 96 points is enough to recover most of the calibration, and the two reference choices end up within 0.0003 Brier of each other (Table~\ref{tab:paired_changed}).
 
 \subsection{Preliminary Ablation: Strong Joint Noise and Probe Budget}
 
-\emph{This subsection reports an earlier, smaller study and should be read as preliminary.} It used one seed, the VQC only, 192 evaluation records and two probe-selection repeats, with an earlier SDQC version and a probe budget of 8 or 16 (not 96). It added a ``strong joint'' condition (strong depolarizing, amplitude damping and readout error together) and an ``unreported'' condition in which the device's error report is wrong. Tables~\ref{tab:pre_joint}--\ref{tab:pre_budget} report the results. The trends agree with the main study. SDQC's advantage grows as noise becomes stronger and less well reported (0.2329 to 0.1484 Brier under strong joint noise). It lowers the prevalence error from 0.343 (EM only) to 0.138. Doubling the probes from 8 to 16 lowers Brier from 0.0938 to 0.0663, and from 0.1891 to 0.1078 under strong joint noise. This suggests that, at small budgets, the number of probes matters. Because of the single seed, no confidence intervals are reported.
-
-\begin{table}[t]
-\centering
-\caption{Preliminary (1 seed, VQC, 192 records): mean Brier by hardware condition.}
-\label{tab:pre_joint}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{lcccc}
-\toprule
-Condition & Fixed & EM only & Probe only & SDQC \\
-\midrule
-Clean        & 0.0544 & 0.0436 & 0.0530 & \textbf{0.0430} \\
-Unreported   & 0.0962 & 0.0773 & 0.0615 & \textbf{0.0489} \\
-Strong joint & 0.2329 & 0.3549 & \textbf{0.1452} & 0.1484 \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
-
-\begin{table}[t]
-\centering
-\caption{Preliminary (1 seed, VQC): mean Brier by target prevalence.}
-\label{tab:pre_prior}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{lcccc}
-\toprule
-$\pi_t$ & Fixed & EM only & Probe only & SDQC \\
-\midrule
-0.30   & 0.2107 & 0.2473 & 0.1226 & \textbf{0.0963} \\
-0.50   & 0.1560 & 0.1952 & 0.1005 & \textbf{0.0972} \\
-0.90   & 0.0529 & 0.0668 & 0.0534 & \textbf{0.0506} \\
-Source & 0.0917 & 0.1252 & \textbf{0.0697} & 0.0763 \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
-
-\begin{table}[t]
-\centering
-\caption{Preliminary (1 seed, VQC): SDQC Brier by probe budget, and prevalence error under strong joint noise.}
-\label{tab:pre_budget}
-\begin{adjustbox}{max width=\linewidth}
-\begin{tabular}{lcc}
-\toprule
- & 8 probes & 16 probes \\
-\midrule
-SDQC Brier (all conditions)  & 0.0938 & 0.0663 \\
-SDQC Brier (strong joint)    & 0.1891 & 0.1078 \\
-\midrule
-\multicolumn{3}{l}{Prevalence MAE, strong joint: EM only 0.343; SDQC 0.138} \\
-\bottomrule
-\end{tabular}
-\end{adjustbox}
-\end{table}
+An earlier, smaller study (one seed, VQC only, 192 evaluation records, an earlier SDQC version with 8 or 16 probes) added a ``strong joint'' condition combining strong depolarizing, amplitude damping and readout error. We report it only as a preliminary indication. Under strong joint noise SDQC reduced Brier from 0.2329 (Fixed Platt) to 0.1484 and the prevalence error from 0.343 (EM only) to 0.138, and doubling the probes from 8 to 16 lowered SDQC's Brier from 0.0938 to 0.0663. This suggests that the probe budget matters at small sizes, which the 96-probe main study avoids.
 
 % ============================================================
 \section{Discussion}
@@ -600,34 +433,13 @@ SDQC Brier (strong joint)    & 0.1891 & 0.1078 \\
 \textbf{Classical relevance.} The V4 classical control shows that the transfer problem comes from score distortion, not from anything specifically quantum. Probe-based drift correction could therefore apply to any classifier deployed on drifting hardware, including analog accelerators.
 
 % ============================================================
-\section{Limitations}
+\section{Limitations and Conclusion}
 
-\begin{itemize}
-\item \textbf{Simulated noise.} All noise is simulated with standard channels and affects every input in the same way. Real devices show crosstalk, non-Markovian drift and input-dependent errors that an affine map may not capture. Validation on real quantum hardware is the most important next step.
-\item \textbf{Small BreastMNIST.} With 94 test images, results on BreastMNIST have high variance, and the EM step costs up to about 0.015 Brier when prevalence is unchanged.
-\item \textbf{Kernel model.} The QSVM noise model perturbs kernel estimates as a proxy for hardware noise. It does not simulate the full kernel circuit on noisy hardware for every pair of inputs.
-\item \textbf{Statistical scope.} Ten seeds but a single fixed data split per dataset. The bootstrap intervals capture variation across seeds, models and hardware conditions, but not variation across data splits. The V4 benchmark used three seeds.
-\item \textbf{Low-dimensional features.} Four PCA features from a frozen ResNet-18 keep the circuits small. Most of the discriminative work is done by the classical extractor.
-\item \textbf{Label shift only.} SDQC assumes that the class-conditional image distribution is unchanged. Covariate shift, such as images from a new scanner, is not addressed.
-\item \textbf{Preliminary ablation.} The 8/16-probe and strong-joint-noise results come from a single-seed study of the VQC alone and need full replication.
-\end{itemize}
+Noise on quantum hardware damages the calibration of hybrid medical image classifiers. That damage is easy to repair with labels from the current device and hard to repair without them, especially when patient prevalence may also have changed. SDQC separates the two effects using a small set of probe inputs measured on calibration day and at deployment. Across three MedMNIST tasks, three quantum models, 29 hardware conditions including unseen amplitude damping, four prevalences and ten seeds, it beat every deployable baseline whenever prevalence changed, and in the hardest PneumoniaMNIST setting it reached 0.0446 Brier against 0.0432 for an oracle that knows both the noise and the true prevalence.
 
-% ============================================================
-\section{Future Work}
+These results come with clear limitations. All noise is simulated with standard channels and acts on every input in the same way, whereas real devices show crosstalk, non-Markovian drift and input-dependent errors that an affine probe map may not capture; validation on real quantum hardware is therefore the most important next step. The QSVM noise model perturbs kernel estimates as a proxy rather than simulating every kernel circuit on noisy hardware. BreastMNIST has only 94 test images, so its results are noisy, and there the EM step costs up to about 0.015 Brier when prevalence has not changed, which leads to a simple practical rule: always apply probe correction, but apply EM only when the deployment batch is large or there is evidence that prevalence has changed. The study uses ten seeds but a single fixed data split per dataset, so the confidence intervals do not reflect variation across splits, and the initial V4 benchmark used only three seeds. The four PCA features from a frozen ResNet-18 keep the circuits small, which means most of the discriminative work is done by the classical extractor. SDQC also assumes pure label shift and does not handle covariate shift such as images from a new scanner, and the probe-budget and strong-joint-noise results come from a single-seed study that needs full replication.
 
-Directions for further work include:
-\begin{itemize}
-\item running SDQC on IBM or IonQ hardware across several calibration cycles;
-\item selecting probes adaptively, and modelling drift with non-affine (e.g., isotonic) response maps;
-\item a test for whether prevalence has changed, to decide when to run EM;
-\item extension to multi-class tasks;
-\item combining SDQC with conformal prediction~\cite{park2024} to give coverage guarantees under drift.
-\end{itemize}
-
-% ============================================================
-\section{Conclusion}
-
-Noise on quantum hardware damages the calibration of hybrid medical image classifiers. That damage is easy to repair with labels from the current device and hard to repair without them, especially when patient prevalence may also have changed. SDQC separates the two effects using a small set of probe inputs measured on calibration day and at deployment. Across three MedMNIST tasks, three quantum models, 29 hardware conditions including unseen amplitude damping, four prevalences and ten seeds, it beat every deployable baseline whenever prevalence changed. In the hardest PneumoniaMNIST setting it reached 0.0446 Brier, against 0.0432 for an oracle that knows both the noise and the true prevalence. Its main cost, from EM when prevalence is stable on very small datasets, is reported openly and points to a simple practical rule.
+Future work will run SDQC on IBM or IonQ hardware across several calibration cycles, select probes adaptively and model drift with non-affine response maps, develop a test for whether prevalence has changed so that EM is applied only when needed, extend the method to multi-class tasks, and combine it with conformal prediction~\cite{park2024} to give coverage guarantees under drift.
 
 % ============================================================
 \begin{thebibliography}{00}
