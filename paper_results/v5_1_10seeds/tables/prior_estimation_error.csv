@@ -1,0 +1,10 @@
+dataset,hardware_family,EM only,Physics-informed + EM,SDQC (probe + EM),SDQC-sim (probe + EM)
+breastmnist,clean,0.054,0.068,0.067,0.068
+breastmnist,held-out depolarizing,0.231,0.1,0.074,0.074
+breastmnist,unseen: amplitude damping,0.224,0.167,0.067,0.068
+octmnist,clean,0.044,0.04,0.039,0.04
+octmnist,held-out depolarizing,0.111,0.052,0.046,0.046
+octmnist,unseen: amplitude damping,0.055,0.047,0.041,0.041
+pneumoniamnist,clean,0.045,0.044,0.043,0.044
+pneumoniamnist,held-out depolarizing,0.099,0.053,0.049,0.05
+pneumoniamnist,unseen: amplitude damping,0.068,0.07,0.046,0.046

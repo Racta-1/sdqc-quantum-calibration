@@ -1,0 +1,7 @@
+dataset,reference,slope,probe_rmse
+breastmnist,hardware (calibration day),0.61,0.121
+breastmnist,simulator,0.541,0.119
+octmnist,hardware (calibration day),0.612,0.265
+octmnist,simulator,0.548,0.261
+pneumoniamnist,hardware (calibration day),0.606,0.216
+pneumoniamnist,simulator,0.541,0.213

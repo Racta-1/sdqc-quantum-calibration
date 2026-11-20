@@ -1,0 +1,85 @@
+dataset,hardware,disease_rate,vs,diff,CI95,ci_low,ci_high,SDQC
+breastmnist,held-out depolarizing,changed disease rate,Fixed Platt,-0.0447,"[-0.0469, -0.0426]",-0.046850215974801594,-0.042594980758858356,better
+breastmnist,held-out depolarizing,changed disease rate,Moment matching,-0.0852,"[-0.0869, -0.0833]",-0.0869352717894677,-0.08329313513858212,better
+breastmnist,held-out depolarizing,changed disease rate,EM only,-0.1122,"[-0.1246, -0.1002]",-0.12457628770092463,-0.10024393581300124,better
+breastmnist,held-out depolarizing,changed disease rate,Physics-informed + EM,-0.0138,"[-0.0183, -0.0096]",-0.018284984868437135,-0.00962681479850175,better
+breastmnist,held-out depolarizing,changed disease rate,SDQC-sim (probe + EM),-0.0,"[-0.0003, 0.0003]",-0.0003152368791318366,0.00027343134709459756,no clear difference
+breastmnist,held-out depolarizing,changed disease rate,SDQC (probe only),-0.0294,"[-0.0308, -0.0280]",-0.030808230532500085,-0.02796770469424173,better
+breastmnist,held-out depolarizing,changed disease rate,Oracle (noise + true prior),0.013,"[0.0113, 0.0148]",0.01131217631656869,0.014791148303345561,worse
+breastmnist,held-out depolarizing,same disease rate,Fixed Platt,0.0051,"[0.0029, 0.0074]",0.0028837531532279383,0.007368843476590948,worse
+breastmnist,held-out depolarizing,same disease rate,Moment matching,0.0184,"[0.0164, 0.0206]",0.016427118817156788,0.020613670717699536,worse
+breastmnist,held-out depolarizing,same disease rate,EM only,-0.1656,"[-0.1841, -0.1473]",-0.18412278632889392,-0.14733125465149943,better
+breastmnist,held-out depolarizing,same disease rate,Physics-informed + EM,-0.0177,"[-0.0250, -0.0114]",-0.025043522952664994,-0.011401261545278405,better
+breastmnist,held-out depolarizing,same disease rate,SDQC-sim (probe + EM),0.0,"[-0.0003, 0.0004]",-0.00029574412755583804,0.0003954801584120492,no clear difference
+breastmnist,held-out depolarizing,same disease rate,SDQC (probe only),0.0146,"[0.0132, 0.0161]",0.013202621393704535,0.016077724729551823,worse
+breastmnist,held-out depolarizing,same disease rate,Oracle (noise + true prior),0.0169,"[0.0150, 0.0191]",0.014951851949406162,0.019082327783997058,worse
+breastmnist,unseen: amplitude damping,changed disease rate,Fixed Platt,-0.0449,"[-0.0480, -0.0420]",-0.04800972495949288,-0.0420478348506418,better
+breastmnist,unseen: amplitude damping,changed disease rate,Moment matching,-0.088,"[-0.0896, -0.0864]",-0.08955212760613797,-0.08637811758170943,better
+breastmnist,unseen: amplitude damping,changed disease rate,EM only,-0.0996,"[-0.1162, -0.0849]",-0.11615769177573537,-0.08485289997391815,better
+breastmnist,unseen: amplitude damping,changed disease rate,Physics-informed + EM,-0.058,"[-0.0715, -0.0460]",-0.07146207661800444,-0.04602310744989874,better
+breastmnist,unseen: amplitude damping,changed disease rate,SDQC-sim (probe + EM),-0.0003,"[-0.0007, 0.0002]",-0.0007455837849080012,0.00016400092333010782,no clear difference
+breastmnist,unseen: amplitude damping,changed disease rate,SDQC (probe only),-0.0294,"[-0.0311, -0.0277]",-0.03110922195450388,-0.02768903253776851,better
+breastmnist,unseen: amplitude damping,changed disease rate,Oracle (noise + true prior),0.0089,"[0.0078, 0.0100]",0.00784047995828427,0.009978082504891322,worse
+breastmnist,unseen: amplitude damping,same disease rate,Fixed Platt,0.0004,"[-0.0013, 0.0020]",-0.0012518388957360991,0.0020455396751937133,no clear difference
+breastmnist,unseen: amplitude damping,same disease rate,Moment matching,0.013,"[0.0117, 0.0144]",0.011684195164587116,0.01436399741935636,worse
+breastmnist,unseen: amplitude damping,same disease rate,EM only,-0.1415,"[-0.1662, -0.1169]",-0.16621729039919672,-0.11685357386082203,better
+breastmnist,unseen: amplitude damping,same disease rate,Physics-informed + EM,-0.0751,"[-0.0965, -0.0568]",-0.0964864412192796,-0.05679731210798765,better
+breastmnist,unseen: amplitude damping,same disease rate,SDQC-sim (probe + EM),-0.0003,"[-0.0007, 0.0002]",-0.0007077235654099588,0.0001842871198483688,no clear difference
+breastmnist,unseen: amplitude damping,same disease rate,SDQC (probe only),0.0117,"[0.0105, 0.0129]",0.010514434446829127,0.012854544712569594,worse
+breastmnist,unseen: amplitude damping,same disease rate,Oracle (noise + true prior),0.0115,"[0.0103, 0.0128]",0.010267808805544948,0.012824492750739543,worse
+octmnist,held-out depolarizing,changed disease rate,Fixed Platt,-0.028,"[-0.0302, -0.0261]",-0.030160049262978984,-0.02607944900654809,better
+octmnist,held-out depolarizing,changed disease rate,Moment matching,-0.0874,"[-0.0880, -0.0869]",-0.08797269794190918,-0.08686466220512856,better
+octmnist,held-out depolarizing,changed disease rate,EM only,-0.0608,"[-0.0688, -0.0534]",-0.06877495797108076,-0.0533509502887128,better
+octmnist,held-out depolarizing,changed disease rate,Physics-informed + EM,-0.0042,"[-0.0057, -0.0029]",-0.005711620679002965,-0.0028968681547649985,better
+octmnist,held-out depolarizing,changed disease rate,SDQC-sim (probe + EM),0.0001,"[0.0000, 0.0002]",4.2599017958231896e-05,0.000190210353825434,worse
+octmnist,held-out depolarizing,changed disease rate,SDQC (probe only),-0.0139,"[-0.0140, -0.0138]",-0.014003795006995855,-0.013767012820578052,better
+octmnist,held-out depolarizing,changed disease rate,Oracle (noise + true prior),0.0057,"[0.0050, 0.0065]",0.005003836079500715,0.006454860433981518,worse
+octmnist,held-out depolarizing,same disease rate,Fixed Platt,-0.0221,"[-0.0252, -0.0193]",-0.025223778769043043,-0.0193224933450723,better
+octmnist,held-out depolarizing,same disease rate,Moment matching,0.0011,"[0.0009, 0.0014]",0.0008599176498025458,0.0014275366026748333,worse
+octmnist,held-out depolarizing,same disease rate,EM only,-0.0878,"[-0.0994, -0.0762]",-0.09936616337200979,-0.07618226176942187,better
+octmnist,held-out depolarizing,same disease rate,Physics-informed + EM,-0.0039,"[-0.0057, -0.0025]",-0.005746861743853571,-0.0025046606397437954,better
+octmnist,held-out depolarizing,same disease rate,SDQC-sim (probe + EM),0.0001,"[0.0000, 0.0002]",4.577186784963668e-05,0.00016969777515316156,worse
+octmnist,held-out depolarizing,same disease rate,SDQC (probe only),0.0003,"[0.0002, 0.0003]",0.00019168331154063877,0.00032889744988665823,worse
+octmnist,held-out depolarizing,same disease rate,Oracle (noise + true prior),0.0025,"[0.0020, 0.0030]",0.0020310718253296967,0.0030243329761608104,worse
+octmnist,unseen: amplitude damping,changed disease rate,Fixed Platt,-0.0195,"[-0.0208, -0.0183]",-0.02078473431205047,-0.0183121297924192,better
+octmnist,unseen: amplitude damping,changed disease rate,Moment matching,-0.0884,"[-0.0893, -0.0875]",-0.08926055272556424,-0.0874852827421567,better
+octmnist,unseen: amplitude damping,changed disease rate,EM only,-0.0174,"[-0.0241, -0.0117]",-0.024107061811702173,-0.011704175564334996,better
+octmnist,unseen: amplitude damping,changed disease rate,Physics-informed + EM,-0.0114,"[-0.0154, -0.0080]",-0.01536041300859576,-0.008018293753679927,better
+octmnist,unseen: amplitude damping,changed disease rate,SDQC-sim (probe + EM),-0.0001,"[-0.0001, -0.0001]",-0.00012029899007498636,-8.513127050091375e-05,better
+octmnist,unseen: amplitude damping,changed disease rate,SDQC (probe only),-0.0135,"[-0.0136, -0.0134]",-0.013625902146881938,-0.013435600346878853,better
+octmnist,unseen: amplitude damping,changed disease rate,Oracle (noise + true prior),0.0022,"[0.0021, 0.0022]",0.0021091739207987634,0.002248326615700756,worse
+octmnist,unseen: amplitude damping,same disease rate,Fixed Platt,-0.0087,"[-0.0109, -0.0070]",-0.01086793217120877,-0.0069620475606028045,better
+octmnist,unseen: amplitude damping,same disease rate,Moment matching,0.0,"[0.0000, 0.0001]",1.6935007983181004e-05,6.695212088691581e-05,worse
+octmnist,unseen: amplitude damping,same disease rate,EM only,-0.0259,"[-0.0351, -0.0180]",-0.035127107553203536,-0.017966642822182292,better
+octmnist,unseen: amplitude damping,same disease rate,Physics-informed + EM,-0.018,"[-0.0242, -0.0130]",-0.024179088830127496,-0.01295701331409536,better
+octmnist,unseen: amplitude damping,same disease rate,SDQC-sim (probe + EM),-0.0,"[-0.0001, -0.0000]",-5.5587823543126246e-05,-3.926034459669884e-05,better
+octmnist,unseen: amplitude damping,same disease rate,SDQC (probe only),0.0,"[0.0000, 0.0000]",1.1931522165607178e-05,2.4631330465991484e-05,worse
+octmnist,unseen: amplitude damping,same disease rate,Oracle (noise + true prior),0.0002,"[0.0001, 0.0002]",0.00012581867598022403,0.00018717294437789318,worse
+pneumoniamnist,held-out depolarizing,changed disease rate,Fixed Platt,-0.0531,"[-0.0573, -0.0493]",-0.057300141112651214,-0.049296741315048305,better
+pneumoniamnist,held-out depolarizing,changed disease rate,Moment matching,-0.1257,"[-0.1266, -0.1247]",-0.1266138451726149,-0.12472271745043802,better
+pneumoniamnist,held-out depolarizing,changed disease rate,EM only,-0.0508,"[-0.0588, -0.0431]",-0.05879926507784963,-0.04308300443165448,better
+pneumoniamnist,held-out depolarizing,changed disease rate,Physics-informed + EM,-0.0034,"[-0.0044, -0.0025]",-0.004401872150667928,-0.002504434687941264,better
+pneumoniamnist,held-out depolarizing,changed disease rate,SDQC-sim (probe + EM),0.0,"[-0.0000, 0.0001]",-2.4551665445476292e-05,0.00012189178930269929,no clear difference
+pneumoniamnist,held-out depolarizing,changed disease rate,SDQC (probe only),-0.0175,"[-0.0177, -0.0173]",-0.017734935283339023,-0.017275664072180202,better
+pneumoniamnist,held-out depolarizing,changed disease rate,Oracle (noise + true prior),0.0034,"[0.0030, 0.0039]",0.0030395092446936366,0.0038832603371438475,worse
+pneumoniamnist,held-out depolarizing,same disease rate,Fixed Platt,-0.0162,"[-0.0181, -0.0144]",-0.01805054330407515,-0.014356429354483431,better
+pneumoniamnist,held-out depolarizing,same disease rate,Moment matching,0.001,"[0.0008, 0.0012]",0.0007548978632104759,0.001181199309537384,worse
+pneumoniamnist,held-out depolarizing,same disease rate,EM only,-0.0449,"[-0.0517, -0.0385]",-0.05174122075278778,-0.038519516802891986,better
+pneumoniamnist,held-out depolarizing,same disease rate,Physics-informed + EM,-0.003,"[-0.0042, -0.0020]",-0.0041948813872872545,-0.0020039129353040053,better
+pneumoniamnist,held-out depolarizing,same disease rate,SDQC-sim (probe + EM),0.0002,"[0.0001, 0.0003]",0.0001454566369548116,0.000348070228847546,worse
+pneumoniamnist,held-out depolarizing,same disease rate,SDQC (probe only),0.0002,"[0.0002, 0.0003]",0.00016767919154830115,0.0002926284732733442,worse
+pneumoniamnist,held-out depolarizing,same disease rate,Oracle (noise + true prior),0.0015,"[0.0012, 0.0018]",0.001163917254525361,0.0017526968016652903,worse
+pneumoniamnist,unseen: amplitude damping,changed disease rate,Fixed Platt,-0.0444,"[-0.0483, -0.0407]",-0.0483117009210707,-0.040653826524325205,better
+pneumoniamnist,unseen: amplitude damping,changed disease rate,Moment matching,-0.1273,"[-0.1286, -0.1260]",-0.12858186596966284,-0.12600115790887642,better
+pneumoniamnist,unseen: amplitude damping,changed disease rate,EM only,-0.0204,"[-0.0256, -0.0158]",-0.025648591008617407,-0.015799686507590654,better
+pneumoniamnist,unseen: amplitude damping,changed disease rate,Physics-informed + EM,-0.0167,"[-0.0192, -0.0142]",-0.019222871568719716,-0.014165083858477473,better
+pneumoniamnist,unseen: amplitude damping,changed disease rate,SDQC-sim (probe + EM),-0.0001,"[-0.0001, -0.0001]",-0.00010413682441645091,-6.0527756179449215e-05,better
+pneumoniamnist,unseen: amplitude damping,changed disease rate,SDQC (probe only),-0.0175,"[-0.0177, -0.0172]",-0.017741235120979113,-0.01722300173591765,better
+pneumoniamnist,unseen: amplitude damping,changed disease rate,Oracle (noise + true prior),0.0014,"[0.0013, 0.0015]",0.0013493209679215187,0.0014807278081162708,worse
+pneumoniamnist,unseen: amplitude damping,same disease rate,Fixed Platt,-0.0109,"[-0.0128, -0.0090]",-0.01275502473737558,-0.008963343965943935,better
+pneumoniamnist,unseen: amplitude damping,same disease rate,Moment matching,0.0002,"[0.0001, 0.0002]",0.00010763449543708758,0.00020383839332472974,worse
+pneumoniamnist,unseen: amplitude damping,same disease rate,EM only,-0.0277,"[-0.0332, -0.0228]",-0.03320957572104892,-0.022808646251172453,better
+pneumoniamnist,unseen: amplitude damping,same disease rate,Physics-informed + EM,-0.0273,"[-0.0317, -0.0231]",-0.03166093529693239,-0.02306874188135467,better
+pneumoniamnist,unseen: amplitude damping,same disease rate,SDQC-sim (probe + EM),-0.0,"[-0.0000, -0.0000]",-4.445418946658698e-05,-1.894536899433193e-05,better
+pneumoniamnist,unseen: amplitude damping,same disease rate,SDQC (probe only),0.0,"[0.0000, 0.0001]",2.8568785120023954e-05,5.107543205402223e-05,worse
+pneumoniamnist,unseen: amplitude damping,same disease rate,Oracle (noise + true prior),0.0001,"[0.0001, 0.0002]",0.00010278939956332747,0.0001808050499908308,worse
