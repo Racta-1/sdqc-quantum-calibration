@@ -28,10 +28,13 @@ scripts/
   extract_features.py  download + cache ResNet-18 features
   run_experiment.py    full benchmark (parallel, resumable)
   analyze.py           rebuild tables / SUMMARY.md from a results folder
-  draw_methodology.py  methodology figure
+  draw_methodology.py  methodology figure (PDF + PNG)
+  draw_intro.py        introduction figure (PDF + PNG)
+  plot_v4_partB.py     V4 transfer figure from paper_results/v4 (PDF + PNG)
   slurm_gpu.sh         example cluster job
 notebooks/           the original Colab notebooks (V4 benchmark, V5.1 SDQC)
-paper_results/v5_1/  the exact run reported in the paper (metrics, tables, SUMMARY.md)
+paper_results/       v4 benchmark, the 3-seed Colab V5.1 run, and the 10-seed run used in the paper
+paper/               paper source (main.tex) and vector PDF figures
 tests/               unit tests (no download needed)
 ```
 
@@ -90,7 +93,7 @@ Outputs in `--out`:
 - `probe_diagnostics.csv`
 - `tables/*.csv`: every table in the paper
 - `SUMMARY.md`: all tables in one readable file
-- `hard_case.png`
+- `hard_case.pdf` / `hard_case.png`
 
 ### What the GPU speeds up
 

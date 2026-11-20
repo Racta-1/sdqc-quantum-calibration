@@ -3,6 +3,9 @@ Illustrative (synthetic Gaussian scores), not experimental data."""
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+plt.rcParams["pdf.fonttype"] = 42   # embed TrueType (IEEE PDF eXpress rejects Type 3 fonts)
+plt.rcParams["font.family"] = "DejaVu Sans"
+plt.rcParams["ps.fonttype"] = 42
 import numpy as np
 from scipy.stats import norm
 
@@ -81,5 +84,6 @@ for s in ["top", "right"]:
 ax.set_title("(d) Fixed probes tell them apart\nSDQC fits and undoes the drift", fontsize=10.5, color=INK)
 ax.legend(fontsize=7.6, loc="upper left", frameon=False)
 
-plt.savefig("docs/figures/sdqc_intro.png", dpi=300, bbox_inches="tight", facecolor="white")
+for ext in ("pdf", "png"):
+    plt.savefig(f"docs/figures/sdqc_intro.{ext}", dpi=300, bbox_inches="tight", facecolor="white")
 print("saved")

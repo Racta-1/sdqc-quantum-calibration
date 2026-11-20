@@ -1,0 +1,102 @@
+{
+ "DATASETS": [
+  "pneumoniamnist",
+  "breastmnist"
+ ],
+ "IMG_SIZE": 64,
+ "TEST_FRAC": 0.15,
+ "CAL_FRAC": 0.15,
+ "VAL_FRAC": 0.1,
+ "N_QUBITS": 4,
+ "N_LAYERS": 3,
+ "EPOCHS": 40,
+ "BATCH": 64,
+ "LR": 0.02,
+ "PATIENCE": 8,
+ "SEEDS": [
+  0,
+  1,
+  2
+ ],
+ "QSVM_N_TRAIN": 600,
+ "QSVM_C": 1.0,
+ "AUROC_GATE": 0.75,
+ "A_DEPOL": [
+  0.005,
+  0.02,
+  0.05
+ ],
+ "A_AMP": [
+  0.005,
+  0.02,
+  0.05
+ ],
+ "A_SHOTS": [
+  100,
+  1000,
+  10000
+ ],
+ "A_READOUT": [
+  [
+   0.02,
+   0.02
+  ],
+  [
+   0.01,
+   0.08
+  ],
+  [
+   0.08,
+   0.01
+  ]
+ ],
+ "FIT_P": [
+  0.0,
+  0.002,
+  0.01,
+  0.03
+ ],
+ "HELDOUT_P": [
+  0.001,
+  0.005,
+  0.015,
+  0.02,
+  0.05
+ ],
+ "UNSEEN_AMP": [
+  0.01,
+  0.03
+ ],
+ "UNSEEN_BASE_P": 0.002,
+ "N_READOUT_TRAIN": 6,
+ "N_READOUT_TEST": 4,
+ "READOUT_MAX": 0.08,
+ "DRIFT_SHOTS": 1000,
+ "REF": {
+  "p": 0.002,
+  "g": 0.0,
+  "e0": 0.02,
+  "e1": 0.02
+ },
+ "REPORT_ERROR": 0.2,
+ "COND_SEED": 123,
+ "PRIORS": [
+  0.3,
+  0.5,
+  0.9
+ ],
+ "JOINT": {
+  "p": 0.015,
+  "g": 0.0,
+  "e0": 0.02,
+  "e1": 0.05
+ },
+ "BATCH_SIZES": [
+  16,
+  32,
+  64,
+  128
+ ],
+ "N_BINS": 15,
+ "N_BOOT": 1000
+}

@@ -1,0 +1,57 @@
+dataset,model,family,method,mean_diff,CI,verdict
+breastmnist,MLP + VQC distortion,held-out depolarizing,Noise-conditioned Platt,-0.0135,"[-0.0166, -0.0102]",better
+breastmnist,MLP + VQC distortion,held-out depolarizing,Physics-informed,-0.0156,"[-0.0205, -0.0113]",better
+breastmnist,MLP + VQC distortion,held-out depolarizing,Moment matching,-0.0185,"[-0.0233, -0.0139]",better
+breastmnist,MLP + VQC distortion,held-out depolarizing,Oracle Platt,-0.0155,"[-0.0201, -0.0115]",better
+breastmnist,MLP + VQC distortion,unseen: amplitude damping,Noise-conditioned Platt,-0.0032,"[-0.0063, -0.0004]",better
+breastmnist,MLP + VQC distortion,unseen: amplitude damping,Physics-informed,-0.0033,"[-0.0058, -0.0011]",better
+breastmnist,MLP + VQC distortion,unseen: amplitude damping,Moment matching,-0.0164,"[-0.0201, -0.0128]",better
+breastmnist,MLP + VQC distortion,unseen: amplitude damping,Oracle Platt,-0.0143,"[-0.0182, -0.0109]",better
+breastmnist,Re-uploading VQC,held-out depolarizing,Noise-conditioned Platt,-0.0047,"[-0.0084, -0.0005]",better
+breastmnist,Re-uploading VQC,held-out depolarizing,Physics-informed,-0.0047,"[-0.0082, -0.0009]",better
+breastmnist,Re-uploading VQC,held-out depolarizing,Moment matching,-0.0094,"[-0.0117, -0.0067]",better
+breastmnist,Re-uploading VQC,held-out depolarizing,Oracle Platt,-0.0095,"[-0.0120, -0.0071]",better
+breastmnist,Re-uploading VQC,unseen: amplitude damping,Noise-conditioned Platt,-0.0031,"[-0.0049, -0.0014]",better
+breastmnist,Re-uploading VQC,unseen: amplitude damping,Physics-informed,-0.0032,"[-0.0050, -0.0017]",better
+breastmnist,Re-uploading VQC,unseen: amplitude damping,Moment matching,-0.011,"[-0.0145, -0.0081]",better
+breastmnist,Re-uploading VQC,unseen: amplitude damping,Oracle Platt,-0.0103,"[-0.0135, -0.0073]",better
+breastmnist,VQC,held-out depolarizing,Noise-conditioned Platt,-0.0107,"[-0.0135, -0.0081]",better
+breastmnist,VQC,held-out depolarizing,Physics-informed,-0.0123,"[-0.0158, -0.0089]",better
+breastmnist,VQC,held-out depolarizing,Moment matching,-0.0151,"[-0.0192, -0.0115]",better
+breastmnist,VQC,held-out depolarizing,Oracle Platt,-0.0135,"[-0.0171, -0.0101]",better
+breastmnist,VQC,unseen: amplitude damping,Noise-conditioned Platt,-0.0033,"[-0.0053, -0.0014]",better
+breastmnist,VQC,unseen: amplitude damping,Physics-informed,-0.0035,"[-0.0051, -0.0018]",better
+breastmnist,VQC,unseen: amplitude damping,Moment matching,-0.0141,"[-0.0172, -0.0109]",better
+breastmnist,VQC,unseen: amplitude damping,Oracle Platt,-0.0125,"[-0.0158, -0.0094]",better
+pneumoniamnist,MLP + VQC distortion,held-out depolarizing,Noise-conditioned Platt,-0.0112,"[-0.0164, -0.0065]",better
+pneumoniamnist,MLP + VQC distortion,held-out depolarizing,Physics-informed,-0.0145,"[-0.0213, -0.0084]",better
+pneumoniamnist,MLP + VQC distortion,held-out depolarizing,Moment matching,-0.0153,"[-0.0219, -0.0099]",better
+pneumoniamnist,MLP + VQC distortion,held-out depolarizing,Oracle Platt,-0.0157,"[-0.0223, -0.0098]",better
+pneumoniamnist,MLP + VQC distortion,unseen: amplitude damping,Noise-conditioned Platt,-0.0029,"[-0.0096, 0.0025]",no clear difference
+pneumoniamnist,MLP + VQC distortion,unseen: amplitude damping,Physics-informed,-0.0027,"[-0.0082, 0.0018]",no clear difference
+pneumoniamnist,MLP + VQC distortion,unseen: amplitude damping,Moment matching,-0.0104,"[-0.0175, -0.0044]",better
+pneumoniamnist,MLP + VQC distortion,unseen: amplitude damping,Oracle Platt,-0.0104,"[-0.0169, -0.0048]",better
+pneumoniamnist,QSVM,held-out depolarizing,Noise-conditioned Platt,-0.0159,"[-0.0209, -0.0109]",better
+pneumoniamnist,QSVM,held-out depolarizing,Physics-informed,-0.0158,"[-0.0215, -0.0106]",better
+pneumoniamnist,QSVM,held-out depolarizing,Moment matching,-0.0165,"[-0.0221, -0.0109]",better
+pneumoniamnist,QSVM,held-out depolarizing,Oracle Platt,-0.0167,"[-0.0228, -0.0113]",better
+pneumoniamnist,QSVM,unseen: amplitude damping,Noise-conditioned Platt,-0.0012,"[-0.0017, -0.0007]",better
+pneumoniamnist,QSVM,unseen: amplitude damping,Physics-informed,-0.0007,"[-0.0011, -0.0005]",better
+pneumoniamnist,QSVM,unseen: amplitude damping,Moment matching,-0.0078,"[-0.0104, -0.0050]",better
+pneumoniamnist,QSVM,unseen: amplitude damping,Oracle Platt,-0.0075,"[-0.0103, -0.0047]",better
+pneumoniamnist,Re-uploading VQC,held-out depolarizing,Noise-conditioned Platt,-0.0117,"[-0.0168, -0.0063]",better
+pneumoniamnist,Re-uploading VQC,held-out depolarizing,Physics-informed,-0.0166,"[-0.0233, -0.0100]",better
+pneumoniamnist,Re-uploading VQC,held-out depolarizing,Moment matching,-0.0182,"[-0.0253, -0.0118]",better
+pneumoniamnist,Re-uploading VQC,held-out depolarizing,Oracle Platt,-0.019,"[-0.0261, -0.0125]",better
+pneumoniamnist,Re-uploading VQC,unseen: amplitude damping,Noise-conditioned Platt,-0.003,"[-0.0087, 0.0024]",no clear difference
+pneumoniamnist,Re-uploading VQC,unseen: amplitude damping,Physics-informed,-0.0027,"[-0.0081, 0.0013]",no clear difference
+pneumoniamnist,Re-uploading VQC,unseen: amplitude damping,Moment matching,-0.0136,"[-0.0211, -0.0071]",better
+pneumoniamnist,Re-uploading VQC,unseen: amplitude damping,Oracle Platt,-0.0135,"[-0.0204, -0.0073]",better
+pneumoniamnist,VQC,held-out depolarizing,Noise-conditioned Platt,-0.0101,"[-0.0150, -0.0056]",better
+pneumoniamnist,VQC,held-out depolarizing,Physics-informed,-0.0134,"[-0.0198, -0.0082]",better
+pneumoniamnist,VQC,held-out depolarizing,Moment matching,-0.0141,"[-0.0203, -0.0081]",better
+pneumoniamnist,VQC,held-out depolarizing,Oracle Platt,-0.0145,"[-0.0212, -0.0089]",better
+pneumoniamnist,VQC,unseen: amplitude damping,Noise-conditioned Platt,-0.0028,"[-0.0089, 0.0020]",no clear difference
+pneumoniamnist,VQC,unseen: amplitude damping,Physics-informed,-0.0026,"[-0.0073, 0.0017]",no clear difference
+pneumoniamnist,VQC,unseen: amplitude damping,Moment matching,-0.0088,"[-0.0152, -0.0038]",better
+pneumoniamnist,VQC,unseen: amplitude damping,Oracle Platt,-0.0089,"[-0.0156, -0.0038]",better

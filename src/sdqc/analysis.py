@@ -4,6 +4,8 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+plt.rcParams["pdf.fonttype"] = 42   # embed TrueType fonts (IEEE PDF eXpress rejects Type 3)
+plt.rcParams["font.family"] = "DejaVu Sans"
 import numpy as np
 import pandas as pd
 
@@ -78,20 +80,35 @@ def probe_diagnostics(probes):
     return p.groupby(["dataset", "reference"])[["slope", "probe_rmse"]].mean().round(3)
 
 
+FIG_METHODS = ["Fixed Platt", "Moment matching", "EM only", "Physics-informed + EM", "SDQC (probe + EM)",
+               "Oracle (noise + true prior)"]
+
+
 def hard_case_figure(results, path):
-    FIG = ["Fixed Platt", "Moment matching", "EM only", "Physics-informed + EM", "SDQC (probe + EM)", "Oracle (noise + true prior)"]
+    """Saves <path>.pdf and <path>.png (path may be given with or without an extension)."""
     hard = results[(results.hardware_family == HARD) & (results.prior_type == "changed disease rate")]
-    dsets = list(hard.dataset.unique())
+    means = {ds: hard[hard.dataset == ds].groupby("method")["Brier"].mean() for ds in hard.dataset.unique()}
+    plot_hard_case(means, path)
+
+
+def plot_hard_case(means, path):
+    """means: {dataset: Series(method -> mean Brier)}."""
+    FIG = FIG_METHODS
+    dsets = list(means)
     if not dsets:
         return
     fig, axes = plt.subplots(1, len(dsets), figsize=(4.6 * len(dsets), 3.8), squeeze=False)
     for ax, ds in zip(axes[0], dsets):
-        v = hard[hard.dataset == ds].groupby("method")["Brier"].mean().reindex(FIG)
+        v = means[ds].reindex(FIG)
         ax.barh(range(len(FIG)), v.values, color=["#9aa5b1"] * 4 + ["#c2410c", "#334155"])
         ax.set_yticks(range(len(FIG))); ax.set_yticklabels(FIG if ax is axes[0][0] else [""] * len(FIG), fontsize=9)
         ax.invert_yaxis(); ax.set_title(ds, fontsize=11); ax.set_xlabel("Brier score (lower is better)")
     fig.suptitle("Unseen noise (amplitude damping) + changed disease rate", fontsize=12)
-    plt.tight_layout(); plt.savefig(path, dpi=200); plt.close(fig)
+    plt.tight_layout()
+    stem = str(path).rsplit(".", 1)[0] if str(path).endswith((".png", ".pdf")) else str(path)
+    for ext in ("pdf", "png"):
+        plt.savefig(f"{stem}.{ext}", dpi=200)
+    plt.close(fig)
 
 
 def analyze(results_dir, n_boot=2000):
@@ -126,7 +143,7 @@ def analyze(results_dir, n_boot=2000):
         md += [f"\n## {name}\n", t.to_markdown() if _has_tabulate() else t.to_string(), "\n"]
     (out / "SUMMARY.md").write_text("\n".join(md))
     hard_case_figure(results, out / "hard_case.png")
-    print(f"Wrote {len(tables)} tables to {tdir}, SUMMARY.md and hard_case.png")
+    print(f"Wrote {len(tables)} tables to {tdir}, SUMMARY.md and hard_case.pdf/.png")
     return tables
 
 

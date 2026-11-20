@@ -11,6 +11,7 @@
 \usepackage{xcolor}
 \usepackage{url}
 \usepackage{adjustbox}
+\renewcommand{\labelitemi}{$\bullet$} % vector bullet on every TeX install (avoids Type 3 fonts)
 
 % Paired-difference cell: mean difference on top, 95% CI below
 \newcommand{\ci}[3]{\makecell{$#1$\\[-1pt]{\scriptsize[$#2$,\,$#3$]}}}
@@ -44,7 +45,7 @@ This creates a specific deployment problem. A hospital calibrates a hybrid model
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=\textwidth]{sdqc_intro.png}
+\includegraphics[width=\textwidth]{sdqc_intro.pdf}
 \caption{The identifiability problem (illustrative, synthetic scores). (a) On calibration day the classifier's scores separate healthy and diseased patients. (b) Hardware drift compresses and shifts every score. (c) A drop in prevalence changes the mix of patients but not their individual scores. Without labels, (b) and (c) both appear as a shift of the unlabeled score distribution. (d) SDQC re-measures a fixed set of probe inputs: their scores move only under hardware drift, which lets SDQC estimate and undo the drift before estimating prevalence.}
 \label{fig:intro}
 \end{figure*}
@@ -129,7 +130,7 @@ Fig.~\ref{fig:method} summarizes SDQC. The key observation is that drift in hard
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.92\textwidth]{sdqc_methodology.png}
+\includegraphics[width=0.92\textwidth]{sdqc_methodology.pdf}
 \caption{SDQC pipeline. \textbf{Calibration day:} fit a Platt calibrator on labeled calibration data under the reference hardware, and record the hardware scores $r_j$ of $K$ fixed probe inputs with a high shot budget. \textbf{Deployment:} re-measure the same probes ($q_j$), fit an affine drift map, map patient scores back to the calibration-day scale, apply the frozen calibrator, and estimate the new prevalence with shrunken EM.}
 \label{fig:method}
 \end{figure*}
@@ -207,7 +208,7 @@ Under the reference hardware, all five models reach a mean test AUROC of 0.97--0
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=\textwidth]{v4_partB_pneumoniamnist.png}
+\includegraphics[width=\textwidth]{v4_partB_pneumoniamnist.pdf}
 \caption{V4 Part B on PneumoniaMNIST: Brier score of each transfer method as depolarizing noise $p$ increases, for each model (REF calibrator, source prevalence).}
 \label{fig:v4b}
 \end{figure*}
@@ -373,7 +374,7 @@ Dataset & Metric & Fixed & MM & EM only & Phys+EM & Probe only & SDQC-sim & SDQC
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.95\textwidth]{hard_case.png}
+\includegraphics[width=0.95\textwidth]{hard_case.pdf}
 \caption{Hard case (unseen amplitude damping, changed prevalence): mean Brier by method for each dataset (V5.1, 10 seeds). SDQC (orange) comes close to the oracle (dark) on all three datasets.}
 \label{fig:hard}
 \end{figure*}

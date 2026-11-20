@@ -2,6 +2,9 @@
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+plt.rcParams["pdf.fonttype"] = 42   # embed TrueType (IEEE PDF eXpress rejects Type 3 fonts)
+plt.rcParams["font.family"] = "DejaVu Sans"
+plt.rcParams["ps.fonttype"] = 42
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
 INK, MUTED = "#1f2933", "#52606d"
@@ -53,7 +56,7 @@ box(59, yp, 34, hh, "Step 1a. Fit hardware map\nqᵢ ≈ a·rᵢ + b   (rᵢ sto
 arrow(25, yp + hh / 2, 31, yp + hh / 2, PROBE)
 arrow(53, yp + hh / 2, 59, yp + hh / 2, PROBE)
 ax.text(56, yp + hh / 2 + 1.3, "qᵢ", fontsize=9.5, color=PROBE, ha="center")
-ax.text(97, yp + hh / 2, "Probes are the same images every time,\nso their scores change only when\nthe hardware changes.",
+ax.text(97, yp + hh / 2, "Probes are the same images\nevery time, so their scores\nchange only when the\nhardware changes.",
         fontsize=9, color=PROBE, va="center", ha="left", style="italic", linespacing=1.35)
 
 box(4, yz, 21, hh, "New patient images\n(unlabeled)", PAT_BG, PAT)
@@ -69,5 +72,6 @@ arrow(97, yz + hh / 2, 102, yz + hh / 2, PAT)
 arrow(67, yp, 67, yz + hh, PROBE)
 ax.text(68.2, (yp + yz + hh) / 2, "a, b", fontsize=9, color=PROBE, va="center")
 
-plt.savefig("docs/figures/sdqc_methodology.png", dpi=300, bbox_inches="tight", facecolor="white")
+for ext in ("pdf", "png"):
+    plt.savefig(f"docs/figures/sdqc_methodology.{ext}", dpi=300, bbox_inches="tight", facecolor="white")
 print("saved")
